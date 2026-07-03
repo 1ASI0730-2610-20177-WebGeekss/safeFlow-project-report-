@@ -1904,11 +1904,11 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
   </tr>
   <tr>
     <td colspan="5">Sprint 4 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">10</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">10 Story Points</td>
   </tr>
 </table>
 
@@ -2180,7 +2180,7 @@ Con el objetivo de contar con una infraestructura estable, segura y disponible p
 <img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900"/>
 </div>
 
-- Posteriormente, durante la configuración inicial, se asignó la suscripción **Azure for Students** y se vinculó el servidor al grupo de recursos `safeflow`, asegurando que todos los servicios del proyecto permanecieran organizados dentro del mismo entorno. La configuración se aprecia en el siguiente archivo.
+- Posteriormente, during la configuración inicial, se asignó la suscripción **Azure for Students** y se vinculó el servidor al grupo de recursos `safeflow`, asegurando que todos los servicios del proyecto permanecieran organizados dentro del mismo entorno. La configuración se aprecia en el siguiente archivo.
 
 <div align="center">
 <img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900"/>
@@ -2234,12 +2234,21 @@ Con el objetivo de contar con una infraestructura estable, segura y disponible p
 <img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900"/>
 </div>
 
+#### **5. Verificación de Endpoints y Consumo de Datos en Postman**
 
+- Con el propósito de validar la correcta ejecución y disponibilidad de los servicios en el entorno de producción, se realizaron pruebas de integración utilizando Postman. Mediante peticiones HTTP directas hacia el servidor en la nube, se verificó la persistencia, el enrutamiento y la integridad de las respuestas del backend, confirmando la manipulación de datos en tiempo real de manera exitosa. La validación se detalla en el siguiente archivo.
 
+<div align="center">
+<img src="assets/chapter-05/postman.jpeg" alt="postman" width="900"/>
+</div>
 
-# Falta implementar las ultimas Funcionalidades
+#### **6. Integración de Datos Reales y Funcionamiento End-to-End**
 
+- Como etapa final del ciclo de despliegue, se validó la comunicación síncrona entre el frontend móvil y el backend alojado en Azure App Services. La interfaz de usuario procesa y visualiza de manera correcta los registros e información real almacenada en la base de datos, demostrando la operatividad completa, la consistencia de los datos y el correcto funcionamiento integrado de la aplicación. Esta evidencia se presenta a continuación.
 
+<div align="center">
+<img src="assets/chapter-05/datos_reales.jpeg" alt="datos reales" width="900"/>
+</div>
 
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
@@ -2250,8 +2259,11 @@ A lo largo de este ciclo, el equipo de **SafeFlow** trabajó de manera coordinad
 
 Cada miembro participó activamente en la implementación y validación de los diferentes módulos del sistema. En esta fase se completaron los últimos retoques del **frontend**, se finalizaron los servicios del **backend** desarrollados con **.NET** y se integró completamente el módulo de **autenticación**, permitiendo el registro e inicio de sesión mediante **JWT** para garantizar el acceso seguro a la plataforma. Asimismo, se verificó la documentación de la API mediante **OpenAPI/Swagger** y se consolidó la infraestructura desplegada en **Microsoft Azure**, incluyendo la base de datos **MySQL** y los servicios alojados en **App Services**.
 
-<div algin="center"><img src="assets/chapter-05/isignt-backend.png" alt="Backend" width="900" />  </div>        
 
+
+<div align="center">
+<img src="assets/chapter-05/isignt-backend.png" alt="Backend" width="900" />
+</div>
 
 
 ### 5.3. Validation Interviews
