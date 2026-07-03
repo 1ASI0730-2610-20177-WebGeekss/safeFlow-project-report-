@@ -896,8 +896,8 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 1:15
 - **Duración:** 7:54
-- **URL:** https://youtu.be/v0ob7pnyQcw
-
+- **URL:** [Enlace de Entrevista](https://youtu.be/v0ob7pnyQcw)
+  
 **Resumen:**
 Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia en el sector farmacéutico. Su gestión se centra en garantizar que productos críticos (vacunas e insulinas) se mantengan estrictamente entre 2°C y 8°C. Actualmente, enfrenta una grave falta de visibilidad durante el transporte, calificándolo como una "caja negra" donde solo detecta fallos post-mortem mediante la descarga manual de dataloggers.
 
@@ -912,7 +912,7 @@ Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta
 
 - **Inicio:** 00:00
 - **Duración:** 09:30
-- **URL:** https://youtu.be/ffD4qivNFuk
+- **URL:** [Enlace de Entrevista](https://youtu.be/ffD4qivNFuk)
 
 **Resumen:**
 Marlon es un Analista de Aseguramiento de la Calidad con 4 años de experiencia en el sector farmacéutico. Su gestión se centra en asegurar que los productos críticos cumplan con la normativa sanitaria manteniéndolos entre 2°C y 8°C. Actualmente, enfrenta una falta de monitoreo en la nube, calificando el proceso de transporte como una "caja negra total" , donde solo puede hacer un análisis post-mortem mediante la descarga manual de dataloggers físicos a través de USB.  
@@ -929,7 +929,7 @@ Esta falta de visibilidad causó anteriormente la pérdida de un lote valorizado
 
 - **Inicio:** 00:00
 - **Duración:** 07:32
-- **URL:** https://youtu.be/ZWq9LLy3t9c
+- **URL:** [Enlace de Entrevista](https://youtu.be/ZWq9LLy3t9c)
 
 **Resumen:**
 El entrevistado es un Jefe de Aseguramiento de la Calidad de 26 años con 3 años de experiencia en el sector farmacéutico. Su responsabilidad absoluta es garantizar la integridad biológica de productos críticos manteniéndolos entre 2°C y 8°C para cumplir con la normativa de DIGEMID. Siendo un profesional netamente analítico, su mayor debilidad actual es que el transporte es una "caja negra" sin monitoreo en la nube. Al depender de dataloggers físicos, las fallas se detectan de forma post-mortem tras descargar la información por USB, reaccionando cuando el producto ya está perdido. Esta situación ha ocasionado pérdidas de hasta 50 mil dólares y severos daños reputacionales en el pasado , además de generarle un proceso caótico de 2 a 3 días de trabajo para consolidar evidencias en auditorías. Considera como "no negociable" la integridad inalterable de los datos para respaldar las operaciones ante el Ministerio de Salud. Priorizaría un dashboard con "Alertas Críticas Activas" y proyecta que reducir las mermas en un 20% impactaría directa y positivamente en sus KPIs y bonos de desempeño.
@@ -950,7 +950,7 @@ El entrevistado es un Jefe de Aseguramiento de la Calidad de 26 años con 3 año
 
 - **Inicio:** 1:30
 - **Duración:** 05:47
-- **URL:** https://youtu.be/aeB15YUm4ok
+- **URL:** [Enlace de Entrevista](https://youtu.be/aeB15YUm4ok)
 
 **Resumen:**
 Maria es una Supervisora de Operaciones y Flota de 28 años que gestiona la logística de transporte especializado. Su flujo de trabajo actual es altamente dependiente de herramientas informales (pizarras acrílicas y fotos por WhatsApp), lo que genera un desorden administrativo y falta de control sobre la carga. Su mayor problema es la vulnerabilidad ante reclamos de clientes, ya que no cuenta con pruebas digitales en tiempo real para demostrar que el frío se mantuvo correctamente durante la ruta, dependiendo de la vista del conductor sobre visores externos.
@@ -968,7 +968,7 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 
 - **Inicio:** 0:10
 - **Duración:** 10:11
-- **URL:** https://youtu.be/w3bmDZ1fEZ8
+- **URL:** [Enlace de Entrevista](https://youtu.be/w3bmDZ1fEZ8)
 
 **Resumen:**
 Silvia es una Jefa de Operaciones de 52 años con formación universitaria que lidera la logística de transporte de carga de terceros de alto valor. Su flujo de trabajo actual es un modelo híbrido que aún depende fuertemente de la gestión manual: planifica rutas en Excel, coordina entregas por WhatsApp y depende de que los conductores envíen fotos de guías físicas y sellos para confirmar la recepción.
@@ -985,7 +985,7 @@ Silvia busca una transición hacia una operación 100% digital que sea vista com
 
 - **Inicio:** 00:00
 - **Duración:** 08:33
-- **URL:** https://youtu.be/6a17Hf1BH-g
+- **URL:** [Enlace de Entrevista](https://youtu.be/6a17Hf1BH-g)
 
 **Resumen:**
 El entrevistado es un Supervisor de Operaciones y Flota de 26 años. Su gestión se centra en coordinar los despachos diarios, supervisar a los conductores en ruta y asegurar que la carga llegue en buenas condiciones. Actualmente, enfrenta un proceso altamente manual y dependiente de WhatsApp, Excel y guías de remisión físicas en papel para gestionar las entregas y reportar incidencias. Señala que los conductores, quienes presentan resistencia a aplicaciones complejas, carecen de alertas de temperatura en la cabina, lo que convierte el tránsito en una "caja negra" y ocasiona que los problemas se detecten demasiado tarde. Esta falta de evidencia digital en tiempo real los deja vulnerables ante reclamos de clientes y penalidades. A nivel administrativo, su equipo pierde unas 5 horas semanales descargando datos manualmente desde USBs. Valora la implementación de un mapa interactivo con alertas automáticas de texto para mejorar la visibilidad y recuperar competitividad , enfatizando que la solución debe ser tan sencilla e intuitiva como WhatsApp para lograr la adopción por parte de los conductores.
@@ -2130,11 +2130,11 @@ En esta sección se describe la gestión del código fuente del proyecto SafeFlo
 El repositorio principal del proyecto  es el siguiente:
 
 
-- **SafeFlow Website**:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+- **SafeFlow Website**:  [Enlace del Repositorio Website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
 
-- **safeflow-platform**: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
+- **safeflow-platform**: [Enlace del Repositorio Platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
 
-- **safeflow-webapp**: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp)
+- **safeflow-webapp**: [Enlace del Reposiotrio Webapp](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp)
 
 
 Actualmente, el repositorio cuenta con múltiples ramas activas (12 branches), lo que refleja una organización estructurada del desarrollo basada en GitFlow.
