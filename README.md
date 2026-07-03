@@ -4,36 +4,44 @@
 </div>
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<h3 align="center"> Ingeniería de Software </h3>
-<h3 align="center">  2026 - 10</h3>
+<h3 align="center">Carrera de Ingeniería de Software </h3>
 
-<h3 align="center"> NRC: 20177 </h3>
+<h3 align="center">1ASI0730 </h3>
+<h3 align="center">Aplicaciones Web </h3>
+<h3 align="center"> NRC </h3>
+<h3 align="center"> 20177 </h3>
 
-<h3 align="center"> Docente: Jose Miguel Flores Ingaruca </h3>
+<h3 align="center"> Informe de Trabajo Final</h3>
 
-<h3 align="center"> Informe de Trabajo </h3>
 
+<h3 align="center"> Docente</h3>
+<h3 align="center"> Jose Miguel, Flores Ingaruca </h3>
+
+
+<h3 align="center"> Equipo </h3>
 <h3 align="center"> Cryologic Systems </h3>
 
-
+<h3 align="center"> Proyecto</h3>
 <h3 align="center"> SafeFlow </h3>
 
-<h3 align="center"> Team Members: </h3>
+<h3 align="center"> Integrantes </h3>
 
 <div align = "center">
-
-| Member                           |    Code    |
-| :------------------------------- | :--------: |
-| Andy Alejandro Mio Mejia         | U202218531 |
-| Mel Andree Orellana Rodriguez      | U202116018 |
-| Angel Guillermo Berrospi Marin  | U202114701 |
-| Anhelo Rodrigo Rocca Leon | U20221C803 |
-| Jefferson Bayron Morales Yapuchura | U202316049 |
+ 
+| Code       |      Member |
+| :---:      |     :--- |
+| U202218531 | Andy Alejandro Mio Mejia |
+| U202116018 | Mel Andree Orellana Rodriguez |
+| U202114701 | Angel Guillermo Berrospi Marin |
+| U20221C803 | Anhelo Rodrigo Rocca Leon |
+| U202316049 | Jefferson Bayron Morales Yapuchura |
 
 
 </div>
 
-<h3 align="center">2026</h3>
+<h3 align="center">Periodo 202610</h3>
+<h3 align="center">Junio 2026</h3>
+
 
 <div style="page-break-after: always;"></div>
 
@@ -1693,8 +1701,8 @@ Esta pantalla representa el punto de entrada al sistema SafeFlow. Su función pr
 El diseño del wireframe prioriza la simplicidad y claridad, mostrando únicamente los campos necesarios para reducir fricción en el acceso. Además, contempla validaciones básicas y retroalimentación al usuario en caso de errores.
 Esta pantalla es fundamental porque garantiza la seguridad del sistema y controla el acceso según roles (administrador u operador), lo cual condiciona las funcionalidades disponibles dentro de la plataforma.
 
-<div align="center"> <img src="assets/chapter-04/WF_auth_login.png"/>  </div>
-<div align="center"> <img src="assets/chapter-04/WF_auth_register.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-_login.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-Sign Up.png"/>  </div>
 
 
 ### 2. Dashboard (Panel de Control)
@@ -1704,7 +1712,7 @@ El dashboard es la vista principal del sistema y actúa como centro de monitoreo
 Su diseño está orientado a la toma de decisiones rápida, utilizando tarjetas, gráficos y resúmenes visuales que permiten al usuario comprender el estado del sistema de un vistazo.
 Este componente está directamente relacionado con el contexto de **Gestión del Sistema**, ya que integra información proveniente de los demás módulos (inventario, monitoreo, alertas y logística) en una sola interfaz centralizada.
 
-<div align="center"> <img src="assets/chapter-04/WF_dashboard_main.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-analytics.png"/>  </div>
 
 
 
@@ -1717,7 +1725,7 @@ El diseño facilita la organización y control del stock mediante tablas, filtro
 
 Este módulo está vinculado al **Contexto de Inventario**, ya que gestiona la base de datos principal sobre la cual operan los demás procesos del sistema, siendo esencial para el monitoreo y la trazabilidad.
 
-<div align="center"> <img src="assets/chapter-04/WF_inventory_list.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-inventory.png"/>  </div>
 
 ### 4. Módulo de Reportes y Análisis
 
@@ -1727,7 +1735,7 @@ Su diseño incluye tablas y posibles visualizaciones gráficas que facilitan la 
 
 Está vinculado al contexto de **Gestión del Sistema**, ya que consolida información de todos los módulos para apoyar la toma de decisiones estratégicas, auditorías y mejora continua de los procesos.
 
-<div align="center"> <img src="assets/chapter-04/WF_reports_analysis.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-reporting.png"/>  </div>
 
 
 ### 5. Módulo de Alertas
@@ -1740,14 +1748,14 @@ El diseño está orientado a resaltar visualmente los eventos críticos, facilit
 
 Este módulo está vinculado al **Contexto de Alertas**, y trabaja en conjunto con el monitoreo y el inventario para garantizar una respuesta oportuna ante problemas en la cadena de frío.
 
-<div align="center"> <img src="assets/chapter-04/WF_alerts_list.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-Alerta.png"/>  </div>
 
 ### 6. Módulo de Monitoreo
 
 Este wireframe muestra la interfaz dedicada al seguimiento de las condiciones de temperatura de los productos, tanto en tiempo real como a través de datos históricos.Permite visualizar registros de temperatura asociados a productos o despachos, indicando valores, fechas, origen (manual o simulado) y estado. Además, puede incluir gráficos que representan la variación de temperatura a lo largo del tiempo, facilitando la detección de patrones o anomalías.El diseño prioriza la claridad de la información y la actualización constante de los datos, permitiendo al usuario supervisar de manera continua el estado de los productos.Este módulo está directamente relacionado con el **Contexto de Monitoreo Ambiental**, siendo el núcleo del sistema, ya que se encarga de evaluar las condiciones térmicas y desencadenar alertas en caso de detectar desviaciones.
 
 
-<div align="center"> <img src="assets/chapter-04/WF_monitoring_realtime.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-monitoring.png"/>  </div>
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
@@ -1767,8 +1775,6 @@ En esta sección se presenta los wireflows de SafeFlow, construidos a partir de 
 Esta sección presenta los mock-ups de la aplicación web SafeFlow, los cuales representan una versión visual más detallada y cercana al producto final en comparación con los wireframes. En estos diseños se evidencian decisiones relacionadas con la experiencia de usuario (UX), interfaz de usuario (UI), arquitectura de información y la aplicación de un Design System consistente.
 
 
-
-
 ### 1. Pantalla de Login
 
 El mock-up de inicio de sesión muestra una interfaz limpia y moderna, con una jerarquía visual clara que guía al usuario hacia la acción principal: ingresar al sistema.
@@ -1780,7 +1786,7 @@ Se aplican principios de diseño como:
 
 Además, el uso de imagen de fondo contextual (logística) refuerza el propósito del sistema.
 
-<div align="center"> <img src="assets/chapter-04/M_Login.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-login.png"/> </div>
 
 
 
@@ -1795,7 +1801,7 @@ Aspectos destacados:
 
 El diseño prioriza eficiencia operativa y claridad en la gestión de productos.
 
-<div align="center"> <img src="assets/chapter-04/M_inventario_Modal.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-inventory.png"/>  </div>
 
 ### 3. Módulo de Alertas
 
@@ -1808,7 +1814,7 @@ Principios aplicados:
 
 Facilita la identificación rápida de problemas en la cadena de frío.
 
-<div align="center"> <img src="assets/chapter-04/M_Alertas.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-Alerts.png"/></div>
 
 ###  4. Módulo de Monitoreo
 
@@ -1821,7 +1827,7 @@ Elementos clave:
 
 Permite supervisar condiciones térmicas de forma continua.
 
-<div align="center"> <img src="assets/chapter-04/M_Monitoreo.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-Pantalla-Monitoring.png"/> </div>
 
 
 ### 5. Módulo de Reportes y Análisis
@@ -1835,7 +1841,14 @@ Características:
 
 Está diseñado para la toma de decisiones estratégicas y auditorías.
 
-<div align="center"> <img src="assets/chapter-04/M_reporte.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-reporting.png"/>  </div>
+
+### 6. Módulo de Logistics
+
+Este mockup presenta la pantalla principal de SafeFlow al dirigirse al módulo Logistics
+
+<div align="center"> <img src="assets/chapter-04/mockup-logistics-screen.png"/>  </div>
+
 
 
 ###  Design System aplicado
@@ -2007,11 +2020,55 @@ interfaces y enumeraciones, junto con atributos, métodos, visibilidad, relacion
 ##### Class Dictionary - Bounded Context: Notificaciones
 <img src="assets/chapter-04/Notification_ClassDirectory.PNG">
 
-## 4.8. Database Design
-### 4.8.1. Database Diagram
-En esta sección se elaboró el Database Diagram de SafeFlow, representando las tablas principales, sus atributos, 
-tipos de datos, claves primarias y foráneas, así como las relaciones entre ellas. El diseño se centró en la eficiencia para 
-consultas críticas de monitoreo y control de temperatura en la cadena de frío.
+## 4.8. Database Design  
+En esta sección se presenta el diseño de base de datos de SafeFlow. El diseño busca separar las entidades según su responsabilidad funcional dentro de la solución. 
+Asimismo, se han definido tablas con claves primarias y foráneas, además de relaciones explícitas entre entidades para reflejar la estructura lógica del dominio.
+En síntesis, este modelo de datos considera entidades para la gestión de productos e inventario, el monitoreo de sensores y detección de anomalías, la administración de envíos y entregas, y el módulo de notificaciones.
+
+### 4.8.1. Database Diagram  
+A continuación se explicará la distribución de los bounded context dentro del diagrama de la base de datos de SafeFlow:  
+  
+#### 1. Inventory
+Este bounded context concentra la información relacionada con los productos que maneja la plataforma, sus lotes, reglas de temperatura y el estado del inventario. 
+La entidad 'product' actúa como tabla central y almacena los datos generales de cada producto, como nombre, descripción, categoría, unidad de medida, estado de activación y marcas de auditoría.
+
+A partir de product se relacionan otras entidades que amplían su información:
+
+ - temperature_range, que define el rango térmico permitido para cada producto.
+ - product_batch, que registra los lotes de producción, fechas de producción y vencimiento, cantidad y estado.
+ - inventory_record, que almacena el nivel actual de existencias y su ubicación.
+ - threshold_rule, que establece los límites de temperatura y el tiempo crítico permitido para cada producto.
+
+Estas tablas están conectadas mediante claves foráneas hacia product, ya que de esta manera la información de lotes, inventario y reglas térmicas siempre esté asociada a un producto existente.
+#### 2. Monitoring  
+Este bounded context gestiona el registro de sensores, sus lecturas y el análisis de posibles incidentes. 
+La entidad sensor representa cada dispositivo físico instalado en una ubicación específica, incluyendo su número de serie y estado operativo.
+
+Las lecturas generadas por los sensores se almacenan en sensor_reading, donde se registra el momento de captura, la temperatura, la humedad y el estado de la lectura.
+Esta tabla se relaciona con sensor mediante una clave foránea. Además, sensor_reading se vincula con threshold_rule, lo que permite evaluar si los valores registrados se encuentran dentro de los rangos esperados para un producto determinado.
+
+Cuando una lectura supera los parámetros establecidos, puede generarse un anomaly_event, que almacena la fecha de detección, la causa y el nivel de severidad. 
+A la par, cada anomalía puede originar una alert, donde se registra el mensaje emitido, el estado de resolución, la severidad y la fecha de cierre, si corresponde.
+
+#### 3. Logistics  
+Este bounded context administra la operación logística asociada a los despachos. La entidad driver almacena la información de los conductores, incluyendo nombre completo, número de licencia, teléfono y disponibilidad.
+
+La tabla shipment representa cada envío realizado por el sistema y se relaciona con la entidad driver mediante una clave foránea, ya que asi cada despacho pueda asociarse con el conductor responsable. 
+En esta entidad se registran datos como código de seguimiento, fechas de despacho y entrega, origen, destino, duración estimada y estado del envío.
+
+Por su parte, shipment_item detalla los productos incluidos dentro de cada envío. Esta tabla se conecta con shipment y también con product_batch, 
+lo que permite rastrear exactamente qué lote fue trasladado en cada operación logística. Finalmente, delivery_confirmation almacena la confirmación de entrega, incluyendo fecha de confirmación, nombre del receptor, evidencia de entrega y estado. 
+#### 4. Notifications  
+Este bounded context centraliza la comunicación automática del sistema con sus usuarios o destinatarios. La tabla notification_template almacena plantillas reutilizables con nombre, contenido, canal de envío y marcas de auditoría. 
+
+La entidad notification_recipient registra a las personas que pueden recibir notificaciones, con datos como nombre completo, correo, teléfono y canal preferido. 
+La tabla alert_subscription permite indicar si un destinatario está suscrito o no a alertas.
+
+La entidad notification representa cada mensaje generado por el sistema y se relaciona con notification_template, notification_recipient y alert. 
+De esta manera, cada notificación queda asociada al contenido usado, al receptor y al evento que la originó. 
+
+Database Diagram:
+  
 <img src="assets/chapter-04/SafeFlow_Database_Diagram.png">
 
 
@@ -2201,32 +2258,33 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 - Comentarios solo en lógica compleja.
 
 
-### Java / Spring Boot (Backend)
+### C# ASP.NET Core (Backend)
 
-**Guías adoptadas:** Google Java Style Guide y Spring Boot Best Practices
+**Guías adoptadas:** C# Coding Conventions y ASP.NET Core Best Practices
 
 ### Estructura del proyecto
 - Arquitectura en capas:
-  - Controller
-  - Service
-  - Repository
-  - Entity
-  - DTO
+  - Controllers
+  - Services
+  - Repositories
+  - Entities
+  - DTOs
 
 ### Nomenclatura
 - Clases: `PascalCase`
-- Métodos: `camelCase`
+- Métodos: `PascalCase`
 - Variables: `camelCase`
 - Constantes: `UPPER_CASE`
 
 ### Buenas prácticas
-- Uso de inyección de dependencias.
+- Uso de inyección de dependencias mediante ASP.NET Core.
 - Separación entre entidades, DTOs y lógica de negocio.
-- Uso de JPA/Hibernate para persistencia de datos.
-- Manejo centralizado de excepciones con `@ControllerAdvice`.
-- Validación con Bean Validation (`@Valid`, `@NotNull`, etc.).
+- Uso de Entity Framework Core para persistencia de datos.
+- Manejo centralizado de excepciones mediante Middleware.
+- Validación de datos utilizando Data Annotations (`[Required]`, `[MaxLength]`, etc.).
 - Servicios encargados de la lógica de negocio.
-
+- Uso de controladores REST para exponer endpoints de la API.
+- Uso de LINQ para consultas y manipulación de datos.
 
 ### Convenciones generales del proyecto SafeFlow
 
@@ -2237,8 +2295,6 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 - Se documentan módulos y funciones críticas.
 - Se mantiene consistencia entre frontend y backend.
 
-
-
 ### Gherkin (Especificaciones)
 
 Para la definición de criterios de aceptación en historias de usuario se utiliza Gherkin:
@@ -2246,13 +2302,14 @@ Para la definición de criterios de aceptación en historias de usuario se utili
 - Given / When / Then
 - Lenguaje claro y entendible por el negocio
 
-### Ejemplo:
+### Ejemplo
 
 ```gherkin
 Given a product is registered
 When temperature exceeds allowed range
 Then the system generates an alert
-````
+```
+
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -2267,8 +2324,7 @@ La solución se encuentra estructurada bajo una arquitectura desacoplada, donde 
 
 - **Landing Page**: desplegada en GitHub Pages  
 - **Frontend Web Application (Vue.js)**: desplegada en Netlify  
-- **Backend Web Services (Java Spring Boot) + Base de Datos (PostgreSQL)**: desplegados en Railway  
-
+- **Backend Web Services (C# ASP.NET Core) + Base de Datos (PostgreSQL)**: desplegados en Railway
 
 ### 1. Control de Versiones
 
@@ -2347,8 +2403,8 @@ El frontend está desarrollado con Vue 3 y se despliega utilizando Netlify, el c
 - dist
 
 
-#### 4. Configurar variables de entorno
 
+#### 4. Configurar variables de entorno
 
 - VITE_API_URL=https://<backend-url>
 
@@ -2358,18 +2414,19 @@ El frontend está desarrollado con Vue 3 y se despliega utilizando Netlify, el c
 - Se genera una URL pública accesible  
 
 
-### 4. Despliegue de Web Services (Backend en Railway)
+### 4. Despliegue de Web Services (Backend ASP.NET Core en Railway)
 
-El backend está desarrollado en Java con Spring Boot y se despliega en Railway junto con la base de datos.
+El backend está desarrollado en C# utilizando ASP.NET Core y se despliega en Railway junto con la base de datos PostgreSQL.
 
 ### Pasos de despliegue
 
 #### 1. Subir el backend a GitHub
 
-- git add .
-- git commit -m "deploy backend"
-- git push origin main
-
+```bash
+git add .
+git commit -m "deploy backend"
+git push origin main
+```
 
 #### 2. Crear proyecto en Railway
 
@@ -2379,23 +2436,28 @@ El backend está desarrollado en Java con Spring Boot y se despliega en Railway 
 
 #### 3. Configurar variables de entorno
 
-
-- SPRING_DATASOURCE_URL
-- SPRING_DATASOURCE_USERNAME
-- SPRING_DATASOURCE_PASSWORD
-- PORT
-
+```env
+ConnectionStrings__DefaultConnection=
+ASPNETCORE_ENVIRONMENT=Production
+PORT=
+```
 
 #### 4. Despliegue automático
 
-Railway detecta el proyecto Spring Boot y ejecuta automáticamente:
+Railway detecta el proyecto ASP.NET Core y ejecuta automáticamente:
 
+```bash
+dotnet restore
+dotnet build
+```
 
-- mvn clean install
+#### Resultado
 
+```txt
+https://safeflow-backend.up.railway.app
+```
 
-#### Resultado: https://safeflow-backend.up.railway.app
-
+---
 
 ### 5. Configuración de Base de Datos (PostgreSQL en Railway)
 
@@ -2407,39 +2469,41 @@ Railway detecta el proyecto Spring Boot y ejecuta automáticamente:
 
 #### 2. Obtener credenciales generadas
 
-
-- HOST
-- DATABASE
-- USERNAME
-- PASSWORD
-- PORT
+```env
+HOST
+DATABASE
+USERNAME
+PASSWORD
+PORT
+```
 
 #### 3. Configurar en el backend
 
-- SPRING_DATASOURCE_URL
-- SPRING_DATASOURCE_USERNAME
-- SPRING_DATASOURCE_PASSWORD
+```env
+ConnectionStrings__DefaultConnection
+```
+
+---
 
 ### 6. Integración de Componentes
 
 El sistema funciona de la siguiente manera:
 
-- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend  
-- El **Frontend** consume los servicios del backend mediante API REST  
-- El **Backend** gestiona la lógica de negocio y acceso a datos  
-- La **Base de Datos** almacena la información del sistema  
+- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend.  
+- El **Frontend** consume los servicios del backend mediante API REST.  
+- El **Backend ASP.NET Core** gestiona la lógica de negocio y el acceso a datos.  
+- La **Base de Datos PostgreSQL** almacena la información del sistema.  
 
+---
 
 ### 7. Consideraciones de Despliegue
 
-- Uso obligatorio de variables de entorno para configuración sensible  
-- Configuración de CORS en el backend para permitir comunicación con el frontend  
-- Separación de entornos (desarrollo y producción)  
-- Evitar credenciales dentro del código fuente  
-- Verificación de URLs públicas después del despliegue  
-- Mantener compatibilidad entre versiones de frontend y backend  
-
-
+- Uso obligatorio de variables de entorno para configuración sensible.  
+- Configuración de CORS en ASP.NET Core para permitir comunicación con el frontend.  
+- Separación de entornos (desarrollo y producción).  
+- Evitar credenciales dentro del código fuente.  
+- Verificación de URLs públicas después del despliegue.  
+- Mantener compatibilidad entre versiones de frontend y backend.  
 
 
 
@@ -2551,6 +2615,70 @@ El objetivo principal del Sprint 1 es implementar las funcionalidades base del s
 - **ToReview**: En revisión
 - **Done**: Finalizado
 
+### 5.2.1.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
+      <td>feat: create structure for the section pricing.</td>
+      <td>Create the structure for pricing because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
+      <td>feat: create style for the section pricing.</td>
+      <td>Create the style for the section pricing.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
+      <td>feat: create the structure of section how it works.</td>
+      <td>Create the structure for how it works because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
+      <td>feat: create the style for the section how it works.</td>
+      <td>Create the style for the section how it works.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
+      <td>feat: create the section of characteristics</td>
+      <td>Create the structure for characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>8f5e5f46b782b75638c74e2afd779cf164670f84</td>
+      <td>feat: create styles for the section characteristic.</td>
+      <td>Create the style for the section characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -2658,6 +2786,1006 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
  <div algin="center"><img src="assets/chapter-05/commit2.png" alt="deployment4" width="1000" />  </div>        
 
 
+
+
+### 5.2.2 Sprint 2
+
+
+#### 5.2.2.1 Sprint Planning 2
+
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 2</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">13-05-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion por Meet</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Mel Andre Orellana</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Anhelo Rodrigo	Rocca
+, Andy Alejandro Mio, Mel Andre Orellana, Angel Berrospi Marin, Jefferson Bayron</td> </tr> <tr> <td colspan="5">Sprint 1 Review Summary</td> <td colspan="8">Se completó con éxito el despliegue de la Landing Page de SafeFlow, logrando que sea accesible online con todas sus secciones principales (home, features, benefits y testimonials) funcionales.</td> </tr> <tr> <td colspan="5">Sprint 1 Retrospective Summary</td> <td colspan="8">El equipo mantuvo una buena velocidad de desarrollo; para este sprint se acordó estandarizar los componentes de UI para las tablas de datos y formularios técnicos para asegurar la consistencia visual.</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 2 Goal</td> <td colspan="8"> <strong>"Our focus is on developing the core functional frontend of the SafeFlow platform, specifically the Inventory, Logistics, Monitoring, and Alerts modules for medical warehouse management. We aim to deliver a fully operational dashboard that allows users to manage medical stock, track shipments in real-time, and visualize critical thermal data for cold chain integrity. This will be validated when the dashboard is accessible via localhost, featuring interactive data tables for warehouse inventory, functional forms for logistics registration, and dynamic monitoring cards with real-time temperature status."</strong> </td> </tr> <tr> <td colspan="5">Sprint 2 Velocity</td> <td colspan="8">25</td> 25 hours</tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8"> 25 story points</td> </tr> </table>
+
+
+#### 5.2.2.2 Aspect Leaders and Collaborators
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory  (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron	Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro	Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+        <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+#### 5.2.2.3 Sprint Backlog 2
+
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| Sprint 2 | US-01 | Registrar producto | T-10 | Crear formulario de productos | Diseñar formulario para registrar productos y rangos de temperatura | 4 | Andree | To-do  |
+| Sprint 2 | US-02 | Registrar ingreso de stock | T-11 | Módulo de stock | Implementar registro de ingreso de productos al inventario | 3 | Angel | To-do |
+| Sprint 2 | US-10 | Consultar inventario | T-12 | Tabla de inventario | Mostrar productos registrados con filtros y estados | 4 | Anhelo | To-do |
+| Sprint 2 | US-14 | Editar producto | T-13 | Editar información | Implementar actualización de datos del producto | 3 | Jefferson | To-do |
+| Sprint 2 | US-15 | Eliminar producto | T-14 | Eliminar productos | Agregar opción para eliminar productos del sistema | 2 | Andy | To-do |
+| Sprint 2 | US-19 | Registrar lote de producto | T-15 | Gestión de lotes | Implementar registro y validación de lotes | 3 | Andree | To-do  |
+| Sprint 2 | US-16 | Registrar ubicación del producto | T-16 | Gestión de ubicaciones | Permitir asignar ubicación física a productos | 3 | Angel | To-do |
+| Sprint 2 | US-20 | Consultar productos en riesgo | T-17 | Vista de productos críticos | Mostrar productos con estado “En Riesgo” | 3 | Anhelo | To-do |
+| Sprint 2 | US-13 | Visualizar dashboard | T-18 | Dashboard principal | Crear panel con métricas y resumen del sistema | 5 | Jefferson | To-do  |
+
+#### 5.2.2.4 Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
+      <td>feat: create structure for the section pricing.</td>
+      <td>Create the structure for pricing because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
+      <td>feat: create style for the section pricing.</td>
+      <td>Create the style for the section pricing.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
+      <td>feat: create the structure of section how it works.</td>
+      <td>Create the structure for how it works because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
+      <td>feat: create the style for the section how it works.</td>
+      <td>Create the style for the section how it works.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
+      <td>feat: create the section of characteristics</td>
+      <td>Create the structure for characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>8f5e5f46b782b75638c74e2afd779cf164670f84</td>
+      <td>feat: create styles for the section characteristic.</td>
+      <td>Create the style for the section characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-webapp</td>
+      <td>feature/reporting</td>
+      <td>4c5a585023f1635721fa6cb26436320dd94a9c5e</td>
+      <td>feat: create the bounded context reporting and use domain driven design.</td>
+      <td>Create the section reporting.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>AndyMio17/safeflow-webapp</td>
+      <td>feature/inventory</td>
+      <td>4f76bcd3051dfc08fb0bdbe029fb148a86c9acc2</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Create the section inventory.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>Fenfito/safeflow-webapp</td>
+      <td>feature/alerts</td>
+      <td>65f7053fefcf817375fb7a097bb50b5c2cf38a5c</td>
+      <td>feat(alerts): implement alerts bounded context</td>
+      <td>Create the section alerts.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/iam</td>
+      <td>4cfe49b81bd3fd5c6cc671bd13bedb6588740215</td>
+      <td>feat(iam): implement authentication module</td>
+      <td>Create login and register flow with demo session support.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/iam</td>
+      <td>4b5ce1347ce6945add2d9ac2b287b53271de4019</td>
+      <td>feat(iam): restore login and register screens with demo session</td>
+      <td>Re-enable authentication UI and demo access entry point.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/inventory</td>
+      <td>b6e2367e5b61ac67ce481270e3c0f6538be7274c</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Implement inventory module following domain-driven design.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/analytics</td>
+      <td>5ad58d128955f4081b35340d4c621d933f5a73e1</td>
+      <td>feat: implement analytics module</td>
+      <td>Add analytics dashboard and tracking functionality.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>a74b909b3a6b35c63a7bb50dcfa768def2ad8c26</td>
+      <td>feat: implement logistics store for shipments tracking</td>
+      <td>Create store for managing shipments and delivery tracking.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/reporting</td>
+      <td>05f02b35cb34a4ac13179c7bb62ce86703fa68b1</td>
+      <td>feat: create reporting bounded context using DDD</td>
+      <td>Implement reporting module following domain-driven architecture.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/deploy</td>
+      <td>td05f02b35cb34a4ac13179c7bb62ce86703fa68b1</td>
+      <td>fix(deploy): point production build at MockAPI for Netlify</td>
+      <td>Update deployment configuration for production environment.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>c1696956f969478041aa6df4dcd94a34bb6768d1</td>
+      <td>feat: add logistics shipment entity for tracking and management</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>87058c296c6f73e18e108b9130dfe5cb9b5070fd</td>
+      <td>feat: add logistics aggregation and shipment assembler for tracking inside infrastructure directory</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>201150d6cd0d00ce89519d201c854c3dfdbaf931</td>
+      <td>feat: implement logistics API for managing shipments, destinos, and choferes inside infrastructure directory</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>01c060ddd043265fb0af898bb91d0bceddf8e279</td>
+      <td>feat: add logistics management components for tracking shipments and destinations inside presentation/view and presentation/components directories</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>fbfc4cc484a269d6129c00218a4f99971df90ad8</td>
+      <td>feat: add logistics routes and localization for shipment management inside presentation directory but outside views and components directories</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>ae3109e9d6fb36def7236d9309e42f406e6f892d</td>
+      <td>feat: implement logistics store for managing shipments and tracking inside application directory</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+      <tr>
+      <td>Fenfito/safeflow-webapp</td>
+      <td>feature/alerts</td>
+      <td>65f7053fefcf817375fb7a097bb50b5c2cf38a5c</td>
+      <td>feat(alerts): implement alerts bounded context</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.5 Execution Evidence for Sprint Review
+
+### Sign In
+<div algin="center"><img src="assets/chapter-05/pantalla-signup.png" alt="deployment4" width="900" />  </div>
+
+1. Evidencia de la pantalla sign-up, donde el usuario entra a la web con sus credenciales previamente creadas.
+
+### Register
+<div algin="center"><img src="assets/chapter-05/pantalla-register.png" alt="deployment4" width="900" />  </div>
+
+2. Evidencia de la pantalla register, donde el usuario debe crearse una cuenta para poder ingresar a la web.
+
+### Analytics
+<div algin="center"><img src="assets/chapter-05/pantalla-analytics.png" alt="deployment4" width="900" />  </div>
+
+3. Evidencia de la pantalla analytics, donde el usuario podra visualizar el análisis mediante gráficos y/o resumen de la creación de los conductores, operadores, rutas de los conductores, medicamentos. 
+
+### Monitoring
+<div algin="center"><img src="assets/chapter-05/pantalla-monitoring.png" alt="deployment4" width="900" />  </div>
+
+4. Evidencia de la pantalla monitoring, donde el usuario puede monitorear el estado de las vacunas, información de los conductores y las rutas.
+
+### Logistics
+<div algin="center"><img src="assets/chapter-05/pantalla-logistics.png" alt="deployment4" width="900" />  </div>
+
+5. Evidencia de la pantalla logistics donde se ve de forma detallada el estado de los productos sobre la ruta y temperatura.
+
+### Alerts
+<div algin="center"><img src="assets/chapter-05/pantalla-alerts.png" alt="deployment4" width="900" />  </div>        
+
+6. Evidencia de la pantalla alerts, donde nos envian alertas sobre las vacunas que superaron su limite y necesitan atención inmediata.
+
+### Profile
+<div algin="center"><img src="assets/chapter-05/captura-profile.png" alt="deployment4" width="900" />  </div>        
+
+7. Evidencia de la pantalla, donde registra al personal encargado de áreas específicas según su cargo.
+
+### Inventory
+<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+
+8. Evidencia de la pantalla, donde se crea los productos que necesitan detalles específicos de su mantenimiento para que no se malogren en ruta.
+
+### Reporting
+<div algin="center"><img src="assets/chapter-05/pantalla-reporting.png" alt="deployment4" width="900" />  </div> 
+9. Evidencia de la pantalla, donde se crean los reportes
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review
+
+Durante el presente Sprint, se desarrollaron y documentaron diversos endpoints que forman parte de los servicios backend de la aplicación. Estos endpoints permiten la interacción entre el cliente y el servidor, facilitando operaciones clave como la consulta de datos, la gestión de dispositivos, la visualización de niveles de radiación y la administración de usuarios.
+</br> 
+</br> 
+</br>
+
+1.Panel principal del proyecto SafeFlow desplegado en Netlify. Se visualiza el estado general del sitio y las opciones de configuración y análisis. 
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-1.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br> 
+2.Registro del proceso de despliegue exitoso en Netlify. Todas las etapas de inicialización, compilación y publicación fueron completadas correctamente.
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-2.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br> 
+3.Pantalla de inicio de sesión de la plataforma SafeFlow. Permite a los usuarios autenticarse o crear una nueva cuenta para acceder al sistema. 
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-3.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br>
+4.Configuración de los endpoints del API en MockAPI para el proyecto SafeFlow. Se muestran los recursos creados para inventario, logística y monitoreo del sistema.
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-4.jpeg.png" alt="deployment4" width="900" />  </div>
+
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+
+Durante el Sprint 2, el equipo se enfocó en el despliegue de la aplicación web frontend de SafeFlow, correspondiente al TP1 (Stage Review). El objetivo principal fue lograr la publicación de la primera versión funcional del sistema frontend, permitiendo validar el acceso y funcionamiento inicial de la plataforma. Para ello, se realizaron actividades relacionadas con la configuración de servicios de hosting, integración continua y despliegue automático.
+
+En este Sprint se trabajó principalmente con Netlify como plataforma de despliegue, además de MockAPI para la simulación de servicios backend durante el desarrollo. Se configuró la integración con GitHub para automatizar los despliegues cada vez que se realizaban cambios en el repositorio del proyecto. Asimismo, se verificó el correcto funcionamiento de la aplicación desplegada mediante pruebas de acceso y visualización del sistema en línea.
+
+URL de despliegue del Frontend: [Frontend Desplegado](https://safeflow0.netlify.app/login?next=/analytics) 
+
+
+## Actividades de Deployment Realizadas
+
+### 1. Creación y Configuración de Servicios Cloud
+
+Durante el Sprint 2 se crearon y configuraron los siguientes servicios:
+
+#### Netlify
+Se utilizó para el despliegue de la aplicación frontend de SafeFlow.
+
+- Configuración del proyecto conectado al repositorio de GitHub.
+- Despliegue automático mediante integración continua (CI/CD).
+- Generación de URL pública para acceso al sistema.
+- Verificación del estado de compilación y despliegue exitoso.
+
+#### MockAPI
+Se configuró como servicio mock para simular los endpoints backend durante el desarrollo frontend.
+
+- Creación de endpoints para inventario y logística.
+- Configuración de recursos y generación de datos simulados.
+- Uso de APIs REST para pruebas de integración frontend.
+
+### 2. Configuración del Repositorio Frontend
+
+Se configuró el repositorio del frontend en GitHub para el proyecto SafeFlow.
+
+- Integración del repositorio con Netlify.
+- Configuración de despliegues automáticos al realizar push.
+- Organización del proyecto frontend para compilación y publicación.
+- Verificación del flujo de despliegue continuo.
+
+### 3. Configuración de la Plataforma de Hosting
+
+#### Netlify - Configuración Principal
+
+- **Proyecto:** SafeFlow
+- **Framework utilizado:** Frontend Web Application
+- **Integración con GitHub:** Habilitada
+- **Despliegue automático:** Configurado
+- **Build y publicación:** Completados correctamente
+
+### 4. Evidencias del Deployment
+
+Durante el Sprint se verificó:
+
+- La creación y configuración correcta de los endpoints en MockAPI.
+- El despliegue exitoso del proyecto en Netlify.
+- La correcta compilación y publicación de la aplicación.
+- El acceso funcional a la pantalla inicial de autenticación de SafeFlow.
+
+
+### Enfoque del Sprint 2
+
+El despliegue realizado corresponde únicamente a la aplicación frontend y a los servicios mock utilizados para pruebas. Los servicios backend reales serán implementados y desplegados en los siguientes sprints del proyecto.
+
+
+
+
+<div algin="center"><img src="assets/chapter-05/pantalla-analytics.png" alt="deployment4" width="900" />  </div>
+
+
+
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint
+
+
+En esta sección se describe cómo el equipo ha desarrollado las actividades de implementación durante el Sprint 2, evidenciando la colaboración en el desarrollo del proyecto.
+
+Durante este sprint, el equipo de **SafeFlow WebApp** trabajó de manera colaborativa utilizando diversas herramientas de desarrollo y control de versiones, como GitHub, para asegurar la entrega exitosa del producto.
+
+La colaboración se caracterizó por una comunicación constante entre los integrantes, una distribución efectiva de tareas y un seguimiento continuo del progreso mediante herramientas de gestión del proyecto. Cada miembro del equipo participó activamente en la implementación de los distintos componentes del sistema, incluyendo el desarrollo del **frontend de la aplicación web**, mejoras en el **Landing Page**, y la preparación de la arquitectura para la futura integración de **Web Services** en el siguiente sprint.
+
+Además, se realizaron revisiones constantes de commits en GitHub y análisis de la participación del equipo, lo que permitió garantizar que todos los integrantes contribuyeran en la implementación de los productos definidos para el sprint: **Landing Page, Web Application y preparación de Web Services**.
+
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-2.png" alt="deployment4" width="900" />  </div>
+
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-1.png" alt="deployment4" width="900" />  </div>
+
+
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning 3
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 3</th>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">06-06-2026</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">6:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunion por Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Mel Andree Orellana Rodriguez</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Andy Alejandro Mio Mejia, Mel Andree Orellana Rodriguez, Angel Guillermo Berrospi Marin, Anhelo Rodrigo Rocca Leon, Jefferson Bayron Morales Yapuchura</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Review Summary</td>
+    <td colspan="8">Se completó con éxito el diseño y despliegue de la Landing Page responsiva conectada a la estructura base de SafeFlow Web App. Se validó el diseño visual, la propuesta de valor y se implementó el MockAPI inicial para las primeras pruebas del frontend.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8">Buen acoplamiento en el diseño de interfaces y organización. Como oportunidad de mejora, se identificó la necesidad de definir los esquemas de base de datos con mayor anticipación para evitar retrasos en la lógica del negocio. Compromiso de mejorar el flujo de commits.</td>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Goal</td>
+    <td colspan="8">"Develop and implement the core Backend architecture and relational data model of the solution, achieving automatic temperature range validation, and the isolation of the Analytics and Monitoring Bounded Contexts."</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8">43 Horas</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">26 Story Points </td>
+  </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory  (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron	Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro	Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+        <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sprint 3 | **US-01** | Registrar producto | T-01 | Diseño del Modelo de Datos | Crear la entidad relacional de Producto con sus restricciones de rangos de temperatura mínimos y máximos en la BD. | 3 | Andy Alejandro Mio Mejia | To Do |
+| Sprint 3 | **US-01** | Registrar producto | T-02 | Desarrollo del CRUD de Producto | Implementar los endpoints REST de creación y validaciones de negocio en el Backend (rango min < max, campos obligatorios). | 6 | Mel Andree Orellana Rodriguez | To Do |
+| Sprint 3 | **US-04** | Detectar anomalías de temperatura | T-03 | Lógica del Servicio de Verificación | Desarrollar el algoritmo backend para interceptar lecturas y cambiar estados automáticamente a "En Riesgo" o "Crítico". | 8 | Angel Guillermo Berrospi Marin | To Do |
+| Sprint 3 | **US-09** | Cambiar estado del producto | T-04 | Automatización de Estados de Entidad | Implementar la máquina de estados en el backend para la transición automática a "Desechado" al acumular 3+ anomalías. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
+| Sprint 3 | **US-11** | Asociar temperatura a despacho | T-05 | Modelo de Datos Relacional de Despachos | Diseñar tablas y claves foráneas en la BD para vincular la telemetría de sensores a un ID de despacho específico. | 4 | Jefferson Bayron Morales Yapuchura | To Do |
+| Sprint 3 | **US-11** | Asociar temperatura a despacho | T-06 | API de Asociación y Filtros | Implementar lógica transaccional que valide la existencia del despacho activo antes de inyectar las métricas de temperatura. | 6 | Andy Alejandro Mio Mejia | To Do |
+| Sprint 3 | **US-52** | Integrar con sensores IoT | T-08 | Validación de Payload y Excepciones | Desarrollar filtros de seguridad y parseo para rechazar datos corruptos de sensores caídos y registrar logs de error. | 4 | Angel Guillermo Berrospi Marin | To Do |
+| Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-09 | Infraestructura del Bounded Context Analytics | Configurar la separación de capas de base de datos y esquemas para persistencia exclusiva del módulo Analytics. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
+| Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-10 | Infraestructura del Bounded Context Monitoring | Configurar esquemas de base de datos y pipes de consulta de eventos en tiempo real para el módulo de Monitoreo. | 6 | Jefferson Bayron Morales Yapuchura | To Do |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>develop</td>
+      <td>084f4a24ebfc2c7d68533489c402283b7a76a71f</td>
+      <td>feat: add safeflow backend base structure</td>
+      <td>Implement Structure</td>
+      <td>06/06/2026</td>
+    </tr>
+ <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>feature/analytics</td>
+      <td>882cddacad39fee7386fe2a54a04e45189a9b796</td>
+      <td>refactor(analytics): flatten analytics module structure</td>
+      <td>Implement Module Analytics</td>
+      <td>06/06/2026</td>
+    </tr>
+  <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>feature/environmental-monitoring</td>
+      <td>f13133e760418bd2c81c11c7f9c9b3a76924a036</td>
+      <td>feat: environmental monitoring module</td>
+      <td>Implement Module Monitoring</td>
+      <td>06/06/2026</td>
+    </tr>
+       <tr>
+      <td>Guille-berrs/safeflow-platform</td>
+      <td>feature/reporting</td>
+      <td>86b85a927a70a6a887203677b8e4d7d9ed4ac102</td>
+      <td>feat: complete the bounded context reporting and use the architecture ddd. </td>
+      <td>Create the structure domain driven segin for the bounded context reporting .</td>
+      <td>12/06/2026</td>
+    </tr>
+       <tr>
+      <td>AndyMio17/safeflow-platform</td>
+      <td>feature/inventory</td>
+      <td>817add63e450fba4dab6e6e7228d8d553f5aa488</td>
+      <td>fix: add bounded context and code of inventory</td>
+      <td>Create the structure domain driven segin for the bounded context inventory .</td>
+      <td>12/06/2026</td>
+    </tr>
+       <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>19fed0647ea91b145553ef8fcfaf25cd78fbcf47</td>
+      <td>feat(logistics): add logistics domain model aggregates</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+       <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>9b199dd54bbb55d6b3e8d0632466df842673326e</td>
+      <td>feat(logistics): add query repository interface for logistics domain</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+       <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>736141c5e4516fc5425511a2eb7a7d210992ad1d</td>
+      <td>feat(logistics): implement REST API layer with controllers, repository, and assemblers. Documentation was also implemented</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+    <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>d08ff93acb2f7236e96daff219bb33631577e937</td>
+      <td>feat(logistics): add command and query services for logistics operations, including destination and driver management</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+     <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>76a6e99f38b05b7f4ac3798a2af53925becc1d28</td>
+      <td>feat(logistics): add command and query service interfaces for logistics operations, including destination and driver management</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+     <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>1e30fd99045a8d2f0c930ac7216259f3c029debd</td>
+      <td>docs(logistics): add XML documentation to domain aggregates and query repository</td>
+      <td>-</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>25daaa205a286c40b6f01e1f532c2066fdbc5e1a</td>
+      <td>feat(alerts): implement AlertsController for managing alerts via REST API</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>164d8ece047c1bb36525170b099af85e00a35f88</td>
+      <td>feat(alerts): implement AlertRepository for managing alerts</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>8ca216d7773e333f7f736c5910d9c913c28e80a5</td>
+      <td>feat(alerts): add Alert aggregate for alert management</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+      <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>6c8eae1387ea3e8316701c19371fa6b7e731c506</td>
+      <td>feat(alerts): implement AlertCommandService for handling alert commands</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo de este Sprint, el foco principal estuvo orientado en la validación funcional del sistema y la integración de la capa de presentación con el servidor de servicios desplegado en la nube de Azure. A continuación, se detalla el estado operacional de la plataforma:
+
+#### Resumen de Logros Funcionales
+* **Consumo de Servicios en Producción:** Se migró con éxito toda la persistencia simulada local de la aplicación hacia el consumo directo del dominio público de nuestra API (`https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net`).
+* **Sincronización de Módulos Core:** Las vistas de usuario finales logran inyectar, actualizar y listar en tiempo real los registros del sistema (como la gestión de alertas, ítems de inventario y el estado logístico de los despachos) interactuando directamente con la base de datos cloud `safeflow_db`.
+* **Estabilidad del Entorno:** Se validó la correcta recepción de códigos de estado HTTP estándar (`200 OK`, `210 Created`) en el cliente, asegurando una experiencia de usuario fluida y libre de interrupciones de conectividad.
+
+#### Capturas de Pantalla Requeridas para el Informe
+<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+  
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+Esta sección expone los endpoints que componen los servicios backend de la plataforma, los cuales han sido completamente estructurados, programados en el entorno de la aplicación y expuestos para el consumo del cliente.
+
+#### Introducción y Logros
+Se implementó y estructuró el código de enrutamiento y lógica de controladores utilizando .NET, exponiendo los contratos de la API bajo la especificación OpenAPI 3.0 (OAS 3.0) para el sistema `safeflow-backend` versión 1.0. Esto garantiza que las aplicaciones cliente puedan consumir de forma estructurada los recursos de alertas, monitoreo, inventario y logística con validaciones de esquema transparentes.
+
+#### Tabla de Endpoints Documentados
+
+| Módulo / Tag | Verbo HTTP | Sintaxis de Llamada | Descripción / Acción | Parámetros |
+| :--- | :--- | :--- | :--- | :--- |
+| **Alerts** | **GET** | `/api/alerts/dashboard` | Obtiene las métricas agregadas para el panel de alertas. | Ninguno |
+| **Alerts** | **GET** | `/api/alerts` | Lista todas las alertas registradas en el sistema. | Ninguno |
+| **Alerts** | **POST** | `/api/alerts` | Registra una nueva alerta en la plataforma. | Request Body |
+| **Alerts** | **PATCH** | `/api/alerts/{id}/resolve` | Resuelve o cierra una alerta específica por su identificador. | `{id}` (Path) |
+| **Analytics** | **GET** | `/api/analytics/dashboard` | Recupera datos consolidados para análisis estadístico. | Ninguno |
+| **EnvironmentalMonitoring** | **GET** | `/api/monitoring/dashboard` | Retorna los estados actuales del monitoreo ambiental. | Ninguno |
+| **InventoryItems** | **GET** | `/api/inventory/items` | Obtiene la lista completa de ítems de inventario. | Ninguno |
+| **InventoryItems** | **POST** | `/api/inventory/items` | Agrega un nuevo ítem al inventario del sistema. | Request Body |
+| **InventoryItems** | **GET** | `/api/inventory/items/{id}` | Recupera el detalle de un ítem de inventario específico. | `{id}` (Path) |
+| **InventoryItems** | **PUT** | `/api/inventory/items/{id}` | Actualiza los datos generales de un ítem de inventario. | `{id}` (Path) / Body |
+| **InventoryItems** | **DELETE** | `/api/inventory/items/{id}` | Elimina de forma lógica o física un ítem de inventario. | `{id}` (Path) |
+| **LogisticsChoferes** | **GET** | `/api/logistics/choferes` | Lista todos los choferes registrados en el módulo logístico. | Ninguno |
+| **LogisticsChoferes** | **POST** | `/api/logistics/choferes` | Registra un nuevo chofer en el sistema. | Request Body |
+| **LogisticsChoferes** | **PUT** | `/api/logistics/choferes/{id}` | Modifica la información técnica o personal de un chofer. | `{id}` (Path) / Body |
+| **LogisticsChoferes** | **DELETE** | `/api/logistics/choferes/{id}` | Da de baja a un chofer específico del registro. | `{id}` (Path) |
+| **LogisticsDestinos** | **GET** | `/api/logistics/destinos` | Lista las ubicaciones o puntos de destino logísticos. | Ninguno |
+| **LogisticsDestinos** | **POST** | `/api/logistics/destinos` | Añade un nuevo punto de destino a la base de datos. | Request Body |
+| **LogisticsDestinos** | **PUT** | `/api/logistics/destinos/{id}` | Actualiza los detalles de dirección o coordenadas de un destino. | `{id}` (Path) / Body |
+| **LogisticsDestinos** | **DELETE** | `/api/logistics/destinos/{id}` | Remueve un punto de destino del catálogo logístico. | `{id}` (Path) |
+| **LogisticsShipments** | **GET** | `/api/logistics/shipments` | Obtiene la lista de embarques, despachos o cargamentos. | Ninguno |
+| **LogisticsShipments** | **POST** | `/api/logistics/shipments` | Crea u ordena un nuevo despacho dentro de la plataforma. | Request Body |
+| **Reporting** | **GET** | `/api/reporting/dashboard` | Extrae métricas e informes generales para reportes de gestión. | Ninguno |
+
+#### Evidencia de Interacción con OpenAPI
+Como evidencia del correcto funcionamiento y visualización de la especificación técnica de la API, se anexan las capturas de la interfaz gráfica de Swagger correspondientes a los archivos. En ellas se constata la exposición pública de los contratos y la pasarela interactiva de pruebas levantada sobre el dominio de producción de la Web App de Azure.
+
+#### Trazabilidad del Repositorio
+*   **URL del Repositorio de Web Services:** [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+En esta sección se detalla el proceso completo de arquitectura, aprovisionamiento de infraestructura en la nube y automatización de despliegue continuo desarrollado durante este Sprint.
+
+#### Introducción
+Para garantizar un entorno aislado, tolerante a fallos y con alta disponibilidad, se configuraron dos recursos principales dentro del grupo de recursos `safeflow` en **Microsoft Azure**: una instancia administrada de base de datos relacional MySQL y un entorno de ejecución basado en App Services para la API del backend. Todo el ciclo de vida se automatizó vinculando el código fuente con flujos de CI/CD.
+
+#### Flujo Técnico de Aprovisionamiento y Evidencias
+
+**1. Despliegue de la Persistencia de Datos (Azure Database for MySQL)**
+*   Se seleccionó la creación de un servidor flexible en la plataforma de Azure con el fin de obtener control predictivo sobre los costos, ventanas de mantenimiento y resiliencia de almacenamiento. Este paso inicial se observa en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900" />  </div>        
+
+*   Posteriormente, en la pestaña de aspectos básicos, se configuraron los datos del proyecto asignando la suscripción *Azure for Students* y el grupo de recursos unificado `safeflow`, tal como se documenta en la vista del archivo. 
+
+<div algin="center"><img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900" />  </div>        
+
+*   Una vez completada la inicialización, se obtuvo el panel general del servidor bautizado como `safeflowdb`, ubicado estratégicamente en la región de *Southeast Asia*, operando sobre la versión de motor MySQL 8.4 y un plan de cómputo *Burstable, B1ms*, como se constata en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900" />  </div>        
+
+
+**2. Seguridad de Red y Creación de Esquema de Datos**
+*   Con la finalidad de conectar herramientas externas de administración y ejecutar scripts de migración de datos, se accedió a la sección de redes para añadir una regla de firewall denominada `MiComputadoraLocal` asociada a la dirección IP pública del desarrollador (`38.25.17.80`). Este proceso se visualiza en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900" />  </div>        
+
+  
+*   Con el acceso asegurado, se inicializó el espacio de trabajo relacional del negocio, creando con éxito el esquema lógico denominado `safeflow_db` dentro del servidor cloud, evidenciado en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900" />  </div>        
+
+
+**3. Despliegue del Servidor Web de la Aplicación (Azure App Services)**
+*   Completada la base de datos, se procedió con la creación de la Web App en el panel de App Services asignando el mismo grupo de recursos compartido, como se muestra en la configuración del archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900" />  </div>        
+
+
+  
+*   En las especificaciones del entorno, se definió la publicación mediante código de la solución, seleccionando la región de *Canada Central*, un sistema operativo *Linux* y un plan de precios de categoría *Basic B1*, documentado en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900" />  </div>        
+
+  
+*   El aprovisionamiento final concluyó exitosamente con la Web App denominada `safeflow-api` en estado *Running* (Activo). En su panel principal se confirma el stack tecnológico correspondiente a *Dotnetcore - 10.0* y la sincronización correcta con el repositorio oficial, visible en el archivo.
+<div algin="center"><img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900" />  </div>        
+
+
+**4. Gestión Segura de Credenciales y Automatización de CI/CD**
+*   Para evitar malas prácticas de seguridad de software, se inyectaron las credenciales de base de datos directamente en las variables del panel cloud. Específicamente, se configuró la cadena de conexión cifrada bajo la llave de configuración `ConnectionStrings__DefaultConnection` dentro de las variables de entorno de la Web App, tal como figura en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900" />  </div>        
+
+  
+*   Finalmente, para cerrar el flujo de desarrollo, se automatizó el pipeline mediante un archivo de workflow de GitHub Actions denominado `main_safeflow-api.yml`. Cada confirmación de cambio en la rama principal desencadena una compilación automatizada (etapa *build* de 27s) seguida de una actualización en producción (etapa *deploy* de 39s), lo cual culminó con éxito en un tiempo de ejecución total de 1 minuto y 19 segundos bajo el commit hash `2e833b3`. Toda esta trazabilidad se encuentra registrada en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue10Backend.jpeg" alt="deployment10" width="900" />  </div>        
+
+
+#### Enlaces Oficiales del Entorno de Production
+*   **Dominio público de la API Desplegada:** `https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net`
+*   **URL del Repositorio de GitHub:** `https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform`
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+
+En esta sección se describe cómo el equipo ha desarrollado las actividades de implementación durante el Sprint 3, evidenciando la colaboración en el desarrollo del proyecto.
+
+Durante este sprint, el equipo de SafeFlow trabajó de manera estrictamente coordinada utilizando metodologías ágiles y herramientas avanzadas de control de versiones como GitHub para asegurar la entrega exitosa del producto. La colaboración en este ciclo migró de la fase de maquetación local hacia un ecosistema de despliegue continuo, lo cual requirió una comunicación constante entre los integrantes, una distribución efectiva de tareas técnicas y un seguimiento milimétrico del progreso mediante el marco de trabajo Scrum.
+
+Cada miembro del equipo participó activamente en la implementación de los distintos componentes del sistema. El esfuerzo colaborativo se centró en la programación y estructuración del Backend utilizando .NET, la exposición y documentación exhaustiva de contratos mediante OpenAPI/Swagger, y el aprovisionamiento de la infraestructura en la nube utilizando Microsoft Azure (servidor de base de datos relacional MySQL y entornos de ejecución en App Services). 
+
+Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipeline de integración y despliegue continuo (CI/CD) a través de GitHub Actions. Esto permitió que las revisiones constantes de commits bajo estándares profesionales, el análisis conjunto de código y las pruebas de consumo de servicios en producción garantizaran que todos los integrantes contribuyeran equitativamente en la consolidación de los productos clave definidos para este sprint: la API de servicios completamente operativa en la nube y la base de datos cloud enlazada al aplicativo.
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-3.png" alt="team-colaboration-3" width="900" />  </div>        
+
+<div algin="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
+
+
+### 5.3. Validation Interviews
+#### 5.3.1. Diseño de Entrevistas
+
+Segmento Objetivo 1: Empresas del sector farmacéutico
+
+1. Al revisar la lista de productos farmacéuticos, ¿considera que la visualización explícita de las columnas MIN TEMP y MAX TEMP para productos como la Insulina Glargina 2°C a 8°C o la Vacuna Pfizer COVID-19 -90°C a -60°C facilita el control rápido del inventario regulado?
+
+2. Si necesita ingresar un nuevo lote de medicamentos al sistema, ¿el botón azul "+ Add inventory item" ubicado en la esquina superior derecha le resulta visible y predecible para iniciar el registro regulatorio?
+
+3. La tabla muestra datos de trazabilidad técnica como BATCH / LOT, EXPIRY DATE y LOCATION. Desde la perspectiva de una inspección de calidad, ¿considera que el orden y la terminología de estas columnas son limpios y libres de ambigüedad?
+
+4. En el módulo de Logistics, la pantalla muestra el envío S003 (Vacuna Pfizer COVID-19) con un estado de In transit y una temperatura actual de -18.5°C. ¿El uso del color rojo y el ícono de peligro en el recuadro térmico le comunican eficazmente que el producto está fuera de su rango permitido?
+
+5. En el módulo de Monitoring, las tarjetas detallan el rango objetivo en la parte inferior (ej. Target range: 2.0 - 8.0°C). ¿Considera que colocar esta métrica fija de comparación ayuda a detectar desviaciones sin necesidad de recordar los parámetros de cada producto?
+
+6. Al observar las tarjetas de monitoreo, ¿es fácil identificar al PERSON IN CHARGE, al DRIVER OR OPERATOR y el WAREHOUSE de origen para iniciar un proceso de contención ante una falla de frío?
+
+7. En la sección superior de Alertas, el contador de "Out of range (detected)" marca 1. ¿La tarjeta roja detallada de la Vacuna Pfizer COVID-19 con su temperatura actual en -18.5°C le proporciona la información suficiente para entender la gravedad de la excursión térmica?
+
+8. La alerta del despacho S003 expone el campo de contacto del conductor encargado (Contact: 965874123). ¿Considera que la inclusión directa de este enlace telefónico agiliza el tiempo de reacción para la mitigación del riesgo en la carga?
+
+9. La tarjeta principal describe que el "SafeFlow consolidated report (single PDF)" incluye los envíos, inventarios, bitácoras térmicas e incidencias. ¿La descripción detallada de los elementos incluidos le ayuda a predecir con exactitud el contenido del documento antes de generarlo?
+
+10. Al observar la tabla de "Recent exports", el documento aparece con un indicador verde de "Ready" y un botón de "Download". ¿El flujo de dos pasos (Generate y luego Download) le parece claro para la obtención de sus evidencias de auditoría?
+
+11. En el panel de Analytics, la barra superior muestra un selector de idioma (ES / EN). Si cambia la configuración regional, ¿espera que la consistencia de los datos técnicos de los medicamentos y las temperaturas se mantenga intacta?
+
+12. El menú lateral izquierdo utiliza íconos planos al lado de términos directos como Analytics, Inventory, Logistics, Monitoring, Alerts, Reporting. ¿Considera que el diseño iconográfico se correlaciona lógicamente con las tareas analíticas de su área?
+
+13. En la esquina inferior izquierda se observa el indicador System status: Operational. Como usuario que depende de la disponibilidad del sistema para auditorías, ¿esta señalización sutil le otorga la confianza necesaria en la estabilidad de la plataforma?
+
+
+Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
+
+1. En la parte superior del Dashboard de Analytics, observa cuatro tarjetas de resumen (Total shipments: 4, Completed deliveries: 0, In transit: 2, Delayed: 0). ¿Estos contadores numéricos de alto nivel le permiten evaluar el estado de la operación diaria en sus primeros 5 segundos de visualización?
+
+2. En la sección inferior derecha "Fleet performance", se listan los conductores (Miguel, Diego Fernández) indicando su estado (On route, Available). ¿Esta lista simplificada le facilita la asignación de nuevos fletes según la disponibilidad actual del personal?
+
+3. La tabla de "Recent shipments" muestra el envío S004 con destino a Almacen A bajo el estado amarillo de "Pending". ¿El uso de etiquetas de colores (Pending, In transit) le ayuda a priorizar los despachos que aún no han salido de la base?
+
+4. Al seleccionar el envío S001 en la lista de despachos, se despliega a la izquierda la sección de "Active tracking". ¿El diagrama vertical que conecta el STORAGE LOCATION (Almacen A) con el CURRENT LOCATION (Awaiting handling) describe de forma clara la etapa exacta en la que está la carga?
+
+5. En el panel de Active tracking, el recuadro verde de estatus térmico muestra el texto: "Allowed range: 15.0°C – 25.0°C". ¿Considera útil que el sistema le muestre el rango operativo permitido directamente en la tarjeta de seguimiento del viaje del conductor?
+
+6. En la barra superior derecha de Logistics, se encuentran tres botones diferenciados: "New destination", "Driver or operator" y el botón azul de "+ New shipment". ¿La distribución de estos botones le facilita las tareas recurrentes de planificación y alta de rutas?
+
+7. Al monitorear las unidades en tiempo real, observa que la tarjeta del despacho S004 (Paracetamol Jarabe) está marcada con una etiqueta verde de "SAFE" a pesar de registrar 22.5°C. Al verificar abajo que su Target range es de 15.0 - 30.0°C, ¿le queda claro que el viaje progresa sin novedades operativas?
+
+8. En contraste, el despacho S003 muestra una etiqueta roja de "AT RISK" con una temperatura de -18.5°C. ¿Siente que el contraste visual entre las tarjetas verdes (SAFE) y las tarjetas rojas (AT RISK) es suficiente para identificar qué unidades de la flota requieren su atención inmediata?
+
+9. Dentro del detalle de la alerta activa para el despacho S003, se muestran dos botones de acción en el extremo derecho: "Under observation" y "Solved". ¿La presencia y el diseño de estas opciones le sugieren claramente cómo registrar que ya está gestionando la incidencia con el chofer?
+
+10. En la parte superior de la pantalla de Alertas, los contadores muestran "Open thermal alerts: 1" e "Out of range (detected): 1". Si presiona el botón "Solved" en la alerta activa, ¿espera que estos indicadores cambien automáticamente a cero?
+
+11. En la pantalla de Reporting, la tabla de "Recent exports" muestra que un reporte fue generado "Today, 09:14" con el formato PDF. Para sus tareas administrativas de cierre de mes, ¿este registro histórico le ayuda a controlar qué informes ya fueron entregados a la gerencia?
+
+12. En la esquina inferior izquierda de todas las pantallas de la plataforma se ubica un botón interactivo llamado "Collapse" con el ícono de una flecha hacia la izquierda. Si hace clic en él, ¿deduce correctamente que el menú lateral se encogerá para otorgarle un mayor espacio de trabajo a los mapas y tablas?
+
+13. En la esquina inferior izquierda del navegador, la barra de estado del sistema muestra la dirección local de desarrollo (localhost:5173/analytics). Sabiendo que es una aplicación web, ¿considera que el rendimiento y la velocidad de cambio entre los módulos laterales son adecuados para el flujo rápido que exige la supervisión de transportes?
+
+
+#### 5.3.2. Registro de Entrevistas
+
+#### Segmento objetivo #1: Empresas del sector farmacéutico
+
+---
+
+<img src="assets/chapter-05/pictureSG1-validation-interview.png" />
+
+
+**Entrevista 1:**
+- **Nombres y apellidos:** Sebastian Mendoza
+- **Edad:** 35 años
+- **Distrito:** San Borja
+
+- **Inicio:** 0:01
+- **Duración:** 15:16
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/r/personal/u202114701_upc_edu_pe/Documents/Entrevista-Segmento1-ValidationInterview.mp4?csf=1&web=1&e=D0E00Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Resumen:** El Gestor de Aseguramiento de Calidad valida positivamente el diseño visual y la terminología técnica de la interfaz de "SafeFlow", destacando que la visualización explícita de los rangos de temperatura y las alertas críticas en color rojo previenen fallos humanos en productos de cadena de frío estricta. Asimismo, resalta que la inclusión de números de contacto clickeables y la estructura de las tarjetas de emergencia agilizan drásticamente los tiempos de respuesta y traslados ante contingencias críticas. Por otro lado, la traducción selectiva de etiquetas que preserva intactos los nombres de los medicamentos y el indicador visual de conexión activa garantizan la trazabilidad e infunden tranquilidad durante los procesos de auditoría regulatoria. Finalmente, valora positivamente los estados de control como "Ready" en las descargas de PDFs, ya que aseguran la consolidación sin errores de un alto volumen de datos históricos que servirán como evidencia legal válida.
+
+
+---
+
+#### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
+
+---
+
+
+<img src="assets/chapter-05/pictureSG2-validation-interview.png" />
+
+
+**Entrevista 2:**
+- **Nombres y apellidos:** Maria Ruiz
+- **Edad:** 28 años
+- **Distrito:** Los Olivos
+
+- **Inicio:** 0:03
+- **Duración:** 15:49
+- **URL:** https://drive.google.com/file/d/1iUOWHJb6_7Rg9v7kS77kCz5PIBycWJzS/view?usp=sharing
+
+**Resumen:**
+El Supervisor de Operaciones y Logística confirma que la plataforma es sumamente práctica y directa para la gestión diaria del transporte. Destaca que los contadores numéricos del dashboard y el fuerte contraste visual entre las tarjetas verdes (SAFE) y rojas (AT RISK) le permiten evaluar la flota en segundos y priorizar las emergencias térmicas sin perder tiempo. Asimismo, valora la claridad de la línea de tiempo vertical para rastrear los estados de la carga, la visualización del rango permitido y la simplificación en la asignación de conductores disponibles. Finalmente, valida que funciones como los estados de incidencias (Under observation / Solved), el menú colapsable para ganar espacio y la velocidad de respuesta del sistema optimizan drásticamente su ritmo de trabajo y el control administrativo mensual.
+
+---
+
+#### 5.3.3. Evaluaciones según heurísticas
+### 5.4. Video About-the-Product
+
+El video "About-the-Product" (Sobre el Producto) funciona como una demostración audiovisual concisa y de alto impacto, diseñada para mostrar la propuesta de valor central, la arquitectura y la funcionalidad en vivo de la solución **SafeFlow**. Este video conecta visualmente los desafíos de la cadena de frío y el monitoreo ambiental con la respuesta automatizada de nuestro software. A través de un recorrido profesional, se demuestra cómo la ingesta de datos de sensores IoT en tiempo real, la detección algorítmica de anomalías y las notificaciones automatizadas operan dentro de una plataforma unificada y confiable para mitigar riesgos y prevenir pérdidas logísticas.
+
+- **Video About the Product**:  [Enlace Video About the Product](https://youtu.be/Kb1i16M4o-Q)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Conclusiones y recomendaciones
 
 ## Conclusiones
@@ -2684,6 +3812,10 @@ Finalmente, se recomienda considerar la escalabilidad de la solución hacia otro
 
 # Video About-the-Team
 
+El video "About-the-Team" (Sobre el Equipo) presenta la sinergia multidisciplinaria y las competencias técnicas del equipo de ingeniería detrás de SafeFlow. Este espacio audiovisual destaca cómo convergen nuestras habilidades en desarrollo de software, arquitectura de sistemas e integración de soluciones basadas en datos para materializar una plataforma robusta y escalable. A través de una breve presentación de cada miembro, se evidencia el compromiso, los roles estratégicos y la visión compartida que impulsaron el diseño y la ejecución técnica de este proyecto, demostrando que la solidez de SafeFlow radica tanto en su arquitectura como en el capital humano que la respalda.
+
+- **Video About the Team**:  [Enlace Video About the Team](https://www.youtube.com/watch?v=gA09U8rBMpM&feature=youtu.be)
+![](assets/chapter-05/about-the-team-evidence.png)
 
 # Bibliografía
 - Ministerio de Salud del Perú. (2000). Taller sobre planificación, administración y evaluación: Módulo III. Cadena de frío. https://www.gob.pe/institucion/minsa/informes-publicaciones/352804-taller-sobre-planificacion-administracion-y-evaluacion-modulo-iii-cadena-de-frio
@@ -2698,3 +3830,71 @@ Finalmente, se recomienda considerar la escalabilidad de la solución hacia otro
 
 
 # Anexos
+
+En esta sección se incluyen materiales complementarios que respaldan el desarrollo del proyecto SafeFlow. 
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO A. VIDEOS DE EXPOSICIONES
+
+En este anexo se presenta el registro progresivo de los videos de exposición correspondientes a cada entrega del proyecto. A medida que avanza el desarrollo de SafeFlow, se incorporan nuevos enlaces que permiten consultar la evidencia audiovisual de las presentaciones realizadas. Esta relación se actualizará de forma acumulativa en cada entrega.
+
+| Entrega | Título del video          | Hipervínculo  |
+| ------- | ------------------------- |---------------|
+| AV1     | Exposición AV1 - SafeFlow | [enlace 1](#) |
+| TB1     | Exposición TB1 - SafeFlow | [enlace 2](#) |
+| AV2     | Exposición AV2 - SafeFlow | [enlace 3](#) |
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO B. EVIDENCIAS ADICIONALES
+
+En este anexo presenta la evidencia de la organización creada en GitHub para el desarrollo del proyecto SafeFlow. 
+
+La organización permitió centralizar la administración del código fuente, facilitar el control de versiones mediante Git y GitHub, 
+y mantener una separación adecuada. Asimismo, favoreció la coordinación entre los integrantes del equipo durante todas las etapas de desarrollo.
+
+<div align="center">
+
+Figura B.1. Organización de GitHub del proyecto SafeFlow y repositorios asociados.
+
+![](assets/chapter-05/GitHub-organization-evidence.png)
+
+</div>
+
+<div align="center">
+
+Figura B.2. Repositorios asociados a la organización de GitHub del proyecto SafeFlow
+
+![](assets/chapter-05/repositories-evidence.png)
+
+</div>
+
+<div align="center">
+
+Figura B.3. Integrantes del equipo dentro de la organización de GitHub.
+
+![](assets/chapter-05/members-evidence.png)
+</div>
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO C. MATERIAL COMPLEMENTARIO
+
+En este anexo se recopilan los principales recursos digitales utilizados durante el desarrollo de SafeFlow. Estos enlaces permiten acceder a los repositorios del proyecto, aplicaciones desplegadas y material audiovisual desarrollado como parte de las diferentes entregas.
+
+| Recurso                                     | Descripción                                               | Enlace                                                                     |
+| ------------------------------------------- |-----------------------------------------------------------|----------------------------------------------------------------------------|
+| Repositorio del Reporte                     | Repositorio principal del documento del proyecto          | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report* |
+| Repositorio de la Landing Page              | Código fuente de la página de información del proyecto    | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website* |
+| Repositorio de la Aplicación Web (Frontend) | Código fuente de la interfaz principal del sistema        | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp* |
+| Repositorio del Backend                     | Código fuente de la API y lógica de negocio               | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform* |
+| Landing Page desplegada                     | Versión publicada de la landing page de SafeFlow          | *https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/* |
+| Aplicación Web desplegada                   | Versión publicada de la aplicación web de SafeFlow        | *https://safeflow0.netlify.app/login?next=/analytics*                      |
+| Backend desplegado                          | Servicio backend publicado en la nube                     | *https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net*             |
+| Video About the Product                     | Video de presentación del producto                        | *https://www.youtube.com/watch?v=Kb1i16M4o-Q*                                          |
+| Video About the Team                        | Video de presentación del equipo                          | *https://www.youtube.com/watch?v=gA09U8rBMpM*                                          |
+| Herramientas de diseño                      | Recursos utilizados para diseño y prototipado             | *https://www.figma.com/design/BNOvhoeCvJ2AjuPAZiBkJT/WebGeeks?node-id=162-61*      |
+
+
+
