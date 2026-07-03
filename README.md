@@ -2082,6 +2082,7 @@ A continuación, se presenta la captura de pantalla que evidencia la planificaci
       <td>feature/chapter-05</td>
       <td>df9ca9540417f8c46d1a96232dbee21869eae605</td>
       <td>docs: Add information in Development Evidence for Sprint Review for TB2</td>
+      <td>Implement content</td>
       <td>28/06/2026</td>
     </tr> 
     <tr>
@@ -2089,6 +2090,7 @@ A continuación, se presenta la captura de pantalla que evidencia la planificaci
       <td>feature/chapter-05</td>
       <td>910f86ed952d98b8b7d0cff95b09cdb6940a74bb</td>
       <td>docs: update link of objective interview 1</td>
+      <td>Implement content</td>
       <td>26/06/2026</td>
     </tr>
     <tr>
@@ -2096,6 +2098,7 @@ A continuación, se presenta la captura de pantalla que evidencia la planificaci
       <td>feature/student-profile</td>
       <td>6d16d5e20a0ed550f99b9d7bc9f5292c20900150</td>
       <td>docs: update student outcome and version of report about TB2</td>
+      <td>Implement content</td>
       <td>28/06/2026</td>
     </tr>
   </tbody>
