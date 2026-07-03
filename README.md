@@ -3373,6 +3373,19 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 #### 5.2.3.3. Sprint Backlog 3
 
+El objetivo principal del **Sprint 4** es la implementación completa del módulo de **Gestión de Identidad y Acceso (IAM)** de la plataforma, asegurando un entorno seguro y controlado para los diferentes roles del sistema a través de flujos robustos de registro, autenticación y cierre de sesión. De manera simultánea, se contempla la configuración de la infraestructura y el despliegue (*deployment*) inicial de la aplicación, estableciendo las bases del entorno de producción y los pipelines de integración continua.
+
+### Evidencia del Tablero de Control (Trello)
+A continuación, se presenta la captura de pantalla que evidencia la planificación, asignación de responsables y el flujo de trabajo establecido para este sprint en la herramienta Trello, junto con su respectivo acceso público:
+
+**URL del Board Público:** [Enlace al Trello](https://melandres097.atlassian.net/jira/software/projects/KAN/boards/1)
+
+
+<div align="center">
+  <img src="assets/chapter-05/trello.png" alt="trello" width="900" />
+</div>
+
+
 | Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sprint 3 | **US-01** | Registrar producto | T-01 | Diseño del Modelo de Datos | Crear la entidad relacional de Producto con sus restricciones de rangos de temperatura mínimos y máximos en la BD. | 3 | Andy Alejandro Mio Mejia | To Do |
@@ -3659,6 +3672,416 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 
 <div algin="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
 
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 4</th>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">03-07-2026</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">4:00</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunion por Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Mel Andree Orellana Rodriguez</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Andy Alejandro Mio Mejia, Mel Andree Orellana Rodriguez, Angel Guillermo Berrospi Marin, Anhelo Rodrigo Rocca Leon, Jefferson Bayron Morales Yapuchura</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Review Summary</td>
+    <td colspan="8">Se completó con éxito la transición de los diseños base hacia el desarrollo de los componentes de software (Frontend y Backend). Se validó la integración inicial de la base de datos relacional (MySQL) para evitar los retrasos detectados en el ciclo anterior y se presentaron los primeros flujos de geolocalización e interfaz funcional de la aplicación móvil. Las observaciones del Product Owner se centraron en refinar el consumo de servicios y la estabilidad del backend para el siguiente sprint.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Retrospective Summary</td>
+    <td colspan="8">Se cumplió el compromiso de definir los esquemas de la base de datos con anticipación, lo que permitió un desarrollo del backend mucho más fluido, y se logró una mayor consistencia y orden en el flujo de commits del equipo.</td>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 4 Goal</td>
+    <td colspan="8">The development of the landing page and the web application's core structural layout was successfully completed. The team validated the responsive design, user interface components, and confirmed that the mock API endpoints work correctly for initial frontend testing.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 4 Velocity</td>
+    <td colspan="8">10</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">10 Story Points</td>
+  </tr>
+</table>
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module IAM</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del **Sprint 4** es la implementación completa del módulo de **Gestión de Identidad y Acceso (IAM)** de la plataforma, asegurando un entorno seguro y controlado para los diferentes roles del sistema a través de flujos robustos de registro, autenticación y cierre de sesión. De manera simultánea, se contempla la configuración de la infraestructura y el despliegue (*deployment*) inicial de la aplicación, estableciendo las bases del entorno de producción y los pipelines de integración continua.
+
+### Evidencia del Tablero de Control (Trello)
+A continuación, se presenta la captura de pantalla que evidencia la planificación, asignación de responsables y el flujo de trabajo establecido para este sprint en la herramienta Trello, junto con su respectivo acceso público:
+
+**URL del Board Público:** [Enlace al Trello](https://melandres097.atlassian.net/jira/software/projects/KAN/boards/1)
+
+
+<div align="center">
+  <img src="assets/chapter-05/trello.png" alt="trello" width="900" />
+</div>
+
+### Tabla de Descomposición de Work-items / Tasks
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| **Sprint 4** | US-30 | Registrarse en la plataforma | T-IAM-01 | Diseño de vista de Registro (Vue.js) | Crear el formulario de registro con validaciones de campos obligatorios y fortaleza de contraseña en el frontend. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-30 | Registrarse en la plataforma | T-IAM-02 | API Endpoint de Registro (Spring Boot) | Implementar el controlador y servicio para registrar usuarios, encriptar contraseñas (BCrypt) y validar correos duplicados en MySQL. | 8 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-31 | Iniciar sesión | T-IAM-03 | Interfaz de Login (Vue.js) | Diseñar la vista de inicio de sesión, manejo de estados de error (credenciales inválidas) y almacenamiento local del token. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-31 | Iniciar sesión | T-IAM-04 | Autenticación con JWT (Spring Security) | Configurar Spring Security para validar credenciales, generar el token JWT y manejar el bloqueo de cuenta tras 5 intentos fallidos. | 12 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-18 | Controlar acceso por rol | T-IAM-05 | Configuración de Roles y Permisos | Definir entidades de Roles (Admin, Supervisor, Operador) en la base de datos y proteger endpoints con `@PreAuthorize`. | 8 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-18 | Controlar acceso por rol | T-IAM-06 | Guardias de navegación (Vue Router) | Implementar *Navigation Guards* en el frontend para restringir el acceso a vistas protegidas según el rol del usuario conectado. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-42 | Cerrar sesión | T-IAM-07 | Lógica de Logout (Front/Back) | Implementar la destrucción del token en el cliente, redirección al login y control de expiración automática de sesión. | 4 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | Módulo IAM | Pruebas y Seguridad | T-IAM-08 | Pruebas de integración del flujo IAM | Realizar pruebas completas del flujo de autenticación (Postman/Cypress) y verificar el manejo de errores HTTP 401 y 403. | 6 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | Infraestructura | Despliegue de la Aplicación | T-DEP-01 | Configuración de Entorno de Producción | Configurar variables de entorno, propiedades de Spring Boot para producción y preparar los scripts de base de datos MySQL en la nube. | 8 | Andy Alejandro Mio Mejia | Completado |
+
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>edf35f2b822a65d84d9c53becd5aa49b48f22d4b</td>
+      <td>docs: add collaboration images to the document</td>
+      <td>Implement content</td>
+      <td>29/06/2026</td>
+    </tr>
+        <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>00d9d5f33d40f8251920d47bd9a20fa1c1e00bb2</td>
+      <td>docs: add collaboration evidence images to assets</td>
+      <td>Implement content</td>
+      <td>29/06/2026</td>
+    </tr>
+        <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>e22142dde0c4c6838b3fada5b89b1df6df11cf7e</td>
+      <td>docs: update project repository links</td>
+      <td>update content</td>
+      <td>29/06/2026</td>
+    </tr>
+         <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>9287b215dbe26e678e13565126e9e38150c13961</td>
+      <td>docs: update and improve project documentation</td>
+      <td>update content</td>
+      <td>29/06/2026</td>
+    </tr>
+    <tr>
+    <td>AndyMio17/safeflow-report</td>
+      <td>develop</td>
+      <td>81b8cf59b76bed69e8a2a2f27a3937ed4052fa43</td>
+      <td>docs: agregando informacion en registro de versiones y Student Outcome</td>
+      <td>Implement content</td>
+      <td>28/06/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-report</td>
+      <td>feature/chapter-05</td>
+      <td>df9ca9540417f8c46d1a96232dbee21869eae605</td>
+      <td>docs: Add information in Development Evidence for Sprint Review for TB2</td>
+      <td>Implement content</td>
+      <td>28/06/2026</td>
+    </tr> 
+    <tr>
+      <td>Guille-berrs/safeflow-report</td>
+      <td>feature/chapter-05</td>
+      <td>910f86ed952d98b8b7d0cff95b09cdb6940a74bb</td>
+      <td>docs: update link of objective interview 1</td>
+      <td>Implement content</td>
+      <td>26/06/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-report</td>
+      <td>feature/student-profile</td>
+      <td>6d16d5e20a0ed550f99b9d7bc9f5292c20900150</td>
+      <td>docs: update student outcome and version of report about TB2</td>
+      <td>Implement content</td>
+      <td>28/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante este Sprint, el trabajo se centró en comprobar el correcto funcionamiento de la aplicación y fortalecer la integración entre la interfaz de usuario y los servicios backend desplegados en Microsoft Azure. Como resultado, se verificó el desempeño de los módulos principales y su comunicación con la infraestructura en la nube.
+
+### Resumen de Logros Funcionales
+
+- **Integración con servicios en producción:** Se sustituyó por completo el almacenamiento simulado utilizado en las primeras etapas del desarrollo por el consumo directo de la API desplegada en producción, permitiendo que la aplicación interactúe con el dominio público del backend.
+
+- **Conectividad de los módulos principales:** Las diferentes funcionalidades de la plataforma permiten registrar, consultar y actualizar información en tiempo real, incluyendo la gestión de alertas, los elementos de inventario y las operaciones logísticas, utilizando la base de datos **safeflow_db** alojada en la nube.
+
+- **Verificación de estabilidad:** Se validó el correcto intercambio de respuestas HTTP entre el cliente y el servidor, comprobando la recepción de códigos de estado exitosos, como **200 OK** y **201 Created**, lo que asegura una comunicación estable y una experiencia de usuario continua.
+
+### Capturas de Pantalla Requeridas para el Informe
+
+
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Esta sección presenta los endpoints desarrollados para los servicios backend de la plataforma. Cada uno de ellos ha sido diseñado, implementado y documentado para permitir su integración con el cliente mediante una interfaz estandarizada.
+
+### Introducción y Logros
+
+Durante el desarrollo se implementó la arquitectura de enrutamiento junto con la lógica de los controladores utilizando .NET. Asimismo, la API fue documentada bajo el estándar OpenAPI 3.0 (OAS 3.0) para la versión 1.0 del sistema **safeflow-backend**, permitiendo que las aplicaciones cliente accedan de manera organizada a los módulos de alertas, monitoreo, inventario y logística. Esta documentación facilita la validación de solicitudes y respuestas, mejorando la interoperabilidad entre los diferentes componentes del sistema.
+
+### Tabla de Endpoints Documentados
+
+| Módulo / Tag | Verbo HTTP | Sintaxis de Llamada | Descripción / Acción | Parámetros | Auth |
+|--------------|------------|---------------------|----------------------|------------|------|
+| Authentication | POST | `/api/authentication/sign-up` | Registra un nuevo usuario en la plataforma. | Request Body (username, password) | No |
+| Authentication | POST | `/api/authentication/sign-in` | Valida las credenciales del usuario y genera un token JWT. | Request Body (username, password) | No |
+| Alerts | GET | `/api/alerts/dashboard` | Obtiene las métricas agregadas para el panel de alertas. | Ninguno | Sí |
+| Alerts | GET | `/api/alerts` | Lista todas las alertas registradas en el sistema. | Ninguno | Sí |
+| Alerts | POST | `/api/alerts` | Registra una nueva alerta en la plataforma. | Request Body | Sí |
+| Alerts | PATCH | `/api/alerts/{id}/resolve` | Resuelve o cierra una alerta específica por su identificador. | `{id}` (Path) | Sí |
+| Analytics | GET | `/api/analytics/dashboard` | Recupera datos consolidados para análisis estadístico. | Ninguno | Sí |
+| EnvironmentalMonitoring | GET | `/api/monitoring/dashboard` | Retorna los estados actuales del monitoreo ambiental (KPIs y tarjetas). | Ninguno | Sí |
+| InventorySnapshot | GET | `/api/inventory` | Obtiene un resumen consolidado del inventario, logística, monitoreo y alertas. | Ninguno | Sí |
+| InventoryItems | GET | `/api/inventory/items` | Obtiene la lista completa de ítems de inventario. | Ninguno | Sí |
+| InventoryItems | GET | `/api/inventory/items/{id}` | Recupera el detalle de un ítem de inventario específico. | `{id}` (Path) | Sí |
+| InventoryItems | POST | `/api/inventory/items` | Agrega un nuevo ítem (producto y línea de stock) al inventario. | Request Body | Sí |
+| InventoryItems | POST | `/api/inventory/items/stock-line` | Agrega una nueva línea de stock a un producto existente. | Request Body (`idProducto`, `location`, `qty`, etc.) | Sí |
+| InventoryItems | PUT | `/api/inventory/items/{id}` | Actualiza los datos generales de un ítem de inventario. | `{id}` (Path) / Body | Sí |
+| InventoryItems | DELETE | `/api/inventory/items/{id}` | Elimina una línea de inventario utilizando su identificador. | `{id}` (Path) | Sí |
+| LogisticsChoferes | GET | `/api/logistics/choferes` | Lista todos los choferes registrados en el módulo logístico. | Ninguno | Sí |
+| LogisticsChoferes | POST | `/api/logistics/choferes` | Registra un nuevo chofer en el sistema. | Request Body | Sí |
+| LogisticsChoferes | PUT | `/api/logistics/choferes/{id}` | Modifica la información técnica o personal de un chofer. | `{id}` (Path) / Body | Sí |
+| LogisticsChoferes | DELETE | `/api/logistics/choferes/{id}` | Da de baja a un chofer específico del registro. | `{id}` (Path) | Sí |
+| LogisticsDestinos | GET | `/api/logistics/destinos` | Lista las ubicaciones o puntos de destino logísticos. | Ninguno | Sí |
+| LogisticsDestinos | POST | `/api/logistics/destinos` | Añade un nuevo punto de destino a la base de datos. | Request Body | Sí |
+| LogisticsDestinos | PUT | `/api/logistics/destinos/{id}` | Actualiza los detalles de dirección o coordenadas de un destino. | `{id}` (Path) / Body | Sí |
+| LogisticsDestinos | DELETE | `/api/logistics/destinos/{id}` | Remueve un punto de destino del catálogo logístico. | `{id}` (Path) | Sí |
+| LogisticsShipments | GET | `/api/logistics/shipments` | Obtiene la lista de embarques, despachos o cargamentos. | Ninguno | Sí |
+| LogisticsShipments | POST | `/api/logistics/shipments` | Crea u ordena un nuevo despacho dentro de la plataforma. | Request Body | Sí |
+| Reporting | GET | `/api/reporting/dashboard` | Extrae métricas e informes generales para reportes de gestión. | Ninguno | Sí |
+
+Como evidencia del adecuado funcionamiento y de la correcta publicación de la documentación técnica de la API, se incluyen las capturas de pantalla de la interfaz de Swagger correspondientes a los distintos recursos implementados. Estas imágenes demuestran que los contratos de la API se encuentran disponibles y que la consola interactiva para realizar pruebas está desplegada sobre el dominio de producción de la aplicación web alojada en Azure.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se presenta el proceso de diseño de la infraestructura, el aprovisionamiento de los recursos en la nube y la configuración del flujo de despliegue continuo realizados durante este Sprint, evidenciando la puesta en producción de la aplicación.
+
+### Introducción
+
+Con el objetivo de contar con una infraestructura estable, segura y disponible para la ejecución de la plataforma, se implementaron dos servicios principales dentro del grupo de recursos `safeflow` en **Microsoft Azure**: un servidor administrado de **Azure Database for MySQL** y una **Web App** mediante **Azure App Services** para alojar la API desarrollada en .NET. Además, se integró el repositorio del proyecto con un proceso automatizado de **Integración y Despliegue Continuo (CI/CD)** para facilitar las actualizaciones de la aplicación.
+
+
+#### **1. Implementación de la Base de Datos en Azure**
+
+- Como primera etapa, se creó un servidor flexible de **Azure Database for MySQL**, seleccionando una configuración que permitiera optimizar la administración de costos, las tareas de mantenimiento y la disponibilidad del almacenamiento. Este procedimiento se muestra en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900"/>
+</div>
+
+- Posteriormente, during la configuración inicial, se asignó la suscripción **Azure for Students** y se vinculó el servidor al grupo de recursos `safeflow`, asegurando que todos los servicios del proyecto permanecieran organizados dentro del mismo entorno. La configuración se aprecia en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900"/>
+</div>
+
+- Finalizada la creación del recurso, el servidor **safeflowdb** quedó operativo en la región **Southeast Asia**, utilizando el motor **MySQL 8.4** y el plan de cómputo **Burstable B1ms**, tal como se evidencia en la siguiente captura.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900"/>
+</div>
+
+#### **2. Configuración de Seguridad y Base de Datos**
+
+- Para permitir la conexión desde herramientas externas y facilitar la ejecución de migraciones, se configuró una regla de firewall denominada `MiComputadoraLocal`, autorizando el acceso desde la dirección IP pública del equipo de desarrollo. Este procedimiento se observa en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900"/>
+</div>
+
+- Una vez habilitado el acceso al servidor, se creó el esquema relacional `safeflow_db`, el cual almacena la información utilizada por la aplicación en producción. La creación del esquema puede observarse en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900"/>
+</div>
+
+#### **3. Despliegue de la API mediante Azure App Services**
+
+- Después de completar la configuración de la base de datos, se procedió con la creación de una **Web App** en **Azure App Services**, utilizando el mismo grupo de recursos para centralizar la administración de la infraestructura. La configuración inicial se muestra en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900"/>
+</div>
+
+- Durante la creación del servicio se definió una publicación basada en código, seleccionando la región **Canada Central**, el sistema operativo **Linux** y el plan de hospedaje **Basic B1**, configuración que se aprecia en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900"/>
+</div>
+
+- Tras finalizar el aprovisionamiento, la aplicación **safeflow-api** quedó desplegada y en estado **Running**, confirmándose además la utilización del entorno **.NET 10.0** y la correcta conexión con el repositorio oficial del proyecto. Esta información puede observarse en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900"/>
+</div>
+
+#### **4. Configuración de Variables y Automatización del Despliegue**
+
+- Como parte de las buenas prácticas de seguridad, las credenciales de acceso a la base de datos fueron almacenadas mediante variables de entorno dentro de Azure. Para ello se configuró la cadena de conexión utilizando la clave `ConnectionStrings__DefaultConnection`, evitando incluir información sensible directamente en el código fuente. La configuración se muestra en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900"/>
+</div>
+
+#### **5. Verificación de Endpoints y Consumo de Datos en Postman**
+
+- Con el propósito de validar la correcta ejecución y disponibilidad de los servicios en el entorno de producción, se realizaron pruebas de integración utilizando Postman. Mediante peticiones HTTP directas hacia el servidor en la nube, se verificó la persistencia, el enrutamiento y la integridad de las respuestas del backend, confirmando la manipulación de datos en tiempo real de manera exitosa. La validación se detalla en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/postman.jpeg" alt="postman" width="900"/>
+</div>
+
+#### **6. Integración de Datos Reales y Funcionamiento End-to-End**
+
+- Como etapa final del ciclo de despliegue, se validó la comunicación síncrona entre el frontend móvil y el backend alojado en Azure App Services. La interfaz de usuario procesa y visualiza de manera correcta los registros e información real almacenada en la base de datos, demostrando la operatividad completa, la consistencia de los datos y el correcto funcionamiento integrado de la aplicación. Esta evidencia se presenta a continuación.
+
+<div align="center">
+<img src="assets/chapter-05/datos_reales.jpeg" alt="datos reales" width="900"/>
+</div>
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En esta sección se presenta la forma en que el equipo llevó a cabo las actividades de implementación correspondientes al **Sprint 4**, el cual representó la etapa final del desarrollo del proyecto. Durante este sprint se realizaron los últimos ajustes e integraciones del **frontend** y **backend**, consolidando todas las funcionalidades planificadas y dejando el sistema completamente operativo para su entrega.
+
+A lo largo de este ciclo, el equipo de **SafeFlow** trabajó de manera coordinada aplicando metodologías ágiles y utilizando **GitHub** como herramienta principal para el control de versiones y la colaboración. La comunicación constante entre los integrantes permitió organizar eficientemente las tareas, dar seguimiento al progreso mediante el marco de trabajo **Scrum** y asegurar la integración de los componentes desarrollados.
+
+Cada miembro participó activamente en la implementación y validación de los diferentes módulos del sistema. En esta fase se completaron los últimos retoques del **frontend**, se finalizaron los servicios del **backend** desarrollados con **.NET** y se integró completamente el módulo de **autenticación**, permitiendo el registro e inicio de sesión mediante **JWT** para garantizar el acceso seguro a la plataforma. Asimismo, se verificó la documentación de la API mediante **OpenAPI/Swagger** y se consolidó la infraestructura desplegada en **Microsoft Azure**, incluyendo la base de datos **MySQL** y los servicios alojados en **App Services**.
+
+
+
+<div align="center">
+<img src="assets/chapter-05/isignt-backend.png" alt="Backend" width="900" />
+</div>
+
 
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
@@ -3737,7 +4160,7 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 0:01
 - **Duración:** 15:16
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/r/personal/u202114701_upc_edu_pe/Documents/Entrevista-Segmento1-ValidationInterview.mp4?csf=1&web=1&e=D0E00Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/IQCOSdQa1h4DSY-70-_gSeYxAflBddPMzgu6Vzg3LanaLcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PY0HMH
 
 **Resumen:** El Gestor de Aseguramiento de Calidad valida positivamente el diseño visual y la terminología técnica de la interfaz de "SafeFlow", destacando que la visualización explícita de los rangos de temperatura y las alertas críticas en color rojo previenen fallos humanos en productos de cadena de frío estricta. Asimismo, resalta que la inclusión de números de contacto clickeables y la estructura de las tarjetas de emergencia agilizan drásticamente los tiempos de respuesta y traslados ante contingencias críticas. Por otro lado, la traducción selectiva de etiquetas que preserva intactos los nombres de los medicamentos y el indicador visual de conexión activa garantizan la trazabilidad e infunden tranquilidad durante los procesos de auditoría regulatoria. Finalmente, valora positivamente los estados de control como "Ready" en las descargas de PDFs, ya que aseguran la consolidación sin errores de un alto volumen de datos históricos que servirán como evidencia legal válida.
 
@@ -3771,20 +4194,9 @@ El Supervisor de Operaciones y Logística confirma que la plataforma es sumament
 
 El video "About-the-Product" (Sobre el Producto) funciona como una demostración audiovisual concisa y de alto impacto, diseñada para mostrar la propuesta de valor central, la arquitectura y la funcionalidad en vivo de la solución **SafeFlow**. Este video conecta visualmente los desafíos de la cadena de frío y el monitoreo ambiental con la respuesta automatizada de nuestro software. A través de un recorrido profesional, se demuestra cómo la ingesta de datos de sensores IoT en tiempo real, la detección algorítmica de anomalías y las notificaciones automatizadas operan dentro de una plataforma unificada y confiable para mitigar riesgos y prevenir pérdidas logísticas.
 
-- **Video About the Product**:  [Enlace Video About the Product](https://youtu.be/Kb1i16M4o-Q)
+- **Video About the Product**:  [Enlace Video About the Product](https://www.youtube.com/watch?v=QP65qGuQQa0)
 
-
-
-
-
-
-
-
-
-
-
-
-
+<div algin="center"><img src="assets/chapter-05/img-about-the-product.jpeg" alt="About the Product" width="900" />  </div>        
 
 # Conclusiones y recomendaciones
 
