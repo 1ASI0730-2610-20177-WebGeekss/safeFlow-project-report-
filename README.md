@@ -589,7 +589,7 @@ Confiamos en que al automatizar el cambio de estado del despacho basado en datos
 #### 1.2.2.4. Lean UX Canvas
 El Lean UX Canvas presenta de manera visual y estructurada los principales elementos estratégicos del producto propuesto. En este canvas se resumen los problemas identificados en la gestión de la cadena de frío, los usuarios involucrados, las necesidades del negocio, las hipótesis planteadas, las funcionalidades principales y los resultados esperados. Asimismo, permite organizar las ideas centrales de la solución tecnológica enfocada en el monitoreo en tiempo real, la trazabilidad y la prevención de incidencias en productos sensibles a variaciones de temperatura.
 
- <div align="center"><img src="assets/chapter-01/Lean UX canvas mejorado.png" alt="Lean Ux Canvas" width="400" /> </div>
+ <div align="center"><img src="assets/chapter-01/Lean UX canvas mejorado.png" alt="Lean Ux Canvas" width="900" /> </div>
 
 ## 1.3. Segmentos objetivo
 
@@ -1026,11 +1026,12 @@ El entrevistado es un Supervisor de Operaciones y Flota de 26 años. Su gestión
 
 #### Segmento 1 Jefe de Aseguramiento de Calidad
 
-<img src="assets/chapter-02/User_Persona_Sebastian Mendoza.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Persona_Sebastian Mendoza.png" alt="User Segmento 1" width="550" /> </div>
+
 
 #### Segmento 2 Supervisora de Operaciones y Flota
 
-<img src="assets/chapter-02/User_Persona_Maria Ruiz.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Persona_Maria Ruiz.png" lt="User Segmento 2" width="550" /> </div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1056,21 +1057,21 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 #### Segmento 1  Gestor de Aseguramiento de Calidad
 
-<img src="assets/chapter-02/User_Journey_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Journey_Mapping_Gestores de Aseguramiento de Calidad.png" alt="User Journey Segmento 1" width="550" /> </div>
 
 #### Segmento 2 Supervisor de Operaciones y Flota
 
-<img src="assets/chapter-02/User_Journey_Mapping_Supervisor de Operaciones y Flota.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Journey_Mapping_Supervisor de Operaciones y Flota.png" alt="User Journey Segmento 2" width="550" /> </div>
 
 ### 2.3.4. Empathy Mapping
 
 ####  Gestores de Aseguramiento de Calidad
 
-<img src="assets/chapter-02/Empathy_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+<div align="center"> <img src="assets/chapter-02/Empathy_Mapping_Gestores de Aseguramiento de Calidad.png" alt="Gestor de Aseguramiento de Calidad" width="550" /> </div>
 
 ####  Supervisores de Operaciones y Flota
 
-<img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png"/>
+<div align="center"> <img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png" alt="Supervisor de Operaciones y Flota" width="550" /> </div>
 
 
 ## 2.4. Big Picture EventStorming.
@@ -1669,28 +1670,29 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
  junto con la propuesta de valor, botón preeliminar para visualizar la demo de nuestra web y para agendar reunión con nosotros, y el impacto que puede nuestra
 solución tener en el área laboral de nuestros clientes.</div>
 
-<div align="center"> <img src="assets/chapter-04/hero-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/hero-mockup.png" alt="Section Overview" width="550" /> </div>
 
 ### 2. Operational Flow and Key Benefits
 
 <div align="center">Mockup detallado que ilustra las principales características de SafeFlow, como este funciona de forma breve 
 y las tecnologías que componieron el desarrollo de la solución.</div>
 
-<div align="center"> <img src="assets/chapter-04/fuctionality-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/fuctionality-mockup.png" alt="Operational Flow and Key Benefits" width="550" /> </div>
 
 ### 3. SafeFlow Benefits & Development Team
 
 <div align="center">Penúltima sección que muestra 3 distintos modelos de suscripción con sus detalles, ventajas que provee nuestra solución,
 el equipo de ingeniería a cargo y los principales sectores laborales beneficiados por SafeFlow.</div>
 
-<div align="center"> <img src="assets/chapter-04/benefits&team-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/benefits&team-mockup.png" alt="SafeFlow Benefits Developmet Team" width="550" /> </div>
 
 ## 4. FAQ, Contact and Footer
 
 <div align="center">Última sección de la landing page que muestra las preguntas frecuentes, el formulario de contacto y 
 el footer con información del producto</div>
 
-<div align="center"> <img src="assets/chapter-04/faq-contact-footer-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/faq-contact-footer-mockup.png" alt="FAQ Contact and Footer" width="550" /> </div>
+
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -1984,7 +1986,7 @@ componentes responsables de procesar lecturas IoT y enviar alertas.
 <img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_IoT-MessageService_Diagram.png">
 
 ##### Notification Service Component Diagram
-<img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_NotificationDispatcher-Diagram.png">
+<div align="center"> <img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_NotificationDispatcher-Diagram.png" alt="Notification Service Component Diagram" width="550" /> </div>
 
 Gracias a los modelos C4 elaborados, se logró una visión clara y estructurada de la arquitectura de software propuesta para SafeFlow,
 identificando los contenedores principales, sus responsabilidades y las interacciones entre ellos. Esta separación facilita
