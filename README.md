@@ -221,21 +221,21 @@ Los integrantes son:
 
 ### Github Collaboration  Informe
 
-<div algin="center"><img src="assets/student-profile/collaboration 1.png" alt="collaboration 1" width="700" />  </div>        
+<div align="center"><img src="assets/student-profile/collaboration 1.png" alt="collaboration 1" width="700" />  </div>        
 
 
 ### Github Collaboration  Landing
 
-<div algin="center"><img src="assets/student-profile/collaboration 2.png" alt="collaboration 2" width="700" />  </div>        
+<div align="center"><img src="assets/student-profile/collaboration 2.png" alt="collaboration 2" width="700" />  </div>        
 
 
 ### Github Collaboration  Frontend
 
-<div algin="center"><img src="assets/student-profile/collaboration 3.png" alt="collaboration 3" width="700" />  </div>        
+<div align="center"><img src="assets/student-profile/collaboration 3.png" alt="collaboration 3" width="700" />  </div>        
 
 ### Github Collaboration  Backend
 
-<div algin="center"><img src="assets/student-profile/collaboration 4.png" alt="collaboration 4" width="700" />  </div>        
+<div align="center"><img src="assets/student-profile/collaboration 4.png" alt="collaboration 4" width="700" />  </div>        
 
 
 
@@ -458,40 +458,40 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 ### 1.1.2. Perfiles de integrantes del equipo
 
 
-| *Integrante*            |         |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U202116018          |
-| *Carrera*               | Ingeneria de Software         |
-| *Descripción*           | Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario.    |
-| Foto                      | <div align="center"><img src="assets/chapter-01/foto-andree.jpg" alt="Integrante Mel" width="400" /> </div>         |
+| *Integrante*            |                               Andre Orellana                                  |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202116018                                                                    |
+| *Carrera*                | Ingeneria de Software                                                         |
+| *Descripción*            | Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario. |
+| Foto                     | <img src="assets/chapter-01/foto-andree.jpg" alt="Integrante Andre" width="180" /> |
 
-| *Integrante*            |            |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U202114701      |
-| *Carrera*               | Ingenieria de Software           |
-| *Descripción*           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.           |
-| Foto                      | <div algin="center"><img src="assets/chapter-01/Angel_Berrospi_Profile.jpg" alt="Integrante Angel" width="400" />  </div>        |
+| *Integrante*            |                               Angel Berrospi                                  |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202114701                                                                    |
+| *Carrera*                | Ingenieria de Software                                                        |
+| *Descripción*            | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto. |
+| Foto                     | <img src="assets/chapter-01/Angel_Berrospi_Profile.jpg" alt="Integrante Angel" width="180" /> |
 
-| *Integrante*            | Anhelo Rocca                                                                                                                                                                                                                                                          |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U20221C803                                                                                                                                                                                                                                                            |
-| *Carrera*               | Ingeniería de Software                                                                                                                                                                                                                                                |
-| *Descripción*           | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
-| Foto                      | <div align="center"><img src="assets/chapter-01/Anhelo_Foto.jpeg">                                                                                                                                                                                                    |
+| *Integrante* |                               Anhelo Rocca                                    |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante* | U20221C803                                                                    |
+| *Carrera* | Ingeniería de Software                                                        |
+| *Descripción* | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
+| Foto                     | <img src="assets/chapter-01/Anhelo_Foto.jpeg" alt="Integrante Anhelo" width="180" /> |
 
-| *Integrante*            | Jefferson Morales           |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U202316049           |
-| *Carrera*               | Ingenieria de Software           |
-| *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
-| Foto                      | <div algin="center"><img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="400" />  </div>           |
+| *Integrante*            |                               Jefferson Morales                               |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202316049                                                                    |
+| *Carrera*                | Ingenieria de Software                                                        |
+| *Descripción*            | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes. |
+| Foto                     | <img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="180" /> |
 
-| *Integrante*            |       Andy Alejandro Mio Mejia     |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |     U202218531       |
-| *Carrera*               |     Ingenieria de Software       |
-| *Descripción*           |       Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación     |
-| Foto                      |     <div align="center"><img src="assets/chapter-01/foto-Andy.jpeg">        |
+| *Integrante*            |                               Andy Alejandro Mio Mejia                        |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202218531                                                                    |
+| *Carrera*                | Ingenieria de Software                                                        |
+| *Descripción*            | Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación |
+| Foto                     | <img src="assets/chapter-01/foto-Andy.jpeg" alt="Integrante Andy" width="180" /> |
 
 
 ## 1.2. Solution Profile
@@ -3546,7 +3546,7 @@ Durante el desarrollo de este Sprint, el foco principal estuvo orientado en la v
 * **Estabilidad del Entorno:** Se validó la correcta recepción de códigos de estado HTTP estándar (`200 OK`, `210 Created`) en el cliente, asegurando una experiencia de usuario fluida y libre de interrupciones de conectividad.
 
 #### Capturas de Pantalla Requeridas para el Informe
-<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
   
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3604,53 +3604,53 @@ Para garantizar un entorno aislado, tolerante a fallos y con alta disponibilidad
 **1. Despliegue de la Persistencia de Datos (Azure Database for MySQL)**
 *   Se seleccionó la creación de un servidor flexible en la plataforma de Azure con el fin de obtener control predictivo sobre los costos, ventanas de mantenimiento y resiliencia de almacenamiento. Este paso inicial se observa en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900" />  </div>        
 
 *   Posteriormente, en la pestaña de aspectos básicos, se configuraron los datos del proyecto asignando la suscripción *Azure for Students* y el grupo de recursos unificado `safeflow`, tal como se documenta en la vista del archivo. 
 
-<div algin="center"><img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900" />  </div>        
 
 *   Una vez completada la inicialización, se obtuvo el panel general del servidor bautizado como `safeflowdb`, ubicado estratégicamente en la región de *Southeast Asia*, operando sobre la versión de motor MySQL 8.4 y un plan de cómputo *Burstable, B1ms*, como se constata en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900" />  </div>        
 
 
 **2. Seguridad de Red y Creación de Esquema de Datos**
 *   Con la finalidad de conectar herramientas externas de administración y ejecutar scripts de migración de datos, se accedió a la sección de redes para añadir una regla de firewall denominada `MiComputadoraLocal` asociada a la dirección IP pública del desarrollador (`38.25.17.80`). Este proceso se visualiza en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900" />  </div>        
 
   
 *   Con el acceso asegurado, se inicializó el espacio de trabajo relacional del negocio, creando con éxito el esquema lógico denominado `safeflow_db` dentro del servidor cloud, evidenciado en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900" />  </div>        
 
 
 **3. Despliegue del Servidor Web de la Aplicación (Azure App Services)**
 *   Completada la base de datos, se procedió con la creación de la Web App en el panel de App Services asignando el mismo grupo de recursos compartido, como se muestra en la configuración del archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900" />  </div>        
 
 
   
 *   En las especificaciones del entorno, se definió la publicación mediante código de la solución, seleccionando la región de *Canada Central*, un sistema operativo *Linux* y un plan de precios de categoría *Basic B1*, documentado en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900" />  </div>        
 
   
 *   El aprovisionamiento final concluyó exitosamente con la Web App denominada `safeflow-api` en estado *Running* (Activo). En su panel principal se confirma el stack tecnológico correspondiente a *Dotnetcore - 10.0* y la sincronización correcta con el repositorio oficial, visible en el archivo.
-<div algin="center"><img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900" />  </div>        
 
 
 **4. Gestión Segura de Credenciales y Automatización de CI/CD**
 *   Para evitar malas prácticas de seguridad de software, se inyectaron las credenciales de base de datos directamente en las variables del panel cloud. Específicamente, se configuró la cadena de conexión cifrada bajo la llave de configuración `ConnectionStrings__DefaultConnection` dentro de las variables de entorno de la Web App, tal como figura en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900" />  </div>        
 
   
 *   Finalmente, para cerrar el flujo de desarrollo, se automatizó el pipeline mediante un archivo de workflow de GitHub Actions denominado `main_safeflow-api.yml`. Cada confirmación de cambio en la rama principal desencadena una compilación automatizada (etapa *build* de 27s) seguida de una actualización en producción (etapa *deploy* de 39s), lo cual culminó con éxito en un tiempo de ejecución total de 1 minuto y 19 segundos bajo el commit hash `2e833b3`. Toda esta trazabilidad se encuentra registrada en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue10Backend.jpeg" alt="deployment10" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue10Backend.jpeg" alt="deployment10" width="900" />  </div>        
 
 
 #### Enlaces Oficiales del Entorno de Production
@@ -3668,9 +3668,9 @@ Cada miembro del equipo participó activamente en la implementación de los dist
 
 Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipeline de integración y despliegue continuo (CI/CD) a través de GitHub Actions. Esto permitió que las revisiones constantes de commits bajo estándares profesionales, el análisis conjunto de código y las pruebas de consumo de servicios en producción garantizaran que todos los integrantes contribuyeran equitativamente en la consolidación de los productos clave definidos para este sprint: la API de servicios completamente operativa en la nube y la base de datos cloud enlazada al aplicativo.
 
-<div algin="center"><img src="assets/chapter-05/team-colaboration-3.png" alt="team-colaboration-3" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/team-colaboration-3.png" alt="team-colaboration-3" width="900" />  </div>        
 
-<div algin="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
 
 ### 5.2.4. Sprint 4
 
