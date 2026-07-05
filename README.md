@@ -190,8 +190,13 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del Repositorio del Reporte: [Repositorio del Informe](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
 #### Link del Repositorio de la Landing Page:  [Repositorio del Landing](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
-#### Link del Repositorio del Frontend:  [Repositorio del Frontend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
-#### Link del Repositorio del Backend:  [Repositorio del Backend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+#### Link del Repositorio del Frontend:  [Repositorio del Frontend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp)
+#### Link del Repositorio del Backend:  [Repositorio del Backend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
+
+A continuación, se detallan los Link de lo Desarrollado:
+
+#### Link de la Landing Page:  [Link de la Landing Page](https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/)
+#### Link de la Plataforma Web:  [Link de la App Web](https://safeflow0.netlify.app/login)
 
 
   <br>
@@ -236,6 +241,9 @@ Los integrantes son:
 ### Github Collaboration  Backend
 
 <div align="center"><img src="assets/student-profile/collaboration 4.png" alt="collaboration 4" width="700" />  </div>        
+
+
+
 
 
 
@@ -334,6 +342,33 @@ Los integrantes son:
     - [5.2.1.6. Services Documentation](#5216-services-documentation)
     - [5.2.1.7. Software Deployment Evidence](#5217-software-deployment-evidence)
     - [5.2.1.8. Team Collaboration Insights](#5218-team-collaboration-insights)
+ - [5.2.2 Sprint 2](#522-sprint-2)
+    - [5.2.2.1. Sprint Planning](#5221-sprint-planning)
+    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+    - [5.2.2.3. Sprint Backlog](#5223-sprint-backlog)
+    - [5.2.2.4. Development Evidence](#5224-development-evidence)
+    - [5.2.2.5. Execution Evidence](#5225-execution-evidence)
+    - [5.2.2.6. Services Documentation](#5226-services-documentation)
+    - [5.2.2.7. Software Deployment Evidence](#5227-software-deployment-evidence)
+    - [5.2.2.8. Team Collaboration Insights](#5228-team-collaboration-insights)
+ - [5.2.3 Sprint 3](#523-sprint-3)
+    - [5.2.3.1. Sprint Planning](#5231-sprint-planning)
+    - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+    - [5.2.3.3. Sprint Backlog](#5233-sprint-backlog)
+    - [5.2.3.4. Development Evidence](#5234-development-evidence)
+    - [5.2.3.5. Execution Evidence](#5235-execution-evidence)
+    - [5.2.3.6. Services Documentation](#5236-services-documentation)
+    - [5.2.3.7. Software Deployment Evidence](#5237-software-deployment-evidence)
+    - [5.2.3.8. Team Collaboration Insights](#5238-team-collaboration-insights)
+ - [5.2.4 Sprint 4](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning](#5241-sprint-planning)
+    - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog](#5243-sprint-backlog)
+    - [5.2.4.4. Development Evidence](#5244-development-evidence)
+    - [5.2.4.5. Execution Evidence](#5245-execution-evidence)
+    - [5.2.4.6. Services Documentation](#5246-services-documentation)
+    - [5.2.4.7. Software Deployment Evidence](#5247-software-deployment-evidence)
+    - [5.2.4.8. Team Collaboration Insights](#5248-team-collaboration-insights) 
  - [5.3. Validation Interviews](#53-validation-interviews)
    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2747,13 +2782,6 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 ![Footer](assets/chapter-05/Footer.png)
 *Pie de página con información de contacto, secciones de la página, enlace a Github y derechos de autor.*
 
-## 3. Video de Demostración y Navegación
-Para observar la fluidez de la navegación, la respuesta de los elementos interactivos y la explicación detallada de cada sección, se ha preparado el siguiente material audiovisual:
-
- **[Ver Video de Demostración - SafeFlow Sprint Review](TU_ENLACE_AQUÍ)**
-
-
-
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3936,8 +3964,9 @@ Durante este Sprint, el trabajo se centró en comprobar el correcto funcionamien
 
 - **Verificación de estabilidad:** Se validó el correcto intercambio de respuestas HTTP entre el cliente y el servidor, comprobando la recepción de códigos de estado exitosos, como **200 OK** y **201 Created**, lo que asegura una comunicación estable y una experiencia de usuario continua.
 
-### Capturas de Pantalla Requeridas para el Informe
-
+<div align="center">
+<img src="assets/chapter-05/datos_reales.jpeg" alt="datos reales" width="900"/>
+</div>
 
 
 
@@ -4162,7 +4191,9 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 0:01
 - **Duración:** 15:16
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/IQCOSdQa1h4DSY-70-_gSeYxAflBddPMzgu6Vzg3LanaLcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PY0HMH
+- **URL:** [Enlace de Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/IQCOSdQa1h4DSY-70-_gSeYxAflBddPMzgu6Vzg3LanaLcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PY0HMH)
+
+
 
 **Resumen:** El Gestor de Aseguramiento de Calidad valida positivamente el diseño visual y la terminología técnica de la interfaz de "SafeFlow", destacando que la visualización explícita de los rangos de temperatura y las alertas críticas en color rojo previenen fallos humanos en productos de cadena de frío estricta. Asimismo, resalta que la inclusión de números de contacto clickeables y la estructura de las tarjetas de emergencia agilizan drásticamente los tiempos de respuesta y traslados ante contingencias críticas. Por otro lado, la traducción selectiva de etiquetas que preserva intactos los nombres de los medicamentos y el indicador visual de conexión activa garantizan la trazabilidad e infunden tranquilidad durante los procesos de auditoría regulatoria. Finalmente, valora positivamente los estados de control como "Ready" en las descargas de PDFs, ya que aseguran la consolidación sin errores de un alto volumen de datos históricos que servirán como evidencia legal válida.
 
@@ -4184,7 +4215,7 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 0:03
 - **Duración:** 15:49
-- **URL:** https://drive.google.com/file/d/1iUOWHJb6_7Rg9v7kS77kCz5PIBycWJzS/view?usp=sharing
+- **URL:**  [Enlace de Entrevista]( https://drive.google.com/file/d/1iUOWHJb6_7Rg9v7kS77kCz5PIBycWJzS/view?usp=sharing)
 
 **Resumen:**
 El Supervisor de Operaciones y Logística confirma que la plataforma es sumamente práctica y directa para la gestión diaria del transporte. Destaca que los contadores numéricos del dashboard y el fuerte contraste visual entre las tarjetas verdes (SAFE) y rojas (AT RISK) le permiten evaluar la flota en segundos y priorizar las emergencias térmicas sin perder tiempo. Asimismo, valora la claridad de la línea de tiempo vertical para rastrear los estados de la carga, la visualización del rango permitido y la simplificación en la asignación de conductores disponibles. Finalmente, valida que funciones como los estados de incidencias (Under observation / Solved), el menú colapsable para ganar espacio y la velocidad de respuesta del sistema optimizan drásticamente su ritmo de trabajo y el control administrativo mensual.
@@ -4228,7 +4259,7 @@ Finalmente, se recomienda considerar la escalabilidad de la solución hacia otro
 
 El video "About-the-Team" (Sobre el Equipo) presenta la sinergia multidisciplinaria y las competencias técnicas del equipo de ingeniería detrás de SafeFlow. Este espacio audiovisual destaca cómo convergen nuestras habilidades en desarrollo de software, arquitectura de sistemas e integración de soluciones basadas en datos para materializar una plataforma robusta y escalable. A través de una breve presentación de cada miembro, se evidencia el compromiso, los roles estratégicos y la visión compartida que impulsaron el diseño y la ejecución técnica de este proyecto, demostrando que la solidez de SafeFlow radica tanto en su arquitectura como en el capital humano que la respalda.
 
-- **Video About the Team**:  [Enlace Video About the Team](https://www.youtube.com/watch?v=gA09U8rBMpM&feature=youtu.be)
+- **Video About the Team**:  [Enlace Video About the Team](https://www.youtube.com/watch?v=CMt8p8CfcfI)
 ![](assets/chapter-05/about-the-team-evidence.png)
 
 # Bibliografía
