@@ -4480,11 +4480,12 @@ En esta sección se incluyen materiales complementarios que respaldan el desarro
 
 En este anexo se presenta el registro progresivo de los videos de exposición correspondientes a cada entrega del proyecto. A medida que avanza el desarrollo de SafeFlow, se incorporan nuevos enlaces que permiten consultar la evidencia audiovisual de las presentaciones realizadas. Esta relación se actualizará de forma acumulativa en cada entrega.
 
-| Entrega | Título del video          | Hipervínculo  |
-| ------- | ------------------------- |---------------|
-| AV1     | Exposición AV1 - SafeFlow | [enlace 1](#) |
-| TB1     | Exposición TB1 - SafeFlow | [enlace 2](#) |
-| AV2     | Exposición AV2 - SafeFlow | [enlace 3](#) |
+| Entrega | Título del video          | Hipervínculo                                                                                                                                                                                                                                                                                                                                |
+|---------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AV1     | Exposición AV1 - SafeFlow | [URL Exposicion AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQDx8BuesnU-SIoAMLogp6zFARoSl3lqWrhUHc0VKC9cN6U?e=UJjEX4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| TB1     | Exposición TB1 - SafeFlow | [URL Exposicion TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQC4gmVFgvrKRZu9IIKuPnS_AfPN1NTf6k-E_JvW-R9f2jM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tH8l4T) |
+| AV2     | Exposición AV2 - SafeFlow | [URL Exposicion AV2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQC6CvKJM8J4TLMzGUaK-_aAAfMUIGfwvKvM3wd1qZCydK8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=e9fNry)                                                                                                                                                                                                                                                                                                                      |
+| TB2     | Exposición TB2 - SafeFlow | [URL Exposicion TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c803_upc_edu_pe/IQCfm4jvD9RQS5v5hTZwU-0OATAu1rvMYLmCvKJyqCOs15M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uVgfxA)                                                                                                                                                                                                                                                                                                                      |
 
 <div style="page-break-after: always;"></div>
 
@@ -4524,18 +4525,18 @@ Figura B.3. Integrantes del equipo dentro de la organización de GitHub.
 
 En este anexo se recopilan los principales recursos digitales utilizados durante el desarrollo de SafeFlow. Estos enlaces permiten acceder a los repositorios del proyecto, aplicaciones desplegadas y material audiovisual desarrollado como parte de las diferentes entregas.
 
-| Recurso                                     | Descripción                                               | Enlace                                                                     |
-| ------------------------------------------- |-----------------------------------------------------------|----------------------------------------------------------------------------|
-| Repositorio del Reporte                     | Repositorio principal del documento del proyecto          | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report* |
-| Repositorio de la Landing Page              | Código fuente de la página de información del proyecto    | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website* |
-| Repositorio de la Aplicación Web (Frontend) | Código fuente de la interfaz principal del sistema        | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp* |
-| Repositorio del Backend                     | Código fuente de la API y lógica de negocio               | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform* |
-| Landing Page desplegada                     | Versión publicada de la landing page de SafeFlow          | *https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/* |
-| Aplicación Web desplegada                   | Versión publicada de la aplicación web de SafeFlow        | *https://safeflow0.netlify.app/login?next=/analytics*                      |
-| Backend desplegado                          | Servicio backend publicado en la nube                     | *https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net*             |
-| Video About the Product                     | Video de presentación del producto                        | *https://www.youtube.com/watch?v=Kb1i16M4o-Q*                                          |
-| Video About the Team                        | Video de presentación del equipo                          | *https://www.youtube.com/watch?v=gA09U8rBMpM*                                          |
-| Herramientas de diseño                      | Recursos utilizados para diseño y prototipado             | *https://www.figma.com/design/BNOvhoeCvJ2AjuPAZiBkJT/WebGeeks?node-id=162-61*      |
+|                    Recurso                    |                         Descripción                         |                                     Enlace                                      |
+|:---------------------------------------------:|:-----------------------------------------------------------:|:-------------------------------------------------------------------------------:|
+|            Repositorio del Reporte            |      Repositorio principal del documento del proyecto       |  *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report*   |
+|        Repositorio de la Landing Page         |   Código fuente de la página de información del proyecto    |  *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website*  |
+|  Repositorio de la Aplicación Web (Frontend)  |     Código fuente de la interfaz principal del sistema      |  *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp*   |
+|            Repositorio del Backend            |         Código fuente de la API y lógica de negocio         | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform*  |
+|            Landing Page desplegada            |      Versión publicada de la landing page de SafeFlow       |  *https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/*  |
+|           Aplicación Web desplegada           |     Versión publicada de la aplicación web de SafeFlow      |              *https://safeflow0.netlify.app/login?next=/analytics*              |
+|              Backend desplegado               |            Servicio backend publicado en la nube            |   *https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net*    |
+|            Video About the Product            |             Video de presentación del producto              |                  *https://www.youtube.com/watch?v=Kb1i16M4o-Q*                  |
+|             Video About the Team              |              Video de presentación del equipo               |                  *https://www.youtube.com/watch?v=gA09U8rBMpM*                  |
+|            Herramientas de diseño             |        Recursos utilizados para diseño y prototipado        |  *https://www.figma.com/design/BNOvhoeCvJ2AjuPAZiBkJT/WebGeeks?node-id=162-61*  |
 
 
 
