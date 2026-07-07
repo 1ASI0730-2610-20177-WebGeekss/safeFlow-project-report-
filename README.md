@@ -49,116 +49,134 @@
 
 <div align = "center">
     
-| Versión |   Fecha    | Autor |                           Descripción de modificación                            |
-|:-------:|:----------:| :----------------: |:--------------------------------------------------------------------------------:|
-|   AV1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de registro de entrevistas                       |
-|   AV1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de analisis de entrevistas                       |
-|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                 Desarrollo de la primera version de Empathy Maps                 |
-|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                Desarrollo de la primera version de User Personas                 |
-|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |             Desarrollo de la primera version de User Journey Mapping             |
-|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |               Desarrollo de la primera version de User Task Matrix               |
-|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de registro de entrevistas                       |
-|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de analisis de entrevistas                       |
-|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |        Actualización y mejora de wireframes - SignUp Authentication Flow         |
-|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |          Actualización y mejora de mockups - SignUp Authentication Flow          |
-|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                 Actualización y mejora de Bounded Context Shared                 |
-|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |                 Actualización y refinamiento de mockups - Alerts                 |
-|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |                Actualización y refinamiento de wireframe - Alerts                |
-|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                   Actualizacion de Web Applications Wireframes                   |
-|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |         Coordinación y revisión de consistencia entre mockups, wireframe         |
-|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                           Desarrollo de 4 entrevistas                            |
-|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                                 Style Guidelines                                 |
-|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                             Information Architecture                             |
-|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                              Landing Page UI Design                              |
-|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                          Web Applications UX/UI Design                           |
-|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                            Descripción de la Startup                             |
-|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                        Creación de la carpeta de Imagenes                        |
-|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                            Desarrollo de User Stories                            |
-|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                                   Competidores                                   |
-|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                      Creacion de Ramas en los Repositorios                       |
-|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                        Software Deployment Configuration.                        |
-|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                             Source Code Management.                              |
-|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                  Software Development Environment Configuration                  |
-|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                        Software Configuration Management.                        |
-|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                     Creacion de la Estructura de la Landing                      |
-|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                   Estrategias y tácticas frente a competidores                   |
-|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                                     Sprint 1                                     |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                   Desarrollo de Lean Ux Hypothesis Statements                    |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                            Desarrollo Lean Ux Canvas                             |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                       Desarrollo de Diseño de entrevistas                        |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                      Desarrollo de registro de entrevistas                       |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                      Desarrollo de Análisis de entrevistas                       |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                           Desarrollo de User Personas                            |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                          Desarrollo de User Task Matrix                          |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                        Desarrollo de User Journey Mapping                        |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                     Desarrollo de Big Picture EventStorming                      |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                        Desarrollo de Ubiquitous Lenguage                         |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |            Creación de estructura de Aspect Leaders and Collaborators            |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                     Creación de estructura de Sprint Backlog                     |
-|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |         Creación de estructura de Development Evidence for Sprint Review         |
-|   AV1   | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |                Desarollo del Domain-Driven Software Architecture                 |
-|   AV1   | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |                     Desarollo del Design-Level EventStorming                     |
-|   AV1   | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |               Desarollo del Software Architecture Context Diagram                |
-|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |              Desarollo del Software Architecture Container Diagram               |
-|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |             Desarollo del Software Architecture Components Diagrams              |
-|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                  Desarollo del Software Object-Oriented Design                   |
-|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                           Desarollo del Class Diagrams                           |
-|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                          Desarollo del Database Design                           |
-|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                         Desarollo del Database Diagrams                          |
-|   AV1   | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |                 Commit de la sección 'Benefits' del Landing Page                 |
-|   AV1   | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |              Commit de la sección 'Call-to-action' del Landing Page              |
-|   AV1   | 26-04-2026 | Rocca Leon, Anhelo Rodrigo |              Desarollo de 1 entrevista para el segmento objetivo 2               |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |               Desarrollo del mockup del bounded context inventory                |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |             Desarrollo del mockup del bounded context inventory-Add              |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |               Desarrollo del mockup del bounded context reporting                |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo del wireframe del bounded context inventory              |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |            Desarrollo del wireframe del bounded context inventory-Add            |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo del wireframe del bounded context reporting              |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de código del bounded context inventory                |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de código del bounded context reporting                |
-|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |              Creación de las estructuras de las tablas del sprint 2              |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |          Actualización y refinamiento de mockups - Analytics Dashboard           |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |         Actualización y refinamiento de wireframe - Analytics Dashboard          |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |          Actualización y mejora de mockups - SignIn Authentication Flow          |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |         Actualización y mejora de wireframe - SignIn Authentication Flow         |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |    Revisión y corrección integral de User Stories - Refinamiento y validación    |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |         Corrección y mejora del Lean UX Canvas - Validación de hipótesis         |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |             Actualización de criterios de aceptación en User Stories             |
-|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro | Coordinación y revisión de consistencia entre mockups, wireframes y User Stories |
-|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                   Creación de las implementaciones de SafeFlow                   |
-|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |           Actualización de landing con conexión a la App Web SafeFlow            |
-|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                    Creación de las ramas para safeflow-webapp                    |
-|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                            Implementación del MockAPI                            |
-|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                     Coordinación de tareas para el frontend                      |
-|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                   Implementación del Bounded Context Analytics                   |
-|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                  Implementación del Bounded Context Monitoring                   |
-|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |                           Búsqueda y pago del MockAPI                            |
-|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |     Implementación del Bounded Context logistics en el frontend de SafeFlow      |
-|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |          Desarollo del mockup y wireframe del bounded context logistics          |
-|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |         Desarrollo del mockup y wireframe del bounded context monitoring         |
-|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo en el Backend el Modulo de  Analytics                      |
-|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo en el Backend el Modulo de  Analytics                      |
-|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo en el Backend el Modulo de  Monitoring                    |
-|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo de la Estrucutra del Proyecto Base Backend                 |
-|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Organización de Tareas para el AV2                                    |
-|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo del Video del Trabajo Social ( 1 Parte )                   |
-|   AV2   | 12-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo de Entrevistas                                             |
-|   AV2   | 12-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo del Backend el modulo de reporting                        |
-|   AV2   | 18-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo de video social                                           | 
-|   AV2   | 18-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo de video about the team                                   |
-|   AV2   | 19-06-2026 | Mio mejia, Andy Alejandro |        Desarrollo del Backend el modulo de inventory                                  |
-|   AV2   | 19-06-2026 | Mio mejia, Andy Alejandro |        Desplegar Backend                                 |
-|   AV2   | 19-06-2026 | Mio mejia, Andy Alejandro |        Desarrollo de video social                                 |
-|   AV2   | 19-06-2026 | Mio mejia, Andy Alejandro |        Desarrollo de video about the team                                 |                     
-|   AV2   | 11-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo del Backend el modulo de Logistics                           |
-|   AV2   | 20-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo de uno de los videos para el trabajo Social Responsibility                        |
-|   AV2   | 20-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo de uno del video About-The-Team                      |
-|   AV2   | 21-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo parcial del cápitulo 5.2.3.4 Development Evidence for Sprint Review                     |
-|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Desarrollo del Video del Trabajo Social ( Parte 5 )                      |
-|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Desarrollo en el Backend el Modulo de Alerts                             |
-|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Realicé Validation Interviews                                            |
-|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Realicé registro de entrevistas                                          |
-|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Realicé el deployment del Backend                                        |
+| Versión |   Fecha    |                Autor                |                                                  Descripción de modificación                                                   |
+|:-------:|:----------:|:-----------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:|
+|   AV1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                             Desarrollo de registro de entrevistas                                              |
+|   AV1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                             Desarrollo de analisis de entrevistas                                              |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                                        Desarrollo de la primera version de Empathy Maps                                        |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                                       Desarrollo de la primera version de User Personas                                        |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                                    Desarrollo de la primera version de User Journey Mapping                                    |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                                      Desarrollo de la primera version de User Task Matrix                                      |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                             Desarrollo de registro de entrevistas                                              |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                             Desarrollo de analisis de entrevistas                                              |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                               Actualización y mejora de wireframes - SignUp Authentication Flow                                |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                 Actualización y mejora de mockups - SignUp Authentication Flow                                 |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                        Actualización y mejora de Bounded Context Shared                                        |
+|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |                                        Actualización y refinamiento de mockups - Alerts                                        |
+|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |                                       Actualización y refinamiento de wireframe - Alerts                                       |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                          Actualizacion de Web Applications Wireframes                                          |
+|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |                                Coordinación y revisión de consistencia entre mockups, wireframe                                |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                                                  Desarrollo de 4 entrevistas                                                   |
+|   AV1   | 26-04-2026 |      Mio Mejia, Andy Alejandro      |                                                        Style Guidelines                                                        |
+|   AV1   | 26-04-2026 |      Mio Mejia, Andy Alejandro      |                                                    Information Architecture                                                    |
+|   AV1   | 26-04-2026 |      Mio Mejia, Andy Alejandro      |                                                     Landing Page UI Design                                                     |
+|   AV1   | 26-04-2026 |      Mio Mejia, Andy Alejandro      |                                                 Web Applications UX/UI Design                                                  |
+|   AV1   | 11-04-2026 |   Orellana Rodriguez, Mel Andree    |                                                   Descripción de la Startup                                                    |
+|   AV1   | 11-04-2026 |   Orellana Rodriguez, Mel Andree    |                                               Creación de la carpeta de Imagenes                                               |
+|   AV1   | 11-04-2026 |   Orellana Rodriguez, Mel Andree    |                                                   Desarrollo de User Stories                                                   |
+|   AV1   | 11-04-2026 |   Orellana Rodriguez, Mel Andree    |                                                          Competidores                                                          |
+|   AV1   | 11-04-2026 |   Orellana Rodriguez, Mel Andree    |                                             Creacion de Ramas en los Repositorios                                              |
+|   AV1   | 25-04-2026 |   Orellana Rodriguez, Mel Andree    |                                               Software Deployment Configuration.                                               |
+|   AV1   | 25-04-2026 |   Orellana Rodriguez, Mel Andree    |                                                    Source Code Management.                                                     |
+|   AV1   | 25-04-2026 |   Orellana Rodriguez, Mel Andree    |                                         Software Development Environment Configuration                                         |
+|   AV1   | 25-04-2026 |   Orellana Rodriguez, Mel Andree    |                                               Software Configuration Management.                                               |
+|   AV1   | 25-04-2026 |   Orellana Rodriguez, Mel Andree    |                                            Creacion de la Estructura de la Landing                                             |
+|   AV1   | 25-04-2026 |   Orellana Rodriguez, Mel Andree    |                                          Estrategias y tácticas frente a competidores                                          |
+|   AV1   | 25-04-2026 |   Orellana Rodriguez, Mel Andree    |                                                            Sprint 1                                                            |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                          Desarrollo de Lean Ux Hypothesis Statements                                           |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                                   Desarrollo Lean Ux Canvas                                                    |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                              Desarrollo de Diseño de entrevistas                                               |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                             Desarrollo de registro de entrevistas                                              |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                             Desarrollo de Análisis de entrevistas                                              |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                                  Desarrollo de User Personas                                                   |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                                 Desarrollo de User Task Matrix                                                 |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                               Desarrollo de User Journey Mapping                                               |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                            Desarrollo de Big Picture EventStorming                                             |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                               Desarrollo de Ubiquitous Lenguage                                                |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                   Creación de estructura de Aspect Leaders and Collaborators                                   |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                            Creación de estructura de Sprint Backlog                                            |
+|   AV1   | 26-04-2026 |   Berrospi Marin, Angel Guillermo   |                                Creación de estructura de Development Evidence for Sprint Review                                |
+|   AV1   | 19-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                       Desarollo del Domain-Driven Software Architecture                                        |
+|   AV1   | 19-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                            Desarollo del Design-Level EventStorming                                            |
+|   AV1   | 19-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                      Desarollo del Software Architecture Context Diagram                                       |
+|   AV1   | 21-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                     Desarollo del Software Architecture Container Diagram                                      |
+|   AV1   | 21-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                    Desarollo del Software Architecture Components Diagrams                                     |
+|   AV1   | 21-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                         Desarollo del Software Object-Oriented Design                                          |
+|   AV1   | 21-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                                  Desarollo del Class Diagrams                                                  |
+|   AV1   | 21-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                                 Desarollo del Database Design                                                  |
+|   AV1   | 21-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                                Desarollo del Database Diagrams                                                 |
+|   AV1   | 24-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                        Commit de la sección 'Benefits' del Landing Page                                        |
+|   AV1   | 24-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                     Commit de la sección 'Call-to-action' del Landing Page                                     |
+|   AV1   | 26-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                     Desarollo de 1 entrevista para el segmento objetivo 2                                      |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                      Desarrollo del mockup del bounded context inventory                                       |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                    Desarrollo del mockup del bounded context inventory-Add                                     |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                      Desarrollo del mockup del bounded context reporting                                       |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                     Desarrollo del wireframe del bounded context inventory                                     |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                   Desarrollo del wireframe del bounded context inventory-Add                                   |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                     Desarrollo del wireframe del bounded context reporting                                     |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                       Desarrollo de código del bounded context inventory                                       |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                       Desarrollo de código del bounded context reporting                                       |
+|   TB1   | 15-05-2026 |   Berrospi Marin, Angel Guillermo   |                                     Creación de las estructuras de las tablas del sprint 2                                     |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                                 Actualización y refinamiento de mockups - Analytics Dashboard                                  |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                                Actualización y refinamiento de wireframe - Analytics Dashboard                                 |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                                 Actualización y mejora de mockups - SignIn Authentication Flow                                 |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                                Actualización y mejora de wireframe - SignIn Authentication Flow                                |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                           Revisión y corrección integral de User Stories - Refinamiento y validación                           |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                                Corrección y mejora del Lean UX Canvas - Validación de hipótesis                                |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                                    Actualización de criterios de aceptación en User Stories                                    |
+|   TB1   | 15-05-2026 |      Mio Mejia, Andy Alejandro      |                        Coordinación y revisión de consistencia entre mockups, wireframes y User Stories                        |
+|   TB1   | 12-05-2026 |   Orellana Rodriguez, Mel Andree    |                                          Creación de las implementaciones de SafeFlow                                          |
+|   TB1   | 12-05-2026 |   Orellana Rodriguez, Mel Andree    |                                  Actualización de landing con conexión a la App Web SafeFlow                                   |
+|   TB1   | 12-05-2026 |   Orellana Rodriguez, Mel Andree    |                                           Creación de las ramas para safeflow-webapp                                           |
+|   TB1   | 12-05-2026 |   Orellana Rodriguez, Mel Andree    |                                                   Implementación del MockAPI                                                   |
+|   TB1   | 12-05-2026 |   Orellana Rodriguez, Mel Andree    |                                            Coordinación de tareas para el frontend                                             |
+|   TB1   | 12-05-2026 |   Orellana Rodriguez, Mel Andree    |                                          Implementación del Bounded Context Analytics                                          |
+|   TB1   | 12-05-2026 |   Orellana Rodriguez, Mel Andree    |                                         Implementación del Bounded Context Monitoring                                          |
+|   TB1   | 15-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                                  Búsqueda y pago del MockAPI                                                   |
+|   TB1   | 15-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                            Implementación del Bounded Context logistics en el frontend de SafeFlow                             |
+|   TB1   | 15-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                 Desarollo del mockup y wireframe del bounded context logistics                                 |
+|   TB1   | 15-04-2026 |     Rocca Leon, Anhelo Rodrigo      |                                Desarrollo del mockup y wireframe del bounded context monitoring                                |
+|   AV2   | 06-06-2026 |   Mel Andree, Orellana Rodriguez    |                                        Desarrollo en el Backend el Modulo de  Analytics                                        |
+|   AV2   | 06-06-2026 |   Mel Andree, Orellana Rodriguez    |                                        Desarrollo en el Backend el Modulo de  Analytics                                        |
+|   AV2   | 06-06-2026 |   Mel Andree, Orellana Rodriguez    |                                       Desarrollo en el Backend el Modulo de  Monitoring                                        |
+|   AV2   | 06-06-2026 |   Mel Andree, Orellana Rodriguez    |                                     Desarrollo de la Estrucutra del Proyecto Base Backend                                      |
+|   AV2   | 06-06-2026 |   Mel Andree, Orellana Rodriguez    |                                               Organización de Tareas para el AV2                                               |
+|   AV2   | 06-06-2026 |   Mel Andree, Orellana Rodriguez    |                                      Desarrollo del Video del Trabajo Social ( 1 Parte )                                       |
+|   AV2   | 12-06-2026 |   Berrospi Marin, Angel Guillermo   |                                                   Desarrollo de Entrevistas                                                    |
+|   AV2   | 12-06-2026 |   Berrospi Marin, Angel Guillermo   |                                         Desarrollo del Backend el modulo de reporting                                          |
+|   AV2   | 18-06-2026 |   Berrospi Marin, Angel Guillermo   |                                                   Desarrollo de video social                                                   | 
+|   AV2   | 18-06-2026 |   Berrospi Marin, Angel Guillermo   |                                               Desarrollo de video about the team                                               |
+|   AV2   | 19-06-2026 |      Mio mejia, Andy Alejandro      |                                         Desarrollo del Backend el modulo de inventory                                          |
+|   AV2   | 19-06-2026 |      Mio mejia, Andy Alejandro      |                                                       Desplegar Backend                                                        |
+|   AV2   | 19-06-2026 |      Mio mejia, Andy Alejandro      |                                                   Desarrollo de video social                                                   |
+|   AV2   | 19-06-2026 |      Mio mejia, Andy Alejandro      |                                               Desarrollo de video about the team                                               |                     
+|   AV2   | 11-06-2026 |     Rocca Leon, Anhelo Rodrigo      |                                         Desarrollo del Backend el modulo de Logistics                                          |
+|   AV2   | 20-06-2026 |     Rocca Leon, Anhelo Rodrigo      |                             Desarrollo de uno de los videos para el trabajo Social Responsibility                              |
+|   AV2   | 20-06-2026 |     Rocca Leon, Anhelo Rodrigo      |                                           Desarrollo de uno del video About-The-Team                                           |
+|   AV2   | 21-06-2026 |     Rocca Leon, Anhelo Rodrigo      |                         Desarrollo parcial del cápitulo 5.2.3.4 Development Evidence for Sprint Review                         |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |                                      Desarrollo del Video del Trabajo Social ( Parte 5 )                                       |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |                                          Desarrollo en el Backend el Modulo de Alerts                                          |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |                                                 Realicé Validation Interviews                                                  |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |                                                Realicé registro de entrevistas                                                 |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |                                               Realicé el deployment del Backend                                                |
+|   TB2   | 27-06-2026 |   Berrospi Marin, Angel Guillermo   |                                        Desarrollo de corrección de validation interview                                        |
+|   TB2   | 27-06-2026 |   Berrospi Marin, Angel Guillermo   |                                      Desarrollo del corrección de disponibilidad de links                                      |
+|   TB2   | 27-06-2026 |   Berrospi Marin, Angel Guillermo   |                                               Desarrollo del readme del website                                                
+|   TB2   | 27-06-2026 |      Mio Mejia, Andy Alejandro      |                            Agregando y completando el punto Development Evidence for Sprint Review                             |
+|   TB2   | 27-06-2026 |      Mio Mejia, Andy Alejandro      |              Incluyendo la explicación correspondiente en el archivo README.md del repositorio de safelow-webapp               
+|   TB2   | 27-06-2026 |      Mio Mejia, Andy Alejandro      |                Verificar que todos los hipervinculos y URLs funcionen correctamente en el documento Word y PDF.                
+|   TB2   | 29-06-2026 |   Mel Andree, Orellana Rodriguez    |                                                Desarrollo del IAM para el login                                                |
+|   TB2   | 29-06-2026 |   Mel Andree, Orellana Rodriguez    |                                                    Desarrollo del Sprint 4                                                     |
+|   TB2   | 29-06-2026 |   Mel Andree, Orellana Rodriguez    |                                                    Corrección del Sprint 3                                                     |
+|   TB2   | 30-06-2026 |     Rocca Leon, Anhelo Rodrigo      | Actualización del Project Report Collaboration Insights, Student Outcome, registro de versiones y sección video-about-the-team |
+|   TB2   | 30-06-2026 |     Rocca Leon, Anhelo Rodrigo      |                          Adición de una sección mas explicativa para el diagrama de la base de datos                           |
+|   TB2   | 30-06-2026 |     Rocca Leon, Anhelo Rodrigo      |                                              Adición de toda la sección de Anexos                                              |
+
+
+
+
+
+
 
 </div>
 
@@ -170,19 +188,27 @@ El uso de repositorios específicos por subcomponente también contribuyó a man
 
 A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
 
-#### Link del repositorio del Reporte: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
-#### Link del repositorio de la Landing Page:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+#### Link del Repositorio del Reporte: [Repositorio del Informe](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
+#### Link del Repositorio de la Landing Page:  [Repositorio del Landing](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+#### Link del Repositorio del Frontend:  [Repositorio del Frontend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp)
+#### Link del Repositorio del Backend:  [Repositorio del Backend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
+
+A continuación, se detallan los Link de lo Desarrollado:
+
+#### Link de la Landing Page:  [Link de la Landing Page](https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/)
+#### Link de la Plataforma Web:  [Link de la App Web](https://safeflow0.netlify.app/login)
+
 
   <br>
 
-| Integrante | Tareas Asignadas |
-|------------|------------------|
-| Mel Andree Orellana Rodriguez |Backend development of the Analytics module, Backend development of the Monitoring module, Development of the Backend base project structure, Task organization for AV2, Development of the Social Work video (Part 1), Project conceptual idea, Startup description, Creation of the image folder, Development of User Stories, Competitors, Creation of branches in repositories, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creation of the Landing Page structure, Strategies and tactics against competitors, Sprint 1, Creation of SafeFlow implementations, Landing Page update with connection to the SafeFlow Web App, Creation of branches for safeflow-webapp, Implementation of MockAPI, Task coordination for the frontend, Implementation of the Analytics Bounded Context, Implementation of the Monitoring Bounded Context  |
-|  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
-| Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2  |
-| Andy Alejandro Mio Mejia    | Elaboración del registro y análisis de las entrevistas a usuarios, creación de las versiones iniciales de Empathy Maps y User Personas, diseño del User Journey Mapping y de la User Task Matrix en sus primeras iteraciones, optimización y actualización de los wireframes y mockups para el SignUp Authentication Flow, refinamiento del Bounded Context Shared, mejora y ajuste de los mockups y wireframes del módulo de Alerts, actualización general de los Web Applications Wireframes, control de consistencia y alineación entre mockups y wireframes, desarrollo técnico en el Backend del módulo de Alerts junto con la configuración de su deployment, ejecución de Validation Interviews con su respectivo registro, y producción de la quinta parte del video del Trabajo Social. |
-| Jefferson Bayron Morales Yapuchura    |  Desarrollo de registro de entrevistas, Desarrollo de análisis de entrevistas, Desarrollo de la primera versión de Empathy Maps, Desarrollo de la primera versión de User Personas, Desarrollo de la primera versión de User Journey Mapping, Desarrollo de la primera versión de User Task Matrix, Actualización y mejora de wireframes (SignUp Authentication Flow), Actualización y mejora de mockups (SignUp Authentication Flow), Actualización y mejora de Bounded Context Shared, Actualización y refinamiento de mockups (Alerts), Actualización y refinamiento de wireframe (Alerts), Actualización de Web Applications Wireframes, Coordinación y revisión de consistencia entre mockups y wireframe, Desarrollo en el Backend el Módulo de Alerts, Desarrollo el deployment del Backend, Desarrollo Validation Interviews, Desarrollo registro de entrevistas, Desarrollo del Video del Trabajo Social (Parte 5). |
-</td>
+| Integrante | Tareas Asignadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mel Andree Orellana Rodriguez | Backend development of the Analytics module, Backend development of the Monitoring module, Development of the Backend base project structure, Task organization for AV2, Development of the Social Work video (Part 1), Project conceptual idea, Startup description, Creation of the image folder, Development of User Stories, Competitors, Creation of branches in repositories, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creation of the Landing Page structure, Strategies and tactics against competitors, Sprint 1, Creation of SafeFlow implementations, Landing Page update with connection to the SafeFlow Web App, Creation of branches for safeflow-webapp, Implementation of MockAPI, Task coordination for the frontend, Implementation of the Analytics Bounded Context, Implementation of the Monitoring Bounded Context, Desarrollo del IAM para el login, Desarrollo del Sprint 4,  Corrección del Sprint 3 |
+|  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2, Búsqueda y pago del MockAPI, Implementación del Bounded Context logistics en el frontend de SafeFlow, Desarollo del mockup y wireframe del bounded context logistics, Desarrollo del mockup y wireframe del bounded context monitoring, Desarrollo del Backend el modulo de Logistics, Desarrollo de uno de los videos para el trabajo Social Responsibility, Desarrollo de uno del video About-The-Team, Desarrollo parcial del cápitulo 5.2.3.4 Development Evidence for Sprint Review |
+| Andy Alejandro Mio Mejia    | Elaboración del registro y análisis de las entrevistas a usuarios, creación de las versiones iniciales de Empathy Maps y User Personas, diseño del User Journey Mapping y de la User Task Matrix en sus primeras iteraciones, optimización y actualización de los wireframes y mockups para el SignUp Authentication Flow, refinamiento del Bounded Context Shared, mejora y ajuste de los mockups y wireframes del módulo de Alerts, actualización general de los Web Applications Wireframes, control de consistencia y alineación entre mockups y wireframes, desarrollo técnico en el Backend del módulo de Alerts junto con la configuración de su deployment, ejecución de Validation Interviews con su respectivo registro, y producción de la quinta parte del video del Trabajo Social.                                                                                                                                                                                                                                   |
+| Jefferson Bayron Morales Yapuchura    | Desarrollo de registro de entrevistas, Desarrollo de análisis de entrevistas, Desarrollo de la primera versión de Empathy Maps, Desarrollo de la primera versión de User Personas, Desarrollo de la primera versión de User Journey Mapping, Desarrollo de la primera versión de User Task Matrix, Actualización y mejora de wireframes (SignUp Authentication Flow), Actualización y mejora de mockups (SignUp Authentication Flow), Actualización y mejora de Bounded Context Shared, Actualización y refinamiento de mockups (Alerts), Actualización y refinamiento de wireframe (Alerts), Actualización de Web Applications Wireframes, Coordinación y revisión de consistencia entre mockups y wireframe, Desarrollo en el Backend el Módulo de Alerts, Desarrollo el deployment del Backend, Desarrollo Validation Interviews, Desarrollo registro de entrevistas, Desarrollo del Video del Trabajo Social (Parte 5).                                                                                                        |
+
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
@@ -198,7 +224,28 @@ Los integrantes son:
 
   </br>
 
-<div align="center"><img src="assets/student-profile/commit.png" alt="evidencia" width="1100" /> </div> 
+### Github Collaboration  Informe
+
+<div align="center"><img src="assets/student-profile/collaboration 1.png" alt="collaboration 1" width="700" />  </div>        
+
+
+### Github Collaboration  Landing
+
+<div align="center"><img src="assets/student-profile/collaboration 2.png" alt="collaboration 2" width="700" />  </div>        
+
+
+### Github Collaboration  Frontend
+
+<div align="center"><img src="assets/student-profile/collaboration 3.png" alt="collaboration 3" width="700" />  </div>        
+
+### Github Collaboration  Backend
+
+<div align="center"><img src="assets/student-profile/collaboration 4.png" alt="collaboration 4" width="700" />  </div>        
+
+
+
+
+
 
 # Contenido
 
@@ -295,6 +342,33 @@ Los integrantes son:
     - [5.2.1.6. Services Documentation](#5216-services-documentation)
     - [5.2.1.7. Software Deployment Evidence](#5217-software-deployment-evidence)
     - [5.2.1.8. Team Collaboration Insights](#5218-team-collaboration-insights)
+ - [5.2.2 Sprint 2](#522-sprint-2)
+    - [5.2.2.1. Sprint Planning](#5221-sprint-planning)
+    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+    - [5.2.2.3. Sprint Backlog](#5223-sprint-backlog)
+    - [5.2.2.4. Development Evidence](#5224-development-evidence)
+    - [5.2.2.5. Execution Evidence](#5225-execution-evidence)
+    - [5.2.2.6. Services Documentation](#5226-services-documentation)
+    - [5.2.2.7. Software Deployment Evidence](#5227-software-deployment-evidence)
+    - [5.2.2.8. Team Collaboration Insights](#5228-team-collaboration-insights)
+ - [5.2.3 Sprint 3](#523-sprint-3)
+    - [5.2.3.1. Sprint Planning](#5231-sprint-planning)
+    - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+    - [5.2.3.3. Sprint Backlog](#5233-sprint-backlog)
+    - [5.2.3.4. Development Evidence](#5234-development-evidence)
+    - [5.2.3.5. Execution Evidence](#5235-execution-evidence)
+    - [5.2.3.6. Services Documentation](#5236-services-documentation)
+    - [5.2.3.7. Software Deployment Evidence](#5237-software-deployment-evidence)
+    - [5.2.3.8. Team Collaboration Insights](#5238-team-collaboration-insights)
+ - [5.2.4 Sprint 4](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning](#5241-sprint-planning)
+    - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog](#5243-sprint-backlog)
+    - [5.2.4.4. Development Evidence](#5244-development-evidence)
+    - [5.2.4.5. Execution Evidence](#5245-execution-evidence)
+    - [5.2.4.6. Services Documentation](#5246-services-documentation)
+    - [5.2.4.7. Software Deployment Evidence](#5247-software-deployment-evidence)
+    - [5.2.4.8. Team Collaboration Insights](#5248-team-collaboration-insights) 
  - [5.3. Validation Interviews](#53-validation-interviews)
    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -336,16 +410,22 @@ Los integrantes son:
             Realice los diseños de los dashboard del bounded context inventory y reporting en figma, asi mismo en la programación de los mencionados bounded context que me tocaron realizar, participe activamente en la comunicación con el grupo y fomentando avances del proyecto.</li>
             <li><b>AV2 - Angel Guillermo, Berrospi Marin:</b> 
             Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejmplo la estructura de diseño de entrevistas, entrevistas y coordinaciones que ayudaron en el avance del trabajo y su culminación.</li>
+            <li><b>TB2 - Angel Guillermo, Berrospi Marin:</b> 
+            Realice las correciones indicadas en el proyecto, del mismo modo coordine con mi grupo la manera en que se iban a realizar las correcciones, de esa forma pude entablar la comunicación y el control del flujo del trabajo, culminando con la correcciones realizadas.</li>
             <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
            <li><b>TB1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en el desarrollo de SafeFlow mediante la implementación y organización de la aplicación web, colaborando en la conexión de la landing page con el frontend principal. Participé en la creación y gestión de ramas del repositorio safeflow-webapp, en la implementación del MockAPI y en el desarrollo de los bounded contexts Analytics y Monitoring. Además, apoyé en la coordinación de tareas del frontend para asegurar el cumplimiento de los objetivos del proyecto y mantener una comunicación efectiva dentro del equipo.</li>
-                  <li><b>AV2 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en el desarrollo del backend de SafeFlow mediante el diseño e implementación de la base de datos relacional, asegurando la correcta persistencia y estructura de los datos del sistema. Participé en el desarrollo de las APIs REST para conectar la lógica del lado del servidor con el frontend, trabajando en la arquitectura de los servicios y en la configuración del entorno de despliegue. Además, apoyé en la gestión del repositorio del backend y en la coordinación de tareas técnicas para asegurar el cumplimiento de los objetivos y una integración eficiente del proyecto.</li>
+        <li><b>AV2 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en el desarrollo del backend de SafeFlow mediante el diseño e implementación de la base de datos relacional, asegurando la correcta persistencia y estructura de los datos del sistema. Participé en el desarrollo de las APIs REST para conectar la lógica del lado del servidor con el frontend, trabajando en la arquitectura de los servicios y en la configuración del entorno de despliegue. Además, apoyé en la gestión del repositorio del backend y en la coordinación de tareas técnicas para asegurar el cumplimiento de los objetivos y una integración eficiente del proyecto.</li>
+         <li>TB2 - Mel Andre, Orellana Rodriguez: Contribuí activamente en la corrección y mejora de la documentación del proyecto, realizando la integración de la carátula, la actualización del registro de versiones del informe y la corrección de enlaces tanto en la documentación como en los archivos HTML. Asimismo, organicé los recursos gráficos en la carpeta `assets` e integré imágenes relevantes dentro de la documentación. Además, apoyé en la revisión general del entregable para asegurar la consistencia, calidad y correcta navegación entre los distintos recursos del proyecto.</li>
            <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
           <li><b>TB1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas..</li>
-            <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
+            <li><b>AV2 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
+            <li><b>TB2 - Anhelo Rodrigo, Rocca Leon:</b>Para esta última entrega, realice las correcciones y actualizaciones que me fueron encargadas por mi equipo. Asimismo, participe activamente en las reuniones programas y coordine las tareas restantes mediante mensajes de texto.</li>
             <li><b>AV1 - Andy Alejandro, Mio Mejia:</b> Completé las tareas de diseño de producto asignadas y comuniqué mi progreso de manera efectiva en cada etapa. Además, contribuí en tareas adicionales para fortalecer la identidad visual y estructural del proyecto. Mi aporte ayudó a materializar la interfaz y la experiencia de usuario de Safeflow, definiendo desde los lineamientos de estilo y la arquitectura de información hasta el diseño detallado de los wireframes y mock-ups para la landing page y las aplicaciones web.</li>
              <li><b>TB1 - Andy Alejandro, Mio Mejia:</b>
             Realicé la actualización y refinamiento integral de mockups y wireframes para los bounded contexts Analytics y SignUp, mejorando la consistencia visual y la experiencia del usuario. Llevé a cabo la revisión y corrección exhaustiva de User Stories, incluyendo la validación de criterios de aceptación y la alineación con los requisitos del proyecto. Corregí y mejoré el Lean UX Canvas validando hipótesis y asegurando coherencia con los objetivos del producto. Participé activamente en la coordinación del equipo, asegurando que los diseños, wireframes y documentación estuvieran alineados.</li>
             <li><b>AV2 - Andy Alejandro Mio Mejia:</b> Me alineé a la planificación y metas del sprint para asegurar que el proyecto avanzara de manera organizada y se cumplieran los entregables establecidos. Cumplí con los objetivos principales del equipo al desarrollar el backend correspondiente al Bounded Context de Inventory y ejecutar con éxito el despliegue (deployment) del backend y de la base de datos en Azure. Asimismo, aporté al cumplimiento de los entregables mediante la realización del Trabajo Social asignado. Finalmente, estas actividades permitieron consolidar la entrega del proyecto dentro de los plazos establecidos de forma estructurada.</li>
+            <li><b>TB2 - Mio Mejia, Andy Alejandro:</b> 
+            Coordiné y ejecuté la recopilación de las evidencias de desarrollo para el Sprint Review (KAN-108) y la actualización del Registro de Versiones del informe (KAN-109), asegurando el control de los cambios del proyecto. Asimismo, gestioné el análisis de colaboración del equipo en la sección 'Project Report Collaboration Insights' (KAN-110) y la redacción de la sección de 'Student Outcome' (KAN-111). En el aspecto técnico y de calidad, incluí la documentación técnica detallada en el archivo README.md del repositorio de safeflow-webapp (KAN-113) y realicé la verificación final de la calidad del entregable, asegurando que todos los hipervínculos y URLs funcionaran correctamente tanto en el archivo Word como en el PDF final (KAN-114). Con estas acciones, contribuí directamente a la gestión del proyecto, la transparencia del trabajo en equipo y la calidad del producto final</li>
             <li><b>AV1 - Jefferson Bayron, Morales Yapuchura:</b> Apoyé el liderazgo del grupo dirigiendo la estructuración del perfil de nuestros usuarios. A través de la creación de la primera version de user personas, empathy maps, user journey maps, la user task matrix y el desarollo de 4 entrevistas, proporcioné las bases necesarias para que el equipo pudiera trabajar de manera conjunta y enfocada, guiando el desarrollo funcional y visual del proyecto. </li>
         <li><b>TB1 - Jefferson Bayron, Morales Yapuchura:</b> Llevé a cabo el desarrollo, registro y análisis de 4 entrevistas a los segmentos objetivo para validar los requisitos del producto. Realicé la actualización y mejora de los wireframes de la aplicación web, así como el refinamiento de los wireframes y mockups para los flujos de SignUp Authentication y el sistema de Alerts, optimizando la experiencia de usuario. Asimismo, colaboré en la actualización y desarrollo del Bounded Context Shared a nivel arquitectónico y de dominio. Adicionalmente, apoyé en las tareas de coordinación interna para asegurar la consistencia entre los entregables de diseño, wireframes y la documentación del equipo.</li>
         <li><b>AV2 - Jefferson Bayron Morales Yapuchura:</b> Participé activamente en la toma de decisiones técnicas y de validación para mantener una dirección clara en el avance del proyecto. Contribuí en el desarrollo del backend mediante la implementación del módulo de Alerts y ejecuté con éxito el despliegue (deployment) de la arquitectura del lado del servidor. Asimismo, apoyé en la organización de la fase de descubrimiento llevando a cabo y registrando las Validation Interviews con el segmento objetivo. Adicionalmente, coordiné con el equipo de forma progresiva para la estructuración y desarrollo del material audiovisual, encargándome del Video del Trabajo Social (Parte 5) para asegurar una entrega alineada y constante.</li>
@@ -366,15 +446,22 @@ El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del 
             En todo momento fomente la comunicación para tener un buen desarrollo del trabajo y las mejoras que requeria, del mismo modo cumpli con las tareas que se me asignaron en el tiempo que se designo, ayude tanto en la documentación cómo en el desarrollo del frontend.</li>
             <li><b>AV2 - Angel Guillermo Berrospi Marin:</b>
             Activamente fui participe en el desarrollo del trabajo, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la culminación del proyecto.</li>
+            <li><b>TB2 - Angel Guillermo Berrospi Marin:</b>
+            Participe en el desarrollo de las correcciones del trabajo, realizando tareas cómo el desarrollo de versiones del informe, verificar que los links tengan disponibilidad, del mismo modo establecí los tiempos en que debía terminar mis tareas asignadas y de ese modo pude desempeñar un buen rendimiento para la culminación del proyecto.</li>          
             <li><b>AV1 - Andy Alejandro Mio Mejia:</b> Participé activamente en la planificación y el diseño de la interfaz del proyecto, así como en todas las reuniones de equipo programadas. Me aseguré de mantener un ambiente colaborativo y respetuoso con mis compañeros, garantizando que el desarrollo de los lineamientos de estilo, la arquitectura de información y los prototipos de Safeflow cumplieran estrictamente con las metas de calidad y los plazos establecidos por el equipo.</li>
             <li><b>TB1 - Andy Alejandro, Mio Mejia:</b>
             Fomenté comunicación constante con el equipo para asegurar la alineación en los diseños y requisitos del proyecto. Establecí metas claras para la revisión de User Stories y el refinamiento de mockups, cumpliendo con los plazos establecidos. Coordiné las mejoras necesarias en el Lean UX Canvas con el feedback del equipo, contribuyendo a que los objetivos de TB1 se lograran de manera organizada y eficiente. Participé activamente en las reuniones del sprint y contribuí en la documentación del desarrollo.</li>
             <li><b>AV2 - Andy Alejandro Mio Mejia:</b> Me alineé a la planificación y metas del sprint para asegurar que el proyecto avanzara de manera organizada y se cumplieran los entregables establecidos. Cumplí con los objetivos principales del equipo al desarrollar el backend correspondiente al Bounded Context de Inventory y ejecutar con éxito el despliegue (deployment) del backend y de la base de datos en Azure. Asimismo, aporté al cumplimiento de los entregables mediante la realización del Trabajo Social asignado. Finalmente, estas actividades permitieron consolidar la entrega del proyecto dentro de los plazos establecidos de forma estructurada.</li>
+            <li><b>TB2 - Mio Mejia, Andy Alejandro:</b> 
+            Coordiné y ejecuté la recopilación de las evidencias de desarrollo para el Sprint Review (KAN-108) y la actualización del Registro de Versiones del informe (KAN-109), asegurando el control de los cambios del proyecto. Asimismo, gestioné el análisis de colaboración del equipo en la sección 'Project Report Collaboration Insights' (KAN-110) y la redacción de la sección de 'Student Outcome' (KAN-111). En el aspecto técnico y de calidad, incluí la documentación técnica detallada en el archivo README.md del repositorio de safeflow-webapp (KAN-113) y realicé la verificación final de la calidad del entregable, asegurando que todos los hipervínculos y URLs funcionaran correctamente tanto en el archivo Word como en el PDF final (KAN-114). Con estas acciones, contribuí directamente a la gestión del proyecto, la transparencia del trabajo en equipo y la calidad del producto final</li>
             <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
           <li><b>TB1 - Mel Andre Orellana Rodriguez:</b> Fomenté un ambiente colaborativo dentro del equipo durante el desarrollo de SafeFlow, promoviendo la participación activa y el cumplimiento de responsabilidades en las tareas del frontend. Me enfoqué en coordinar actividades relacionadas con la implementación de la aplicación web, la integración de la landing page, el desarrollo del MockAPI y los bounded contexts Analytics y Monitoring. Además, apoyé en la organización del repositorio y en la alineación de los objetivos del proyecto para asegurar un desarrollo eficiente y ordenado.</li>
     <li><b>AV2 - Mel Andre Orellana Rodriguez:</b> Fomenté un ambiente colaborativo dentro del equipo durante el desarrollo del backend de SafeFlow, coordinando el diseño e implementación de la base de datos relacional y asegurando la persistencia de los datos. Me enfoqué en liderar la arquitectura del lado del servidor, el desarrollo de las APIs REST para conectar los módulos principales y la lógica de negocio de los bounded contexts. Asimismo, apoyé en la gestión de migraciones, la configuración de variables de entorno y el despliegue del backend para garantizar una integración limpia y eficiente con el frontend.</li>
+                  <li>TB2 - Mel Andre, Orellana Rodriguez: Promoví un entorno colaborativo e inclusivo dentro del equipo mediante la coordinación constante de actividades y la comunicación efectiva entre los integrantes. Participé en la planificación y seguimiento de las tareas asignadas para las correcciones finales del proyecto, estableciendo prioridades y asegurando el cumplimiento de los objetivos planteados. Asimismo, colaboré en la revisión integral de la documentación y del producto, contribuyendo al cumplimiento oportuno de los entregables y a la calidad final del proyecto.</li>
             <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
             <li><b>TB1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en la comunicación mediante mensajes de texto. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
+            <li><b>AV2 - Anhelo Rodrigo Rocca Leon:</b>Para esta entrega, colabore en la estructura definida para los avances del backend de SafeFlow y mantuve el ambiente de respeto. Asimismo, me comunique con mi equipo en los momentos que tuve dudas sobre mis tareas asignadas, </li>       
+            <li><b>TB2 - Anhelo Rodrigo Rocca Leon:</b>Para esta última entrega, colabore en las correcciones y actualizaciones del informe para tenerlo listo antes de la fecha de entrega. Acabé con mis tareas asignadas a tiempo y se los comunique a mis compañeros. Por último, al igual que en la mayoría de entregas pasadas mantuve un ambiente colaborativo, respetuoso y cumplí objetivos.</li>
             <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
         <li><b>TB1 - Jefferson Bayron Morales Yapuchura:</b> Establecí metas individuales de diseño y análisis de requerimientos que facilitaron el avance ordenado del proyecto. Cumplí con la planificación al desarrollar, registrar y analizar detalladamente las 4 entrevistas de validación con los usuarios. Asimismo, ejecuté la actualización de los wireframes de la aplicación web y el refinamiento de mockups para los flujos de SignUp y Alerts. Además, apoyé en la coordinación interna y en la evolución del Bounded Context Shared, adaptándome a la planificación general para asegurar que los entregables se completaran de manera organizada. </li>
         <li><b>AV2 - Jefferson Bayron Morales Yapuchura:</b> Me alineé a la planificación y metas del sprint para asegurar que el proyecto avanzara de manera organizada a pesar de las diferencias en los ritmos de trabajo. Cumplí con los objetivos principales del equipo al desarrollar el backend del módulo de Alerts y ejecutar con éxito el despliegue (deployment) del servidor. Asimismo, aporté al cumplimiento de los entregables mediante la realización y registro de las Validation Interviews para validar las soluciones con los usuarios. Finalmente, completé la producción del material audiovisual asignado mediante el desarrollo del Video del Trabajo Social (Parte 5), logrando consolidar la entrega en los plazos establecidos de forma estructurada.</li>
@@ -406,40 +493,40 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 ### 1.1.2. Perfiles de integrantes del equipo
 
 
-| *Integrante*            |         |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U202116018          |
-| *Carrera*               | Ingeneria de Software         |
-| *Descripción*           | Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario.    |
-| Foto                      | <div align="center"><img src="assets/chapter-01/foto-andree.jpg" alt="Integrante Mel" width="400" /> </div>         |
+| *Integrante*            |                               Andre Orellana                                  |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202116018                                                                    |
+| *Carrera*                | Ingeneria de Software                                                         |
+| *Descripción*            | Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario. |
+| Foto                     | <img src="assets/chapter-01/foto-andree.jpg" alt="Integrante Andre" width="180" /> |
 
-| *Integrante*            |            |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U202114701      |
-| *Carrera*               | Ingenieria de Software           |
-| *Descripción*           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.           |
-| Foto                      | <div algin="center"><img src="assets/chapter-01/Angel_Berrospi_Profile.jpg" alt="Integrante Angel" width="400" />  </div>        |
+| *Integrante*            |                               Angel Berrospi                                  |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202114701                                                                    |
+| *Carrera*                | Ingenieria de Software                                                        |
+| *Descripción*            | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto. |
+| Foto                     | <img src="assets/chapter-01/Angel_Berrospi_Profile.jpg" alt="Integrante Angel" width="180" /> |
 
-| *Integrante*            | Anhelo Rocca                                                                                                                                                                                                                                                          |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U20221C803                                                                                                                                                                                                                                                            |
-| *Carrera*               | Ingeniería de Software                                                                                                                                                                                                                                                |
-| *Descripción*           | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
-| Foto                      | <div align="center"><img src="assets/chapter-01/Anhelo_Foto.jpeg">                                                                                                                                                                                                    |
+| *Integrante* |                               Anhelo Rocca                                    |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante* | U20221C803                                                                    |
+| *Carrera* | Ingeniería de Software                                                        |
+| *Descripción* | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
+| Foto                     | <img src="assets/chapter-01/Anhelo_Foto.jpeg" alt="Integrante Anhelo" width="180" /> |
 
-| *Integrante*            | Jefferson Morales           |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* | U202316049           |
-| *Carrera*               | Ingenieria de Software           |
-| *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
-| Foto                      | <div algin="center"><img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="400" />  </div>           |
+| *Integrante*            |                               Jefferson Morales                               |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202316049                                                                    |
+| *Carrera*                | Ingenieria de Software                                                        |
+| *Descripción*            | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes. |
+| Foto                     | <img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="180" /> |
 
-| *Integrante*            |       Andy Alejandro Mio Mejia     |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |     U202218531       |
-| *Carrera*               |     Ingenieria de Software       |
-| *Descripción*           |       Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación     |
-| Foto                      |     <div align="center"><img src="assets/chapter-01/foto-Andy.jpeg">        |
+| *Integrante*            |                               Andy Alejandro Mio Mejia                        |
+|:-------------------------|:-----------------------------------------------------------------------------:|
+| *Código del Estudiante*  | U202218531                                                                    |
+| *Carrera*                | Ingenieria de Software                                                        |
+| *Descripción*            | Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación |
+| Foto                     | <img src="assets/chapter-01/foto-Andy.jpeg" alt="Integrante Andy" width="180" /> |
 
 
 ## 1.2. Solution Profile
@@ -537,7 +624,7 @@ Confiamos en que al automatizar el cambio de estado del despacho basado en datos
 #### 1.2.2.4. Lean UX Canvas
 El Lean UX Canvas presenta de manera visual y estructurada los principales elementos estratégicos del producto propuesto. En este canvas se resumen los problemas identificados en la gestión de la cadena de frío, los usuarios involucrados, las necesidades del negocio, las hipótesis planteadas, las funcionalidades principales y los resultados esperados. Asimismo, permite organizar las ideas centrales de la solución tecnológica enfocada en el monitoreo en tiempo real, la trazabilidad y la prevención de incidencias en productos sensibles a variaciones de temperatura.
 
- <div align="center"><img src="assets/chapter-01/Lean UX canvas mejorado.png" alt="Lean Ux Canvas" width="400" /> </div>
+ <div align="center"><img src="assets/chapter-01/Lean UX canvas mejorado.png" alt="Lean Ux Canvas" width="900" /> </div>
 
 ## 1.3. Segmentos objetivo
 
@@ -844,8 +931,8 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 1:15
 - **Duración:** 7:54
-- **URL:** https://youtu.be/v0ob7pnyQcw
-
+- **URL:** [Enlace de Entrevista](https://youtu.be/v0ob7pnyQcw)
+  
 **Resumen:**
 Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia en el sector farmacéutico. Su gestión se centra en garantizar que productos críticos (vacunas e insulinas) se mantengan estrictamente entre 2°C y 8°C. Actualmente, enfrenta una grave falta de visibilidad durante el transporte, calificándolo como una "caja negra" donde solo detecta fallos post-mortem mediante la descarga manual de dataloggers.
 
@@ -860,7 +947,7 @@ Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta
 
 - **Inicio:** 00:00
 - **Duración:** 09:30
-- **URL:** https://youtu.be/ffD4qivNFuk
+- **URL:** [Enlace de Entrevista](https://youtu.be/ffD4qivNFuk)
 
 **Resumen:**
 Marlon es un Analista de Aseguramiento de la Calidad con 4 años de experiencia en el sector farmacéutico. Su gestión se centra en asegurar que los productos críticos cumplan con la normativa sanitaria manteniéndolos entre 2°C y 8°C. Actualmente, enfrenta una falta de monitoreo en la nube, calificando el proceso de transporte como una "caja negra total" , donde solo puede hacer un análisis post-mortem mediante la descarga manual de dataloggers físicos a través de USB.  
@@ -877,7 +964,7 @@ Esta falta de visibilidad causó anteriormente la pérdida de un lote valorizado
 
 - **Inicio:** 00:00
 - **Duración:** 07:32
-- **URL:** https://youtu.be/ZWq9LLy3t9c
+- **URL:** [Enlace de Entrevista](https://youtu.be/ZWq9LLy3t9c)
 
 **Resumen:**
 El entrevistado es un Jefe de Aseguramiento de la Calidad de 26 años con 3 años de experiencia en el sector farmacéutico. Su responsabilidad absoluta es garantizar la integridad biológica de productos críticos manteniéndolos entre 2°C y 8°C para cumplir con la normativa de DIGEMID. Siendo un profesional netamente analítico, su mayor debilidad actual es que el transporte es una "caja negra" sin monitoreo en la nube. Al depender de dataloggers físicos, las fallas se detectan de forma post-mortem tras descargar la información por USB, reaccionando cuando el producto ya está perdido. Esta situación ha ocasionado pérdidas de hasta 50 mil dólares y severos daños reputacionales en el pasado , además de generarle un proceso caótico de 2 a 3 días de trabajo para consolidar evidencias en auditorías. Considera como "no negociable" la integridad inalterable de los datos para respaldar las operaciones ante el Ministerio de Salud. Priorizaría un dashboard con "Alertas Críticas Activas" y proyecta que reducir las mermas en un 20% impactaría directa y positivamente en sus KPIs y bonos de desempeño.
@@ -898,7 +985,7 @@ El entrevistado es un Jefe de Aseguramiento de la Calidad de 26 años con 3 año
 
 - **Inicio:** 1:30
 - **Duración:** 05:47
-- **URL:** https://youtu.be/aeB15YUm4ok
+- **URL:** [Enlace de Entrevista](https://youtu.be/aeB15YUm4ok)
 
 **Resumen:**
 Maria es una Supervisora de Operaciones y Flota de 28 años que gestiona la logística de transporte especializado. Su flujo de trabajo actual es altamente dependiente de herramientas informales (pizarras acrílicas y fotos por WhatsApp), lo que genera un desorden administrativo y falta de control sobre la carga. Su mayor problema es la vulnerabilidad ante reclamos de clientes, ya que no cuenta con pruebas digitales en tiempo real para demostrar que el frío se mantuvo correctamente durante la ruta, dependiendo de la vista del conductor sobre visores externos.
@@ -916,7 +1003,7 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 
 - **Inicio:** 0:10
 - **Duración:** 10:11
-- **URL:** https://youtu.be/w3bmDZ1fEZ8
+- **URL:** [Enlace de Entrevista](https://youtu.be/w3bmDZ1fEZ8)
 
 **Resumen:**
 Silvia es una Jefa de Operaciones de 52 años con formación universitaria que lidera la logística de transporte de carga de terceros de alto valor. Su flujo de trabajo actual es un modelo híbrido que aún depende fuertemente de la gestión manual: planifica rutas en Excel, coordina entregas por WhatsApp y depende de que los conductores envíen fotos de guías físicas y sellos para confirmar la recepción.
@@ -933,7 +1020,7 @@ Silvia busca una transición hacia una operación 100% digital que sea vista com
 
 - **Inicio:** 00:00
 - **Duración:** 08:33
-- **URL:** https://youtu.be/6a17Hf1BH-g
+- **URL:** [Enlace de Entrevista](https://youtu.be/6a17Hf1BH-g)
 
 **Resumen:**
 El entrevistado es un Supervisor de Operaciones y Flota de 26 años. Su gestión se centra en coordinar los despachos diarios, supervisar a los conductores en ruta y asegurar que la carga llegue en buenas condiciones. Actualmente, enfrenta un proceso altamente manual y dependiente de WhatsApp, Excel y guías de remisión físicas en papel para gestionar las entregas y reportar incidencias. Señala que los conductores, quienes presentan resistencia a aplicaciones complejas, carecen de alertas de temperatura en la cabina, lo que convierte el tránsito en una "caja negra" y ocasiona que los problemas se detecten demasiado tarde. Esta falta de evidencia digital en tiempo real los deja vulnerables ante reclamos de clientes y penalidades. A nivel administrativo, su equipo pierde unas 5 horas semanales descargando datos manualmente desde USBs. Valora la implementación de un mapa interactivo con alertas automáticas de texto para mejorar la visibilidad y recuperar competitividad , enfatizando que la solución debe ser tan sencilla e intuitiva como WhatsApp para lograr la adopción por parte de los conductores.
@@ -974,11 +1061,12 @@ El entrevistado es un Supervisor de Operaciones y Flota de 26 años. Su gestión
 
 #### Segmento 1 Jefe de Aseguramiento de Calidad
 
-<img src="assets/chapter-02/User_Persona_Sebastian Mendoza.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Persona_Sebastian Mendoza.png" alt="User Segmento 1" width="550" /> </div>
+
 
 #### Segmento 2 Supervisora de Operaciones y Flota
 
-<img src="assets/chapter-02/User_Persona_Maria Ruiz.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Persona_Maria Ruiz.png" lt="User Segmento 2" width="550" /> </div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1004,21 +1092,21 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 #### Segmento 1  Gestor de Aseguramiento de Calidad
 
-<img src="assets/chapter-02/User_Journey_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Journey_Mapping_Gestores de Aseguramiento de Calidad.png" alt="User Journey Segmento 1" width="550" /> </div>
 
 #### Segmento 2 Supervisor de Operaciones y Flota
 
-<img src="assets/chapter-02/User_Journey_Mapping_Supervisor de Operaciones y Flota.png"/>
+<div align="center"> <img src="assets/chapter-02/User_Journey_Mapping_Supervisor de Operaciones y Flota.png" alt="User Journey Segmento 2" width="550" /> </div>
 
 ### 2.3.4. Empathy Mapping
 
 ####  Gestores de Aseguramiento de Calidad
 
-<img src="assets/chapter-02/Empathy_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+<div align="center"> <img src="assets/chapter-02/Empathy_Mapping_Gestores de Aseguramiento de Calidad.png" alt="Gestor de Aseguramiento de Calidad" width="550" /> </div>
 
 ####  Supervisores de Operaciones y Flota
 
-<img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png"/>
+<div align="center"> <img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png" alt="Supervisor de Operaciones y Flota" width="550" /> </div>
 
 
 ## 2.4. Big Picture EventStorming.
@@ -1617,28 +1705,29 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
  junto con la propuesta de valor, botón preeliminar para visualizar la demo de nuestra web y para agendar reunión con nosotros, y el impacto que puede nuestra
 solución tener en el área laboral de nuestros clientes.</div>
 
-<div align="center"> <img src="assets/chapter-04/hero-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/hero-mockup.png" alt="Section Overview" width="550" /> </div>
 
 ### 2. Operational Flow and Key Benefits
 
 <div align="center">Mockup detallado que ilustra las principales características de SafeFlow, como este funciona de forma breve 
 y las tecnologías que componieron el desarrollo de la solución.</div>
 
-<div align="center"> <img src="assets/chapter-04/fuctionality-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/fuctionality-mockup.png" alt="Operational Flow and Key Benefits" width="550" /> </div>
 
 ### 3. SafeFlow Benefits & Development Team
 
 <div align="center">Penúltima sección que muestra 3 distintos modelos de suscripción con sus detalles, ventajas que provee nuestra solución,
 el equipo de ingeniería a cargo y los principales sectores laborales beneficiados por SafeFlow.</div>
 
-<div align="center"> <img src="assets/chapter-04/benefits&team-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/benefits&team-mockup.png" alt="SafeFlow Benefits Developmet Team" width="550" /> </div>
 
 ## 4. FAQ, Contact and Footer
 
 <div align="center">Última sección de la landing page que muestra las preguntas frecuentes, el formulario de contacto y 
 el footer con información del producto</div>
 
-<div align="center"> <img src="assets/chapter-04/faq-contact-footer-mockup.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/faq-contact-footer-mockup.png" alt="FAQ Contact and Footer" width="550" /> </div>
+
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -1932,7 +2021,7 @@ componentes responsables de procesar lecturas IoT y enviar alertas.
 <img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_IoT-MessageService_Diagram.png">
 
 ##### Notification Service Component Diagram
-<img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_NotificationDispatcher-Diagram.png">
+<div align="center"> <img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_NotificationDispatcher-Diagram.png" alt="Notification Service Component Diagram" width="550" /> </div>
 
 Gracias a los modelos C4 elaborados, se logró una visión clara y estructurada de la arquitectura de software propuesta para SafeFlow,
 identificando los contenedores principales, sus responsabilidades y las interacciones entre ellos. Esta separación facilita
@@ -1968,12 +2057,252 @@ interfaces y enumeraciones, junto con atributos, métodos, visibilidad, relacion
 ##### Class Dictionary - Bounded Context: Notificaciones
 <img src="assets/chapter-04/Notification_ClassDirectory.PNG">
 
-## 4.8. Database Design
-### 4.8.1. Database Diagram
-En esta sección se elaboró el Database Diagram de SafeFlow, representando las tablas principales, sus atributos, 
-tipos de datos, claves primarias y foráneas, así como las relaciones entre ellas. El diseño se centró en la eficiencia para 
-consultas críticas de monitoreo y control de temperatura en la cadena de frío.
+## 4.8. Database Design  
+En esta sección se presenta el diseño de base de datos de SafeFlow. El diseño busca separar las entidades según su responsabilidad funcional dentro de la solución. 
+Asimismo, se han definido tablas con claves primarias y foráneas, además de relaciones explícitas entre entidades para reflejar la estructura lógica del dominio.
+En síntesis, este modelo de datos considera entidades para la gestión de productos e inventario, el monitoreo de sensores y detección de anomalías, la administración de envíos y entregas, y el módulo de notificaciones.
+
+### 4.8.1. Database Diagram  
+A continuación se explicará la distribución de los bounded context dentro del diagrama de la base de datos de SafeFlow:  
+  
+#### 1. Inventory
+Este bounded context concentra la información relacionada con los productos que maneja la plataforma, sus lotes, reglas de temperatura y el estado del inventario. 
+La entidad 'product' actúa como tabla central y almacena los datos generales de cada producto, como nombre, descripción, categoría, unidad de medida, estado de activación y marcas de auditoría.
+
+A partir de product se relacionan otras entidades que amplían su información:
+
+ - temperature_range, que define el rango térmico permitido para cada producto.
+ - product_batch, que registra los lotes de producción, fechas de producción y vencimiento, cantidad y estado.
+ - inventory_record, que almacena el nivel actual de existencias y su ubicación.
+ - threshold_rule, que establece los límites de temperatura y el tiempo crítico permitido para cada producto.
+
+Estas tablas están conectadas mediante claves foráneas hacia product, ya que de esta manera la información de lotes, inventario y reglas térmicas siempre esté asociada a un producto existente.
+#### 2. Monitoring  
+Este bounded context gestiona el registro de sensores, sus lecturas y el análisis de posibles incidentes. 
+La entidad sensor representa cada dispositivo físico instalado en una ubicación específica, incluyendo su número de serie y estado operativo.
+
+Las lecturas generadas por los sensores se almacenan en sensor_reading, donde se registra el momento de captura, la temperatura, la humedad y el estado de la lectura.
+Esta tabla se relaciona con sensor mediante una clave foránea. Además, sensor_reading se vincula con threshold_rule, lo que permite evaluar si los valores registrados se encuentran dentro de los rangos esperados para un producto determinado.
+
+Cuando una lectura supera los parámetros establecidos, puede generarse un anomaly_event, que almacena la fecha de detección, la causa y el nivel de severidad. 
+A la par, cada anomalía puede originar una alert, donde se registra el mensaje emitido, el estado de resolución, la severidad y la fecha de cierre, si corresponde.
+
+#### 3. Logistics  
+Este bounded context administra la operación logística asociada a los despachos. La entidad driver almacena la información de los conductores, incluyendo nombre completo, número de licencia, teléfono y disponibilidad.
+
+La tabla shipment representa cada envío realizado por el sistema y se relaciona con la entidad driver mediante una clave foránea, ya que asi cada despacho pueda asociarse con el conductor responsable. 
+En esta entidad se registran datos como código de seguimiento, fechas de despacho y entrega, origen, destino, duración estimada y estado del envío.
+
+Por su parte, shipment_item detalla los productos incluidos dentro de cada envío. Esta tabla se conecta con shipment y también con product_batch, 
+lo que permite rastrear exactamente qué lote fue trasladado en cada operación logística. Finalmente, delivery_confirmation almacena la confirmación de entrega, incluyendo fecha de confirmación, nombre del receptor, evidencia de entrega y estado. 
+#### 4. Notifications  
+Este bounded context centraliza la comunicación automática del sistema con sus usuarios o destinatarios. La tabla notification_template almacena plantillas reutilizables con nombre, contenido, canal de envío y marcas de auditoría. 
+
+La entidad notification_recipient registra a las personas que pueden recibir notificaciones, con datos como nombre completo, correo, teléfono y canal preferido. 
+La tabla alert_subscription permite indicar si un destinatario está suscrito o no a alertas.
+
+La entidad notification representa cada mensaje generado por el sistema y se relaciona con notification_template, notification_recipient y alert. 
+De esta manera, cada notificación queda asociada al contenido usado, al receptor y al evento que la originó. 
+
+Database Diagram:
+  
 <img src="assets/chapter-04/SafeFlow_Database_Diagram.png">
+
+
+
+# DICCIONARIO DE BASE DE DATOS
+
+### 1. Tabla: `product`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **product_id** | Clave primaria del producto | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **name** | Nombre comercial del producto | `varchar` | Texto | Entrada obligatoria |
+| **description** | Descripción detallada del producto | `text` | Texto largo | Entrada opcional |
+| **category** | Categoría del producto | `varchar` | Texto | Entrada obligatoria |
+| **unit** | Unidad de medida (ej. frasco, caja) | `varchar` | Texto | Entrada obligatoria |
+| **active** | Estado activo o inactivo del producto | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 2. Tabla: `inventory_record`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **inventory_record_id** | Clave primaria del registro de inventario | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **current_quantity** | Stock o cantidad actual disponible | `decimal` | Número decimal | Entrada obligatoria |
+| **location** | Ubicación física en el almacén | `varchar` | Texto | Entrada obligatoria |
+| **status** | Estado actual del inventario | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 3. Tabla: `threshold_rule`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **threshold_rule_id** | Clave de la regla de umbral | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **min_temperature** | Temperatura mínima permitida | `decimal` | Número decimal | Entrada obligatoria |
+| **max_temperature** | Temperatura máxima permitida | `decimal` | Número decimal | Entrada obligatoria |
+| **critical_delay_minutes** | Minutos de tolerancia permitidos | `int` | Número | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 4. Tabla: `temperature_range`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **temperature_range_id** | Clave del rango de temperatura | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **minimum_celsius** | Límite mínimo en grados Celsius | `decimal` | Número decimal | Entrada obligatoria |
+| **maximum_celsius** | Límite máximo en grados Celsius | `decimal` | Número decimal | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 5. Tabla: `product_batch`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **batch_id** | Clave primaria del lote | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **batch_code** | Código único técnico del lote | `varchar` | Texto | Entrada obligatoria |
+| **production_date** | Fecha de fabricación | `date` | Fecha | Entrada obligatoria |
+| **expiration_date** | Fecha de vencimiento del lote | `date` | Fecha | Entrada obligatoria |
+| **quantity** | Cantidad total de unidades del lote | `decimal` | Número decimal | Entrada obligatoria |
+| **status** | Estado actual del lote | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 6. Tabla: `sensor`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **sensor_id** | Clave primaria del sensor | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **serial_number** | Número de serie del hardware del sensor | `varchar` | Texto | Entrada obligatoria |
+| **location** | Ubicación o contenedor físico asignado | `varchar` | Texto | Entrada obligatoria |
+| **is_active** | Estado operativo del sensor | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 7. Tabla: `sensor_reading`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **reading_id** | Clave primaria de la lectura del sensor | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **sensor_id** | Clave del sensor que realiza la lectura | `int` | Número | Entrada obligatoria (`FK`) |
+| **threshold_rule_id** | Clave de la regla de umbral evaluada | `int` | Número | Entrada obligatoria (`FK`) |
+| **timestamp** | Fecha y hora exacta de la captura | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **temperature** | Valor de la temperatura medida | `decimal` | Número decimal | Entrada obligatoria |
+| **humidity** | Valor de la humedad medida | `decimal` | Número decimal | Entrada obligatoria |
+| **status** | Estado resultante de la lectura | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de almacenamiento | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 8. Tabla: `anomaly_event`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **anomaly_event_id** | Clave primaria de la anomalía | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **reading_id** | Clave de la lectura origen | `int` | Número | Entrada obligatoria (`FK`) |
+| **detected_at** | Fecha y hora de detección de anomalía | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **reason** | Motivo o justificación de la anomalía | `text` | Texto largo | Entrada obligatoria |
+| **severity** | Severidad de la anomalía (ej. Crítica) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 9. Tabla: `alert`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **alert_id** | Clave primaria de la alerta | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **anomaly_event_id** | Clave del evento de anomalía de origen | `int` | Número | Entrada obligatoria (`FK`) |
+| **message** | Mensaje descriptivo de la alerta | `text` | Texto largo | Entrada obligatoria |
+| **created_at** | Fecha y hora de activación de la alerta | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **resolved_at** | Fecha y hora de resolución de la alerta | `datetime` | Fecha y Hora | Entrada opcional |
+| **status** | Estado de la alerta (ej. Activa, Resuelta) | `varchar` | Texto | Entrada obligatoria |
+| **severity** | Nivel de criticidad de la alerta | `varchar` | Texto | Entrada obligatoria |
+
+### 10. Tabla: `notification_template`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **template_id** | Clave primaria de la plantilla | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **name** | Nombre identificador de la plantilla | `varchar` | Texto | Entrada obligatoria |
+| **body** | Estructura o cuerpo del mensaje | `text` | Texto largo | Entrada obligatoria |
+| **channel** | Canal de envío (ej. Email, SMS) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 11. Tabla: `notification`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **notification_id** | Clave primaria de la notificación | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **template_id** | Clave de la plantilla utilizada | `int` | Número | Entrada obligatoria (`FK`) |
+| **recipient_id** | Clave del destinatario | `int` | Número | Entrada obligatoria (`FK`) |
+| **alert_id** | Clave de la alerta asociada | `int` | Número | Entrada obligatoria (`FK`) |
+| **title** | Título de la notificación enviada | `varchar` | Texto | Entrada obligatoria |
+| **message** | Contenido definitivo del mensaje | `text` | Texto largo | Entrada obligatoria |
+| **channel** | Medio de comunicación definitivo utilizado | `varchar` | Texto | Entrada obligatoria |
+| **status** | Estado del envío (ej. Enviado, Fallido) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación de la alerta | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **sent_at** | Fecha y hora efectiva de entrega | `datetime` | Fecha y Hora | Entrada opcional |
+
+### 12. Tabla: `notification_recipient`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **recipient_id** | Clave primaria del destinatario | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **full_name** | Nombre completo de la persona | `varchar` | Texto | Entrada obligatoria |
+| **email** | Correo electrónico de contacto | `varchar` | Texto | Entrada obligatoria |
+| **phone_number** | Número telefónico o móvil | `varchar` | Texto | Entrada obligatoria |
+| **preferred_channel** | Canal preferido para recibir mensajes | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 13. Tabla: `alert_subscription`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **subscription_id** | Clave primaria de la suscripción | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **recipient_id** | Clave del destinatario registrado | `int` | Número | Entrada obligatoria (`FK`) |
+| **enabled** | Estado de habilitación de la suscripción | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 14. Tabla: `driver`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **driver_id** | Clave primaria del conductor | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **full_name** | Nombre completo del conductor | `varchar` | Texto | Entrada obligatoria |
+| **license_number** | Número de la licencia de conducir | `varchar` | Texto | Entrada obligatoria |
+| **phone_number** | Número telefónico de contacto | `varchar` | Texto | Entrada obligatoria |
+| **is_available** | Disponibilidad del conductor | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 15. Tabla: `shipment`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **shipment_id** | Clave primaria del envío | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **driver_id** | Clave del conductor asignado | `int` | Número | Entrada obligatoria (`FK`) |
+| **tracking_code** | Código único de seguimiento | `varchar` | Texto | Entrada obligatoria |
+| **dispatch_date** | Fecha y hora de salida/despacho | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **delivery_date** | Fecha y hora de entrega efectiva | `datetime` | Fecha y Hora | Entrada opcional |
+| **origin** | Almacén o dirección de origen | `varchar` | Texto | Entrada obligatoria |
+| **destination** | Dirección de destino final | `varchar` | Texto | Entrada obligatoria |
+| **estimated_duration_minutes**| Duración estimada en minutos | `int` | Número | Entrada obligatoria |
+| **status** | Estado actual del envío (ej. En ruta) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 16. Tabla: `shipment_item`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **shipment_item_id** | Clave primaria del detalle del envío | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **shipment_id** | Clave del envío asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **product_batch_id** | Clave del lote de producto cargado | `int` | Número | Entrada obligatoria (`FK`) |
+| **quantity** | Cantidad transportada en el ítem | `decimal` | Número decimal | Entrada obligatoria |
+| **temperature_requirement** | Requerimiento específico térmico | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 17. Tabla: `delivery_confirmation`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **confirmation_id** | Clave primaria de la comodidad | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **shipment_id** | Clave del envío correspondiente | `int` | Número | Entrada obligatoria (`FK`) |
+| **confirmed_at** | Fecha y hora de firma/conformidad | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **receiver_name** | Nombre de quien recibe la entrega | `varchar` | Texto | Entrada obligatoria |
+| **proof_url** | URL de la firma o foto de la entrega | `varchar` | Texto | Entrada obligatoria |
+| **status** | Estado de la confirmación | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de almacenamiento | `datetime` | Fecha y Hora | Entrada obligatoria |
+
 
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -2034,11 +2363,11 @@ En esta sección se describe la gestión del código fuente del proyecto SafeFlo
 El repositorio principal del proyecto  es el siguiente:
 
 
-- **SafeFlow Website**:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+- **SafeFlow Website**:  [Enlace del Repositorio Website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
 
-- **safeflow-platform**: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
+- **safeflow-platform**: [Enlace del Repositorio Platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
 
-- **safeflow-webapp**: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp)
+- **safeflow-webapp**: [Enlace del Reposiotrio Webapp](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp)
 
 
 Actualmente, el repositorio cuenta con múltiples ramas activas (12 branches), lo que refleja una organización estructurada del desarrollo basada en GitFlow.
@@ -2648,13 +2977,6 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 
 ![Footer](assets/chapter-05/Footer.png)
 *Pie de página con información de contacto, secciones de la página, enlace a Github y derechos de autor.*
-
-## 3. Video de Demostración y Navegación
-Para observar la fluidez de la navegación, la respuesta de los elementos interactivos y la explicación detallada de cada sección, se ha preparado el siguiente material audiovisual:
-
- **[Ver Video de Demostración - SafeFlow Sprint Review](TU_ENLACE_AQUÍ)**
-
-
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
@@ -3277,6 +3599,19 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 #### 5.2.3.3. Sprint Backlog 3
 
+El objetivo principal del **Sprint 4** es la implementación completa del módulo de **Gestión de Identidad y Acceso (IAM)** de la plataforma, asegurando un entorno seguro y controlado para los diferentes roles del sistema a través de flujos robustos de registro, autenticación y cierre de sesión. De manera simultánea, se contempla la configuración de la infraestructura y el despliegue (*deployment*) inicial de la aplicación, estableciendo las bases del entorno de producción y los pipelines de integración continua.
+
+### Evidencia del Tablero de Control (Trello)
+A continuación, se presenta la captura de pantalla que evidencia la planificación, asignación de responsables y el flujo de trabajo establecido para este sprint en la herramienta Trello, junto con su respectivo acceso público:
+
+**URL del Board Público:** [Enlace al Trello](https://melandres097.atlassian.net/jira/software/projects/KAN/boards/1)
+
+
+<div align="center">
+  <img src="assets/chapter-05/trello.png" alt="trello" width="900" />
+</div>
+
+
 | Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sprint 3 | **US-01** | Registrar producto | T-01 | Diseño del Modelo de Datos | Crear la entidad relacional de Producto con sus restricciones de rangos de temperatura mínimos y máximos en la BD. | 3 | Andy Alejandro Mio Mejia | To Do |
@@ -3437,7 +3772,7 @@ Durante el desarrollo de este Sprint, el foco principal estuvo orientado en la v
 * **Estabilidad del Entorno:** Se validó la correcta recepción de códigos de estado HTTP estándar (`200 OK`, `210 Created`) en el cliente, asegurando una experiencia de usuario fluida y libre de interrupciones de conectividad.
 
 #### Capturas de Pantalla Requeridas para el Informe
-<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
   
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3479,7 +3814,7 @@ Se implementó y estructuró el código de enrutamiento y lógica de controlador
 Como evidencia del correcto funcionamiento y visualización de la especificación técnica de la API, se anexan las capturas de la interfaz gráfica de Swagger correspondientes a los archivos. En ellas se constata la exposición pública de los contratos y la pasarela interactiva de pruebas levantada sobre el dominio de producción de la Web App de Azure.
 
 #### Trazabilidad del Repositorio
-*   **URL del Repositorio de Web Services:** [https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform)
+*   **URL del Repositorio de Web Services:** [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -3495,53 +3830,53 @@ Para garantizar un entorno aislado, tolerante a fallos y con alta disponibilidad
 **1. Despliegue de la Persistencia de Datos (Azure Database for MySQL)**
 *   Se seleccionó la creación de un servidor flexible en la plataforma de Azure con el fin de obtener control predictivo sobre los costos, ventanas de mantenimiento y resiliencia de almacenamiento. Este paso inicial se observa en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900" />  </div>        
 
 *   Posteriormente, en la pestaña de aspectos básicos, se configuraron los datos del proyecto asignando la suscripción *Azure for Students* y el grupo de recursos unificado `safeflow`, tal como se documenta en la vista del archivo. 
 
-<div algin="center"><img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900" />  </div>        
 
 *   Una vez completada la inicialización, se obtuvo el panel general del servidor bautizado como `safeflowdb`, ubicado estratégicamente en la región de *Southeast Asia*, operando sobre la versión de motor MySQL 8.4 y un plan de cómputo *Burstable, B1ms*, como se constata en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900" />  </div>        
 
 
 **2. Seguridad de Red y Creación de Esquema de Datos**
 *   Con la finalidad de conectar herramientas externas de administración y ejecutar scripts de migración de datos, se accedió a la sección de redes para añadir una regla de firewall denominada `MiComputadoraLocal` asociada a la dirección IP pública del desarrollador (`38.25.17.80`). Este proceso se visualiza en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900" />  </div>        
 
   
 *   Con el acceso asegurado, se inicializó el espacio de trabajo relacional del negocio, creando con éxito el esquema lógico denominado `safeflow_db` dentro del servidor cloud, evidenciado en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900" />  </div>        
 
 
 **3. Despliegue del Servidor Web de la Aplicación (Azure App Services)**
 *   Completada la base de datos, se procedió con la creación de la Web App en el panel de App Services asignando el mismo grupo de recursos compartido, como se muestra en la configuración del archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900" />  </div>        
 
 
   
 *   En las especificaciones del entorno, se definió la publicación mediante código de la solución, seleccionando la región de *Canada Central*, un sistema operativo *Linux* y un plan de precios de categoría *Basic B1*, documentado en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900" />  </div>        
 
   
 *   El aprovisionamiento final concluyó exitosamente con la Web App denominada `safeflow-api` en estado *Running* (Activo). En su panel principal se confirma el stack tecnológico correspondiente a *Dotnetcore - 10.0* y la sincronización correcta con el repositorio oficial, visible en el archivo.
-<div algin="center"><img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900" />  </div>        
 
 
 **4. Gestión Segura de Credenciales y Automatización de CI/CD**
 *   Para evitar malas prácticas de seguridad de software, se inyectaron las credenciales de base de datos directamente en las variables del panel cloud. Específicamente, se configuró la cadena de conexión cifrada bajo la llave de configuración `ConnectionStrings__DefaultConnection` dentro de las variables de entorno de la Web App, tal como figura en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900" />  </div>        
 
   
 *   Finalmente, para cerrar el flujo de desarrollo, se automatizó el pipeline mediante un archivo de workflow de GitHub Actions denominado `main_safeflow-api.yml`. Cada confirmación de cambio en la rama principal desencadena una compilación automatizada (etapa *build* de 27s) seguida de una actualización en producción (etapa *deploy* de 39s), lo cual culminó con éxito en un tiempo de ejecución total de 1 minuto y 19 segundos bajo el commit hash `2e833b3`. Toda esta trazabilidad se encuentra registrada en el archivo.
 
-<div algin="center"><img src="assets/chapter-05/despliegue10Backend.jpeg" alt="deployment10" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/despliegue10Backend.jpeg" alt="deployment10" width="900" />  </div>        
 
 
 #### Enlaces Oficiales del Entorno de Production
@@ -3559,9 +3894,420 @@ Cada miembro del equipo participó activamente en la implementación de los dist
 
 Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipeline de integración y despliegue continuo (CI/CD) a través de GitHub Actions. Esto permitió que las revisiones constantes de commits bajo estándares profesionales, el análisis conjunto de código y las pruebas de consumo de servicios en producción garantizaran que todos los integrantes contribuyeran equitativamente en la consolidación de los productos clave definidos para este sprint: la API de servicios completamente operativa en la nube y la base de datos cloud enlazada al aplicativo.
 
-<div algin="center"><img src="assets/chapter-05/team-colaboration-3.png" alt="team-colaboration-3" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/team-colaboration-3.png" alt="team-colaboration-3" width="900" />  </div>        
 
-<div algin="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
+<div align="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 4</th>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">03-07-2026</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">4:00</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunion por Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Mel Andree Orellana Rodriguez</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Andy Alejandro Mio Mejia, Mel Andree Orellana Rodriguez, Angel Guillermo Berrospi Marin, Anhelo Rodrigo Rocca Leon, Jefferson Bayron Morales Yapuchura</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Review Summary</td>
+    <td colspan="8">Se completó con éxito la transición de los diseños base hacia el desarrollo de los componentes de software (Frontend y Backend). Se validó la integración inicial de la base de datos relacional (MySQL) para evitar los retrasos detectados en el ciclo anterior y se presentaron los primeros flujos de geolocalización e interfaz funcional de la aplicación móvil. Las observaciones del Product Owner se centraron en refinar el consumo de servicios y la estabilidad del backend para el siguiente sprint.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Retrospective Summary</td>
+    <td colspan="8">Se cumplió el compromiso de definir los esquemas de la base de datos con anticipación, lo que permitió un desarrollo del backend mucho más fluido, y se logró una mayor consistencia y orden en el flujo de commits del equipo.</td>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 4 Goal</td>
+    <td colspan="8">The development of the landing page and the web application's core structural layout was successfully completed. The team validated the responsive design, user interface components, and confirmed that the mock API endpoints work correctly for initial frontend testing.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 4 Velocity</td>
+    <td colspan="8">10</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">10 Story Points</td>
+  </tr>
+</table>
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module IAM</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del **Sprint 4** es la implementación completa del módulo de **Gestión de Identidad y Acceso (IAM)** de la plataforma, asegurando un entorno seguro y controlado para los diferentes roles del sistema a través de flujos robustos de registro, autenticación y cierre de sesión. De manera simultánea, se contempla la configuración de la infraestructura y el despliegue (*deployment*) inicial de la aplicación, estableciendo las bases del entorno de producción y los pipelines de integración continua.
+
+### Evidencia del Tablero de Control (Trello)
+A continuación, se presenta la captura de pantalla que evidencia la planificación, asignación de responsables y el flujo de trabajo establecido para este sprint en la herramienta Trello, junto con su respectivo acceso público:
+
+**URL del Board Público:** [Enlace al Trello](https://melandres097.atlassian.net/jira/software/projects/KAN/boards/1)
+
+
+<div align="center">
+  <img src="assets/chapter-05/trello.png" alt="trello" width="900" />
+</div>
+
+### Tabla de Descomposición de Work-items / Tasks
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| **Sprint 4** | US-30 | Registrarse en la plataforma | T-IAM-01 | Diseño de vista de Registro (Vue.js) | Crear el formulario de registro con validaciones de campos obligatorios y fortaleza de contraseña en el frontend. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-30 | Registrarse en la plataforma | T-IAM-02 | API Endpoint de Registro (Spring Boot) | Implementar el controlador y servicio para registrar usuarios, encriptar contraseñas (BCrypt) y validar correos duplicados en MySQL. | 8 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-31 | Iniciar sesión | T-IAM-03 | Interfaz de Login (Vue.js) | Diseñar la vista de inicio de sesión, manejo de estados de error (credenciales inválidas) y almacenamiento local del token. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-31 | Iniciar sesión | T-IAM-04 | Autenticación con JWT (Spring Security) | Configurar Spring Security para validar credenciales, generar el token JWT y manejar el bloqueo de cuenta tras 5 intentos fallidos. | 12 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-18 | Controlar acceso por rol | T-IAM-05 | Configuración de Roles y Permisos | Definir entidades de Roles (Admin, Supervisor, Operador) en la base de datos y proteger endpoints con `@PreAuthorize`. | 8 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-18 | Controlar acceso por rol | T-IAM-06 | Guardias de navegación (Vue Router) | Implementar *Navigation Guards* en el frontend para restringir el acceso a vistas protegidas según el rol del usuario conectado. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-42 | Cerrar sesión | T-IAM-07 | Lógica de Logout (Front/Back) | Implementar la destrucción del token en el cliente, redirección al login y control de expiración automática de sesión. | 4 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | Módulo IAM | Pruebas y Seguridad | T-IAM-08 | Pruebas de integración del flujo IAM | Realizar pruebas completas del flujo de autenticación (Postman/Cypress) y verificar el manejo de errores HTTP 401 y 403. | 6 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | Infraestructura | Despliegue de la Aplicación | T-DEP-01 | Configuración de Entorno de Producción | Configurar variables de entorno, propiedades de Spring Boot para producción y preparar los scripts de base de datos MySQL en la nube. | 8 | Andy Alejandro Mio Mejia | Completado |
+
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>edf35f2b822a65d84d9c53becd5aa49b48f22d4b</td>
+      <td>docs: add collaboration images to the document</td>
+      <td>Implement content</td>
+      <td>29/06/2026</td>
+    </tr>
+        <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>00d9d5f33d40f8251920d47bd9a20fa1c1e00bb2</td>
+      <td>docs: add collaboration evidence images to assets</td>
+      <td>Implement content</td>
+      <td>29/06/2026</td>
+    </tr>
+        <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>e22142dde0c4c6838b3fada5b89b1df6df11cf7e</td>
+      <td>docs: update project repository links</td>
+      <td>update content</td>
+      <td>29/06/2026</td>
+    </tr>
+         <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>9287b215dbe26e678e13565126e9e38150c13961</td>
+      <td>docs: update and improve project documentation</td>
+      <td>update content</td>
+      <td>29/06/2026</td>
+    </tr>
+    <tr>
+    <td>AndyMio17/safeflow-report</td>
+      <td>develop</td>
+      <td>81b8cf59b76bed69e8a2a2f27a3937ed4052fa43</td>
+      <td>docs: agregando informacion en registro de versiones y Student Outcome</td>
+      <td>Implement content</td>
+      <td>28/06/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-report</td>
+      <td>feature/chapter-05</td>
+      <td>df9ca9540417f8c46d1a96232dbee21869eae605</td>
+      <td>docs: Add information in Development Evidence for Sprint Review for TB2</td>
+      <td>Implement content</td>
+      <td>28/06/2026</td>
+    </tr> 
+    <tr>
+      <td>Guille-berrs/safeflow-report</td>
+      <td>feature/chapter-05</td>
+      <td>910f86ed952d98b8b7d0cff95b09cdb6940a74bb</td>
+      <td>docs: update link of objective interview 1</td>
+      <td>Implement content</td>
+      <td>26/06/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-report</td>
+      <td>feature/student-profile</td>
+      <td>6d16d5e20a0ed550f99b9d7bc9f5292c20900150</td>
+      <td>docs: update student outcome and version of report about TB2</td>
+      <td>Implement content</td>
+      <td>28/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante este Sprint, el trabajo se centró en comprobar el correcto funcionamiento de la aplicación y fortalecer la integración entre la interfaz de usuario y los servicios backend desplegados en Microsoft Azure. Como resultado, se verificó el desempeño de los módulos principales y su comunicación con la infraestructura en la nube.
+
+### Resumen de Logros Funcionales
+
+- **Integración con servicios en producción:** Se sustituyó por completo el almacenamiento simulado utilizado en las primeras etapas del desarrollo por el consumo directo de la API desplegada en producción, permitiendo que la aplicación interactúe con el dominio público del backend.
+
+- **Conectividad de los módulos principales:** Las diferentes funcionalidades de la plataforma permiten registrar, consultar y actualizar información en tiempo real, incluyendo la gestión de alertas, los elementos de inventario y las operaciones logísticas, utilizando la base de datos **safeflow_db** alojada en la nube.
+
+- **Verificación de estabilidad:** Se validó el correcto intercambio de respuestas HTTP entre el cliente y el servidor, comprobando la recepción de códigos de estado exitosos, como **200 OK** y **201 Created**, lo que asegura una comunicación estable y una experiencia de usuario continua.
+
+<div align="center">
+<img src="assets/chapter-05/datos_reales.jpeg" alt="datos reales" width="900"/>
+</div>
+
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Esta sección presenta los endpoints desarrollados para los servicios backend de la plataforma. Cada uno de ellos ha sido diseñado, implementado y documentado para permitir su integración con el cliente mediante una interfaz estandarizada.
+
+### Introducción y Logros
+
+Durante el desarrollo se implementó la arquitectura de enrutamiento junto con la lógica de los controladores utilizando .NET. Asimismo, la API fue documentada bajo el estándar OpenAPI 3.0 (OAS 3.0) para la versión 1.0 del sistema **safeflow-backend**, permitiendo que las aplicaciones cliente accedan de manera organizada a los módulos de alertas, monitoreo, inventario y logística. Esta documentación facilita la validación de solicitudes y respuestas, mejorando la interoperabilidad entre los diferentes componentes del sistema.
+
+### Tabla de Endpoints Documentados
+
+| Módulo / Tag | Verbo HTTP | Sintaxis de Llamada | Descripción / Acción | Parámetros | Auth |
+|--------------|------------|---------------------|----------------------|------------|------|
+| Authentication | POST | `/api/authentication/sign-up` | Registra un nuevo usuario en la plataforma. | Request Body (username, password) | No |
+| Authentication | POST | `/api/authentication/sign-in` | Valida las credenciales del usuario y genera un token JWT. | Request Body (username, password) | No |
+| Alerts | GET | `/api/alerts/dashboard` | Obtiene las métricas agregadas para el panel de alertas. | Ninguno | Sí |
+| Alerts | GET | `/api/alerts` | Lista todas las alertas registradas en el sistema. | Ninguno | Sí |
+| Alerts | POST | `/api/alerts` | Registra una nueva alerta en la plataforma. | Request Body | Sí |
+| Alerts | PATCH | `/api/alerts/{id}/resolve` | Resuelve o cierra una alerta específica por su identificador. | `{id}` (Path) | Sí |
+| Analytics | GET | `/api/analytics/dashboard` | Recupera datos consolidados para análisis estadístico. | Ninguno | Sí |
+| EnvironmentalMonitoring | GET | `/api/monitoring/dashboard` | Retorna los estados actuales del monitoreo ambiental (KPIs y tarjetas). | Ninguno | Sí |
+| InventorySnapshot | GET | `/api/inventory` | Obtiene un resumen consolidado del inventario, logística, monitoreo y alertas. | Ninguno | Sí |
+| InventoryItems | GET | `/api/inventory/items` | Obtiene la lista completa de ítems de inventario. | Ninguno | Sí |
+| InventoryItems | GET | `/api/inventory/items/{id}` | Recupera el detalle de un ítem de inventario específico. | `{id}` (Path) | Sí |
+| InventoryItems | POST | `/api/inventory/items` | Agrega un nuevo ítem (producto y línea de stock) al inventario. | Request Body | Sí |
+| InventoryItems | POST | `/api/inventory/items/stock-line` | Agrega una nueva línea de stock a un producto existente. | Request Body (`idProducto`, `location`, `qty`, etc.) | Sí |
+| InventoryItems | PUT | `/api/inventory/items/{id}` | Actualiza los datos generales de un ítem de inventario. | `{id}` (Path) / Body | Sí |
+| InventoryItems | DELETE | `/api/inventory/items/{id}` | Elimina una línea de inventario utilizando su identificador. | `{id}` (Path) | Sí |
+| LogisticsChoferes | GET | `/api/logistics/choferes` | Lista todos los choferes registrados en el módulo logístico. | Ninguno | Sí |
+| LogisticsChoferes | POST | `/api/logistics/choferes` | Registra un nuevo chofer en el sistema. | Request Body | Sí |
+| LogisticsChoferes | PUT | `/api/logistics/choferes/{id}` | Modifica la información técnica o personal de un chofer. | `{id}` (Path) / Body | Sí |
+| LogisticsChoferes | DELETE | `/api/logistics/choferes/{id}` | Da de baja a un chofer específico del registro. | `{id}` (Path) | Sí |
+| LogisticsDestinos | GET | `/api/logistics/destinos` | Lista las ubicaciones o puntos de destino logísticos. | Ninguno | Sí |
+| LogisticsDestinos | POST | `/api/logistics/destinos` | Añade un nuevo punto de destino a la base de datos. | Request Body | Sí |
+| LogisticsDestinos | PUT | `/api/logistics/destinos/{id}` | Actualiza los detalles de dirección o coordenadas de un destino. | `{id}` (Path) / Body | Sí |
+| LogisticsDestinos | DELETE | `/api/logistics/destinos/{id}` | Remueve un punto de destino del catálogo logístico. | `{id}` (Path) | Sí |
+| LogisticsShipments | GET | `/api/logistics/shipments` | Obtiene la lista de embarques, despachos o cargamentos. | Ninguno | Sí |
+| LogisticsShipments | POST | `/api/logistics/shipments` | Crea u ordena un nuevo despacho dentro de la plataforma. | Request Body | Sí |
+| Reporting | GET | `/api/reporting/dashboard` | Extrae métricas e informes generales para reportes de gestión. | Ninguno | Sí |
+
+Como evidencia del adecuado funcionamiento y de la correcta publicación de la documentación técnica de la API, se incluyen las capturas de pantalla de la interfaz de Swagger correspondientes a los distintos recursos implementados. Estas imágenes demuestran que los contratos de la API se encuentran disponibles y que la consola interactiva para realizar pruebas está desplegada sobre el dominio de producción de la aplicación web alojada en Azure.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se presenta el proceso de diseño de la infraestructura, el aprovisionamiento de los recursos en la nube y la configuración del flujo de despliegue continuo realizados durante este Sprint, evidenciando la puesta en producción de la aplicación.
+
+### Introducción
+
+Con el objetivo de contar con una infraestructura estable, segura y disponible para la ejecución de la plataforma, se implementaron dos servicios principales dentro del grupo de recursos `safeflow` en **Microsoft Azure**: un servidor administrado de **Azure Database for MySQL** y una **Web App** mediante **Azure App Services** para alojar la API desarrollada en .NET. Además, se integró el repositorio del proyecto con un proceso automatizado de **Integración y Despliegue Continuo (CI/CD)** para facilitar las actualizaciones de la aplicación.
+
+
+#### **1. Implementación de la Base de Datos en Azure**
+
+- Como primera etapa, se creó un servidor flexible de **Azure Database for MySQL**, seleccionando una configuración que permitiera optimizar la administración de costos, las tareas de mantenimiento y la disponibilidad del almacenamiento. Este procedimiento se muestra en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900"/>
+</div>
+
+- Posteriormente, during la configuración inicial, se asignó la suscripción **Azure for Students** y se vinculó el servidor al grupo de recursos `safeflow`, asegurando que todos los servicios del proyecto permanecieran organizados dentro del mismo entorno. La configuración se aprecia en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900"/>
+</div>
+
+- Finalizada la creación del recurso, el servidor **safeflowdb** quedó operativo en la región **Southeast Asia**, utilizando el motor **MySQL 8.4** y el plan de cómputo **Burstable B1ms**, tal como se evidencia en la siguiente captura.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900"/>
+</div>
+
+#### **2. Configuración de Seguridad y Base de Datos**
+
+- Para permitir la conexión desde herramientas externas y facilitar la ejecución de migraciones, se configuró una regla de firewall denominada `MiComputadoraLocal`, autorizando el acceso desde la dirección IP pública del equipo de desarrollo. Este procedimiento se observa en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900"/>
+</div>
+
+- Una vez habilitado el acceso al servidor, se creó el esquema relacional `safeflow_db`, el cual almacena la información utilizada por la aplicación en producción. La creación del esquema puede observarse en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900"/>
+</div>
+
+#### **3. Despliegue de la API mediante Azure App Services**
+
+- Después de completar la configuración de la base de datos, se procedió con la creación de una **Web App** en **Azure App Services**, utilizando el mismo grupo de recursos para centralizar la administración de la infraestructura. La configuración inicial se muestra en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900"/>
+</div>
+
+- Durante la creación del servicio se definió una publicación basada en código, seleccionando la región **Canada Central**, el sistema operativo **Linux** y el plan de hospedaje **Basic B1**, configuración que se aprecia en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900"/>
+</div>
+
+- Tras finalizar el aprovisionamiento, la aplicación **safeflow-api** quedó desplegada y en estado **Running**, confirmándose además la utilización del entorno **.NET 10.0** y la correcta conexión con el repositorio oficial del proyecto. Esta información puede observarse en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900"/>
+</div>
+
+#### **4. Configuración de Variables y Automatización del Despliegue**
+
+- Como parte de las buenas prácticas de seguridad, las credenciales de acceso a la base de datos fueron almacenadas mediante variables de entorno dentro de Azure. Para ello se configuró la cadena de conexión utilizando la clave `ConnectionStrings__DefaultConnection`, evitando incluir información sensible directamente en el código fuente. La configuración se muestra en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900"/>
+</div>
+
+#### **5. Verificación de Endpoints y Consumo de Datos en Postman**
+
+- Con el propósito de validar la correcta ejecución y disponibilidad de los servicios en el entorno de producción, se realizaron pruebas de integración utilizando Postman. Mediante peticiones HTTP directas hacia el servidor en la nube, se verificó la persistencia, el enrutamiento y la integridad de las respuestas del backend, confirmando la manipulación de datos en tiempo real de manera exitosa. La validación se detalla en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/postman.jpeg" alt="postman" width="900"/>
+</div>
+
+#### **6. Integración de Datos Reales y Funcionamiento End-to-End**
+
+- Como etapa final del ciclo de despliegue, se validó la comunicación síncrona entre el frontend móvil y el backend alojado en Azure App Services. La interfaz de usuario procesa y visualiza de manera correcta los registros e información real almacenada en la base de datos, demostrando la operatividad completa, la consistencia de los datos y el correcto funcionamiento integrado de la aplicación. Esta evidencia se presenta a continuación.
+
+<div align="center">
+<img src="assets/chapter-05/datos_reales.jpeg" alt="datos reales" width="900"/>
+</div>
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En esta sección se presenta la forma en que el equipo llevó a cabo las actividades de implementación correspondientes al **Sprint 4**, el cual representó la etapa final del desarrollo del proyecto. Durante este sprint se realizaron los últimos ajustes e integraciones del **frontend** y **backend**, consolidando todas las funcionalidades planificadas y dejando el sistema completamente operativo para su entrega.
+
+A lo largo de este ciclo, el equipo de **SafeFlow** trabajó de manera coordinada aplicando metodologías ágiles y utilizando **GitHub** como herramienta principal para el control de versiones y la colaboración. La comunicación constante entre los integrantes permitió organizar eficientemente las tareas, dar seguimiento al progreso mediante el marco de trabajo **Scrum** y asegurar la integración de los componentes desarrollados.
+
+Cada miembro participó activamente en la implementación y validación de los diferentes módulos del sistema. En esta fase se completaron los últimos retoques del **frontend**, se finalizaron los servicios del **backend** desarrollados con **.NET** y se integró completamente el módulo de **autenticación**, permitiendo el registro e inicio de sesión mediante **JWT** para garantizar el acceso seguro a la plataforma. Asimismo, se verificó la documentación de la API mediante **OpenAPI/Swagger** y se consolidó la infraestructura desplegada en **Microsoft Azure**, incluyendo la base de datos **MySQL** y los servicios alojados en **App Services**.
+
+
+
+<div align="center">
+<img src="assets/chapter-05/isignt-backend.png" alt="Backend" width="900" />
+</div>
 
 
 ### 5.3. Validation Interviews
@@ -3641,7 +4387,9 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 0:01
 - **Duración:** 15:16
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/r/personal/u202114701_upc_edu_pe/Documents/Entrevista-Segmento1-ValidationInterview.mp4?csf=1&web=1&e=D0E00Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **URL:** [Enlace de Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/IQCOSdQa1h4DSY-70-_gSeYxAflBddPMzgu6Vzg3LanaLcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PY0HMH)
+
+
 
 **Resumen:** El Gestor de Aseguramiento de Calidad valida positivamente el diseño visual y la terminología técnica de la interfaz de "SafeFlow", destacando que la visualización explícita de los rangos de temperatura y las alertas críticas en color rojo previenen fallos humanos en productos de cadena de frío estricta. Asimismo, resalta que la inclusión de números de contacto clickeables y la estructura de las tarjetas de emergencia agilizan drásticamente los tiempos de respuesta y traslados ante contingencias críticas. Por otro lado, la traducción selectiva de etiquetas que preserva intactos los nombres de los medicamentos y el indicador visual de conexión activa garantizan la trazabilidad e infunden tranquilidad durante los procesos de auditoría regulatoria. Finalmente, valora positivamente los estados de control como "Ready" en las descargas de PDFs, ya que aseguran la consolidación sin errores de un alto volumen de datos históricos que servirán como evidencia legal válida.
 
@@ -3663,7 +4411,7 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 0:03
 - **Duración:** 15:49
-- **URL:** https://drive.google.com/file/d/1iUOWHJb6_7Rg9v7kS77kCz5PIBycWJzS/view?usp=sharing
+- **URL:**  [Enlace de Entrevista]( https://drive.google.com/file/d/1iUOWHJb6_7Rg9v7kS77kCz5PIBycWJzS/view?usp=sharing)
 
 **Resumen:**
 El Supervisor de Operaciones y Logística confirma que la plataforma es sumamente práctica y directa para la gestión diaria del transporte. Destaca que los contadores numéricos del dashboard y el fuerte contraste visual entre las tarjetas verdes (SAFE) y rojas (AT RISK) le permiten evaluar la flota en segundos y priorizar las emergencias térmicas sin perder tiempo. Asimismo, valora la claridad de la línea de tiempo vertical para rastrear los estados de la carga, la visualización del rango permitido y la simplificación en la asignación de conductores disponibles. Finalmente, valida que funciones como los estados de incidencias (Under observation / Solved), el menú colapsable para ganar espacio y la velocidad de respuesta del sistema optimizan drásticamente su ritmo de trabajo y el control administrativo mensual.
@@ -3675,20 +4423,9 @@ El Supervisor de Operaciones y Logística confirma que la plataforma es sumament
 
 El video "About-the-Product" (Sobre el Producto) funciona como una demostración audiovisual concisa y de alto impacto, diseñada para mostrar la propuesta de valor central, la arquitectura y la funcionalidad en vivo de la solución **SafeFlow**. Este video conecta visualmente los desafíos de la cadena de frío y el monitoreo ambiental con la respuesta automatizada de nuestro software. A través de un recorrido profesional, se demuestra cómo la ingesta de datos de sensores IoT en tiempo real, la detección algorítmica de anomalías y las notificaciones automatizadas operan dentro de una plataforma unificada y confiable para mitigar riesgos y prevenir pérdidas logísticas.
 
-- **Video About the Product**:  [Enlace Video About the Product](https://youtu.be/Kb1i16M4o-Q)
+- **Video About the Product**:  [Enlace Video About the Product](https://www.youtube.com/watch?v=QP65qGuQQa0)
 
-
-
-
-
-
-
-
-
-
-
-
-
+<div algin="center"><img src="assets/chapter-05/img-about-the-product.jpeg" alt="About the Product" width="900" />  </div>        
 
 # Conclusiones y recomendaciones
 
@@ -3718,8 +4455,8 @@ Finalmente, se recomienda considerar la escalabilidad de la solución hacia otro
 
 El video "About-the-Team" (Sobre el Equipo) presenta la sinergia multidisciplinaria y las competencias técnicas del equipo de ingeniería detrás de SafeFlow. Este espacio audiovisual destaca cómo convergen nuestras habilidades en desarrollo de software, arquitectura de sistemas e integración de soluciones basadas en datos para materializar una plataforma robusta y escalable. A través de una breve presentación de cada miembro, se evidencia el compromiso, los roles estratégicos y la visión compartida que impulsaron el diseño y la ejecución técnica de este proyecto, demostrando que la solidez de SafeFlow radica tanto en su arquitectura como en el capital humano que la respalda.
 
-- **Video About the Team**:  [Enlace Video About the Team](https://www.youtube.com/watch?v=gA09U8rBMpM&feature=youtu.be)
-
+- **Video About the Team**:  [Enlace Video About the Team](https://www.youtube.com/watch?v=CMt8p8CfcfI)
+![](assets/chapter-05/about-the-team-evidence.png)
 
 # Bibliografía
 - Ministerio de Salud del Perú. (2000). Taller sobre planificación, administración y evaluación: Módulo III. Cadena de frío. https://www.gob.pe/institucion/minsa/informes-publicaciones/352804-taller-sobre-planificacion-administracion-y-evaluacion-modulo-iii-cadena-de-frio
@@ -3734,3 +4471,71 @@ El video "About-the-Team" (Sobre el Equipo) presenta la sinergia multidisciplina
 
 
 # Anexos
+
+En esta sección se incluyen materiales complementarios que respaldan el desarrollo del proyecto SafeFlow. 
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO A. VIDEOS DE EXPOSICIONES
+
+En este anexo se presenta el registro progresivo de los videos de exposición correspondientes a cada entrega del proyecto. A medida que avanza el desarrollo de SafeFlow, se incorporan nuevos enlaces que permiten consultar la evidencia audiovisual de las presentaciones realizadas. Esta relación se actualizará de forma acumulativa en cada entrega.
+
+| Entrega | Título del video          | Hipervínculo  |
+| ------- | ------------------------- |---------------|
+| AV1     | Exposición AV1 - SafeFlow | [enlace 1](#) |
+| TB1     | Exposición TB1 - SafeFlow | [enlace 2](#) |
+| AV2     | Exposición AV2 - SafeFlow | [enlace 3](#) |
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO B. EVIDENCIAS ADICIONALES
+
+En este anexo presenta la evidencia de la organización creada en GitHub para el desarrollo del proyecto SafeFlow. 
+
+La organización permitió centralizar la administración del código fuente, facilitar el control de versiones mediante Git y GitHub, 
+y mantener una separación adecuada. Asimismo, favoreció la coordinación entre los integrantes del equipo durante todas las etapas de desarrollo.
+
+<div align="center">
+
+Figura B.1. Organización de GitHub del proyecto SafeFlow y repositorios asociados.
+
+![](assets/chapter-05/GitHub-organization-evidence.png)
+
+</div>
+
+<div align="center">
+
+Figura B.2. Repositorios asociados a la organización de GitHub del proyecto SafeFlow
+
+![](assets/chapter-05/repositories-evidence.png)
+
+</div>
+
+<div align="center">
+
+Figura B.3. Integrantes del equipo dentro de la organización de GitHub.
+
+![](assets/chapter-05/members-evidence.png)
+</div>
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO C. MATERIAL COMPLEMENTARIO
+
+En este anexo se recopilan los principales recursos digitales utilizados durante el desarrollo de SafeFlow. Estos enlaces permiten acceder a los repositorios del proyecto, aplicaciones desplegadas y material audiovisual desarrollado como parte de las diferentes entregas.
+
+| Recurso                                     | Descripción                                               | Enlace                                                                     |
+| ------------------------------------------- |-----------------------------------------------------------|----------------------------------------------------------------------------|
+| Repositorio del Reporte                     | Repositorio principal del documento del proyecto          | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report* |
+| Repositorio de la Landing Page              | Código fuente de la página de información del proyecto    | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website* |
+| Repositorio de la Aplicación Web (Frontend) | Código fuente de la interfaz principal del sistema        | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp* |
+| Repositorio del Backend                     | Código fuente de la API y lógica de negocio               | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform* |
+| Landing Page desplegada                     | Versión publicada de la landing page de SafeFlow          | *https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/* |
+| Aplicación Web desplegada                   | Versión publicada de la aplicación web de SafeFlow        | *https://safeflow0.netlify.app/login?next=/analytics*                      |
+| Backend desplegado                          | Servicio backend publicado en la nube                     | *https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net*             |
+| Video About the Product                     | Video de presentación del producto                        | *https://www.youtube.com/watch?v=Kb1i16M4o-Q*                                          |
+| Video About the Team                        | Video de presentación del equipo                          | *https://www.youtube.com/watch?v=gA09U8rBMpM*                                          |
+| Herramientas de diseño                      | Recursos utilizados para diseño y prototipado             | *https://www.figma.com/design/BNOvhoeCvJ2AjuPAZiBkJT/WebGeeks?node-id=162-61*      |
+
+
+
