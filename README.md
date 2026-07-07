@@ -3881,7 +3881,7 @@ Para garantizar un entorno aislado, tolerante a fallos y con alta disponibilidad
 
 #### Enlaces Oficiales del Entorno de Production
 *   **Dominio público de la API Desplegada:** `https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net`
-*   **URL del Repositorio de GitHub:** `https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform`
+*   **URL del Repositorio de GitHub:** `https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform`
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
