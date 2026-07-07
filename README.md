@@ -2109,6 +2109,202 @@ Database Diagram:
 <img src="assets/chapter-04/SafeFlow_Database_Diagram.png">
 
 
+
+# DICCIONARIO DE BASE DE DATOS
+
+### 1. Tabla: `product`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **product_id** | Clave primaria del producto | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **name** | Nombre comercial del producto | `varchar` | Texto | Entrada obligatoria |
+| **description** | Descripción detallada del producto | `text` | Texto largo | Entrada opcional |
+| **category** | Categoría del producto | `varchar` | Texto | Entrada obligatoria |
+| **unit** | Unidad de medida (ej. frasco, caja) | `varchar` | Texto | Entrada obligatoria |
+| **active** | Estado activo o inactivo del producto | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 2. Tabla: `inventory_record`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **inventory_record_id** | Clave primaria del registro de inventario | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **current_quantity** | Stock o cantidad actual disponible | `decimal` | Número decimal | Entrada obligatoria |
+| **location** | Ubicación física en el almacén | `varchar` | Texto | Entrada obligatoria |
+| **status** | Estado actual del inventario | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 3. Tabla: `threshold_rule`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **threshold_rule_id** | Clave de la regla de umbral | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **min_temperature** | Temperatura mínima permitida | `decimal` | Número decimal | Entrada obligatoria |
+| **max_temperature** | Temperatura máxima permitida | `decimal` | Número decimal | Entrada obligatoria |
+| **critical_delay_minutes** | Minutos de tolerancia permitidos | `int` | Número | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 4. Tabla: `temperature_range`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **temperature_range_id** | Clave del rango de temperatura | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **minimum_celsius** | Límite mínimo en grados Celsius | `decimal` | Número decimal | Entrada obligatoria |
+| **maximum_celsius** | Límite máximo en grados Celsius | `decimal` | Número decimal | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 5. Tabla: `product_batch`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **batch_id** | Clave primaria del lote | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **product_id** | Clave del producto asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **batch_code** | Código único técnico del lote | `varchar` | Texto | Entrada obligatoria |
+| **production_date** | Fecha de fabricación | `date` | Fecha | Entrada obligatoria |
+| **expiration_date** | Fecha de vencimiento del lote | `date` | Fecha | Entrada obligatoria |
+| **quantity** | Cantidad total de unidades del lote | `decimal` | Número decimal | Entrada obligatoria |
+| **status** | Estado actual del lote | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 6. Tabla: `sensor`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **sensor_id** | Clave primaria del sensor | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **serial_number** | Número de serie del hardware del sensor | `varchar` | Texto | Entrada obligatoria |
+| **location** | Ubicación o contenedor físico asignado | `varchar` | Texto | Entrada obligatoria |
+| **is_active** | Estado operativo del sensor | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 7. Tabla: `sensor_reading`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **reading_id** | Clave primaria de la lectura del sensor | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **sensor_id** | Clave del sensor que realiza la lectura | `int` | Número | Entrada obligatoria (`FK`) |
+| **threshold_rule_id** | Clave de la regla de umbral evaluada | `int` | Número | Entrada obligatoria (`FK`) |
+| **timestamp** | Fecha y hora exacta de la captura | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **temperature** | Valor de la temperatura medida | `decimal` | Número decimal | Entrada obligatoria |
+| **humidity** | Valor de la humedad medida | `decimal` | Número decimal | Entrada obligatoria |
+| **status** | Estado resultante de la lectura | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de almacenamiento | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 8. Tabla: `anomaly_event`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **anomaly_event_id** | Clave primaria de la anomalía | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **reading_id** | Clave de la lectura origen | `int` | Número | Entrada obligatoria (`FK`) |
+| **detected_at** | Fecha y hora de detección de anomalía | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **reason** | Motivo o justificación de la anomalía | `text` | Texto largo | Entrada obligatoria |
+| **severity** | Severidad de la anomalía (ej. Crítica) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 9. Tabla: `alert`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **alert_id** | Clave primaria de la alerta | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **anomaly_event_id** | Clave del evento de anomalía de origen | `int` | Número | Entrada obligatoria (`FK`) |
+| **message** | Mensaje descriptivo de la alerta | `text` | Texto largo | Entrada obligatoria |
+| **created_at** | Fecha y hora de activación de la alerta | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **resolved_at** | Fecha y hora de resolución de la alerta | `datetime` | Fecha y Hora | Entrada opcional |
+| **status** | Estado de la alerta (ej. Activa, Resuelta) | `varchar` | Texto | Entrada obligatoria |
+| **severity** | Nivel de criticidad de la alerta | `varchar` | Texto | Entrada obligatoria |
+
+### 10. Tabla: `notification_template`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **template_id** | Clave primaria de la plantilla | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **name** | Nombre identificador de la plantilla | `varchar` | Texto | Entrada obligatoria |
+| **body** | Estructura o cuerpo del mensaje | `text` | Texto largo | Entrada obligatoria |
+| **channel** | Canal de envío (ej. Email, SMS) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 11. Tabla: `notification`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **notification_id** | Clave primaria de la notificación | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **template_id** | Clave de la plantilla utilizada | `int` | Número | Entrada obligatoria (`FK`) |
+| **recipient_id** | Clave del destinatario | `int` | Número | Entrada obligatoria (`FK`) |
+| **alert_id** | Clave de la alerta asociada | `int` | Número | Entrada obligatoria (`FK`) |
+| **title** | Título de la notificación enviada | `varchar` | Texto | Entrada obligatoria |
+| **message** | Contenido definitivo del mensaje | `text` | Texto largo | Entrada obligatoria |
+| **channel** | Medio de comunicación definitivo utilizado | `varchar` | Texto | Entrada obligatoria |
+| **status** | Estado del envío (ej. Enviado, Fallido) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación de la alerta | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **sent_at** | Fecha y hora efectiva de entrega | `datetime` | Fecha y Hora | Entrada opcional |
+
+### 12. Tabla: `notification_recipient`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **recipient_id** | Clave primaria del destinatario | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **full_name** | Nombre completo de la persona | `varchar` | Texto | Entrada obligatoria |
+| **email** | Correo electrónico de contacto | `varchar` | Texto | Entrada obligatoria |
+| **phone_number** | Número telefónico o móvil | `varchar` | Texto | Entrada obligatoria |
+| **preferred_channel** | Canal preferido para recibir mensajes | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 13. Tabla: `alert_subscription`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **subscription_id** | Clave primaria de la suscripción | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **recipient_id** | Clave del destinatario registrado | `int` | Número | Entrada obligatoria (`FK`) |
+| **enabled** | Estado de habilitación de la suscripción | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 14. Tabla: `driver`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **driver_id** | Clave primaria del conductor | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **full_name** | Nombre completo del conductor | `varchar` | Texto | Entrada obligatoria |
+| **license_number** | Número de la licencia de conducir | `varchar` | Texto | Entrada obligatoria |
+| **phone_number** | Número telefónico de contacto | `varchar` | Texto | Entrada obligatoria |
+| **is_available** | Disponibilidad del conductor | `boolean` | Verdadero/Falso | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 15. Tabla: `shipment`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **shipment_id** | Clave primaria del envío | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **driver_id** | Clave del conductor asignado | `int` | Número | Entrada obligatoria (`FK`) |
+| **tracking_code** | Código único de seguimiento | `varchar` | Texto | Entrada obligatoria |
+| **dispatch_date** | Fecha y hora de salida/despacho | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **delivery_date** | Fecha y hora de entrega efectiva | `datetime` | Fecha y Hora | Entrada opcional |
+| **origin** | Almacén o dirección de origen | `varchar` | Texto | Entrada obligatoria |
+| **destination** | Dirección de destino final | `varchar` | Texto | Entrada obligatoria |
+| **estimated_duration_minutes**| Duración estimada en minutos | `int` | Número | Entrada obligatoria |
+| **status** | Estado actual del envío (ej. En ruta) | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de creación del registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **updated_at** | Fecha y hora de última modificación | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 16. Tabla: `shipment_item`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **shipment_item_id** | Clave primaria del detalle del envío | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **shipment_id** | Clave del envío asociado | `int` | Número | Entrada obligatoria (`FK`) |
+| **product_batch_id** | Clave del lote de producto cargado | `int` | Número | Entrada obligatoria (`FK`) |
+| **quantity** | Cantidad transportada en el ítem | `decimal` | Número decimal | Entrada obligatoria |
+| **temperature_requirement** | Requerimiento específico térmico | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de registro | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+### 17. Tabla: `delivery_confirmation`
+| CAMPO | DOMINIO | TIPO DE CAMPO | INDICACION | VALIDACION |
+| :--- | :--- | :--- | :--- | :--- |
+| **confirmation_id** | Clave primaria de la comodidad | `int` | Número | Entrada obligatoria y única (`PK`) |
+| **shipment_id** | Clave del envío correspondiente | `int` | Número | Entrada obligatoria (`FK`) |
+| **confirmed_at** | Fecha y hora de firma/conformidad | `datetime` | Fecha y Hora | Entrada obligatoria |
+| **receiver_name** | Nombre de quien recibe la entrega | `varchar` | Texto | Entrada obligatoria |
+| **proof_url** | URL de la firma o foto de la entrega | `varchar` | Texto | Entrada obligatoria |
+| **status** | Estado de la confirmación | `varchar` | Texto | Entrada obligatoria |
+| **created_at** | Fecha y hora de almacenamiento | `datetime` | Fecha y Hora | Entrada obligatoria |
+
+
+
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
